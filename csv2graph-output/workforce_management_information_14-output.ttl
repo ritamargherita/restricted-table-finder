@@ -1,0 +1,348 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/workforce_management_information_14.csv/> a dsv:Dataset ;
+    dcterms:title "Workforce Management Information 14" ;
+    dsv:datasetSchema <http://www.example.org/workforce_management_information_14.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/workforce_management_information_14.csv/column/0492b5ffa59f72be459eeee2dfb2d551>,
+        <http://www.example.org/workforce_management_information_14.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81>,
+        <http://www.example.org/workforce_management_information_14.csv/column/0e74fc420a821a849c93ab01fef3432e>,
+        <http://www.example.org/workforce_management_information_14.csv/column/11d71d27d818796cd404a190ffe93f4d>,
+        <http://www.example.org/workforce_management_information_14.csv/column/12f061d62290815b0e9b319e95fd8841>,
+        <http://www.example.org/workforce_management_information_14.csv/column/19f1f173d9dff2e451f7e681f9f572ff>,
+        <http://www.example.org/workforce_management_information_14.csv/column/1e562facfb739574b428f674e6a3d21b>,
+        <http://www.example.org/workforce_management_information_14.csv/column/24ca6fa0717c14b45331838b63cbdc9a>,
+        <http://www.example.org/workforce_management_information_14.csv/column/465bcd7e56b5ac5212e589e673f34aac>,
+        <http://www.example.org/workforce_management_information_14.csv/column/46c7136e62339172cf4575f4f34bee3b>,
+        <http://www.example.org/workforce_management_information_14.csv/column/57710c8acd60ac0c1ada082c6cbd079b>,
+        <http://www.example.org/workforce_management_information_14.csv/column/5dfdd07d0a7166f06f775196a1a180f4>,
+        <http://www.example.org/workforce_management_information_14.csv/column/63df423befb5fc471d5e0acbb1ef00b6>,
+        <http://www.example.org/workforce_management_information_14.csv/column/672559c045e41e814ca71e6eaa74e488>,
+        <http://www.example.org/workforce_management_information_14.csv/column/74f6126cf4b002c76f62877632377766>,
+        <http://www.example.org/workforce_management_information_14.csv/column/7637af263043ef6890fc747aeb81220b>,
+        <http://www.example.org/workforce_management_information_14.csv/column/76626f0b37699aa9fa063934f75831dd>,
+        <http://www.example.org/workforce_management_information_14.csv/column/7c86058cd84b5f0501a3b3127e253fcb>,
+        <http://www.example.org/workforce_management_information_14.csv/column/7f456386e5e046dda448afc792dc6156>,
+        <http://www.example.org/workforce_management_information_14.csv/column/9030b691eee3f2eab43719b9e80150a2>,
+        <http://www.example.org/workforce_management_information_14.csv/column/930ab855e64b33a66150d79c04425e17>,
+        <http://www.example.org/workforce_management_information_14.csv/column/9388219871d1ca103f61a8f2f5c1fef6>,
+        <http://www.example.org/workforce_management_information_14.csv/column/96ff143923dac568fe921ed5abe9303f>,
+        <http://www.example.org/workforce_management_information_14.csv/column/9d49dfe602c5a6e9c0b9f3ae6bfd33be>,
+        <http://www.example.org/workforce_management_information_14.csv/column/9ea377f8e7a1a7380a040eef012cda6c>,
+        <http://www.example.org/workforce_management_information_14.csv/column/a4d2d9d0ea05070bff128e49eb8dbe51>,
+        <http://www.example.org/workforce_management_information_14.csv/column/a897ee22e34a3cd8378553f47fc54acd>,
+        <http://www.example.org/workforce_management_information_14.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c>,
+        <http://www.example.org/workforce_management_information_14.csv/column/af64d92da1a5ee2c836aca453a94b6bd>,
+        <http://www.example.org/workforce_management_information_14.csv/column/cfa27d412b8900b4d524abd6339af4b6>,
+        <http://www.example.org/workforce_management_information_14.csv/column/d25695ff9776dd2bb18b834e8eeffbd6>,
+        <http://www.example.org/workforce_management_information_14.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd>,
+        <http://www.example.org/workforce_management_information_14.csv/column/d874229a248d3cade83e765b9f557659>,
+        <http://www.example.org/workforce_management_information_14.csv/column/ddd9017ec8d4df6f8035999c55ee7861>,
+        <http://www.example.org/workforce_management_information_14.csv/column/e32e8079184318edf84ce7593b657adc>,
+        <http://www.example.org/workforce_management_information_14.csv/column/e6a04af2accc0d7154bb6f1f45a45089>,
+        <http://www.example.org/workforce_management_information_14.csv/column/e7bc000cf03ef995bab688cc9d80df17>,
+        <http://www.example.org/workforce_management_information_14.csv/column/ee789d099349b96a2d06becdaf042d16>,
+        <http://www.example.org/workforce_management_information_14.csv/column/f4a628edf7c75c3b3588f76a40842523>,
+        <http://www.example.org/workforce_management_information_14.csv/column/fa3a0941735829f5367df0c8ff255635>,
+        <http://www.example.org/workforce_management_information_14.csv/column/fd85b1672771bdee05505bd6b0f42ff7> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/0492b5ffa59f72be459eeee2dfb2d551> a dsv:Column ;
+    rdfs:label "Unnamed: 22" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/0492b5ffa59f72be459eeee2dfb2d551> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/0492b5ffa59f72be459eeee2dfb2d551/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/0492b5ffa59f72be459eeee2dfb2d551/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81> a dsv:Column ;
+    rdfs:label "Unnamed: 12" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/0d9c7e8ddd5438e2b6052da2b3072c81> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/0e74fc420a821a849c93ab01fef3432e> a dsv:Column ;
+    rdfs:label "Unnamed: 9" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/0e74fc420a821a849c93ab01fef3432e> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/0e74fc420a821a849c93ab01fef3432e/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/0e74fc420a821a849c93ab01fef3432e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/11d71d27d818796cd404a190ffe93f4d> a dsv:Column ;
+    rdfs:label "Unnamed: 28" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/11d71d27d818796cd404a190ffe93f4d> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/11d71d27d818796cd404a190ffe93f4d/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/11d71d27d818796cd404a190ffe93f4d/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/12f061d62290815b0e9b319e95fd8841> a dsv:Column ;
+    rdfs:label "Number of non-payroll staff (contingent labour and consultants/consultancy)" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/12f061d62290815b0e9b319e95fd8841> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/12f061d62290815b0e9b319e95fd8841/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/12f061d62290815b0e9b319e95fd8841/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/19f1f173d9dff2e451f7e681f9f572ff> a dsv:Column ;
+    rdfs:label "Unnamed: 32" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/19f1f173d9dff2e451f7e681f9f572ff> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/19f1f173d9dff2e451f7e681f9f572ff/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/19f1f173d9dff2e451f7e681f9f572ff/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/1e562facfb739574b428f674e6a3d21b> a dsv:Column ;
+    rdfs:label "Unnamed: 24" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/1e562facfb739574b428f674e6a3d21b> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/1e562facfb739574b428f674e6a3d21b/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/1e562facfb739574b428f674e6a3d21b/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/24ca6fa0717c14b45331838b63cbdc9a> a dsv:Column ;
+    rdfs:label "Unnamed: 4" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/24ca6fa0717c14b45331838b63cbdc9a> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/24ca6fa0717c14b45331838b63cbdc9a/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/24ca6fa0717c14b45331838b63cbdc9a/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/465bcd7e56b5ac5212e589e673f34aac> a dsv:Column ;
+    rdfs:label "Unnamed: 38" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/465bcd7e56b5ac5212e589e673f34aac> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/465bcd7e56b5ac5212e589e673f34aac/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/465bcd7e56b5ac5212e589e673f34aac/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/46c7136e62339172cf4575f4f34bee3b> a dsv:Column ;
+    rdfs:label "Unnamed: 13" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/46c7136e62339172cf4575f4f34bee3b> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/46c7136e62339172cf4575f4f34bee3b/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/46c7136e62339172cf4575f4f34bee3b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/57710c8acd60ac0c1ada082c6cbd079b> a dsv:Column ;
+    rdfs:label "Unnamed: 7" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/57710c8acd60ac0c1ada082c6cbd079b> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/57710c8acd60ac0c1ada082c6cbd079b/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/57710c8acd60ac0c1ada082c6cbd079b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/5dfdd07d0a7166f06f775196a1a180f4> a dsv:Column ;
+    rdfs:label "Unnamed: 21" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/5dfdd07d0a7166f06f775196a1a180f4> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/5dfdd07d0a7166f06f775196a1a180f4/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/5dfdd07d0a7166f06f775196a1a180f4/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/63df423befb5fc471d5e0acbb1ef00b6> a dsv:Column ;
+    rdfs:label "Unnamed: 34" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/63df423befb5fc471d5e0acbb1ef00b6> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/63df423befb5fc471d5e0acbb1ef00b6/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/63df423befb5fc471d5e0acbb1ef00b6/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/672559c045e41e814ca71e6eaa74e488> a dsv:Column ;
+    rdfs:label "Unnamed: 35" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/672559c045e41e814ca71e6eaa74e488> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/672559c045e41e814ca71e6eaa74e488/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/672559c045e41e814ca71e6eaa74e488/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/74f6126cf4b002c76f62877632377766> a dsv:Column ;
+    rdfs:label """Grand Total 
+(workforce numbers)""" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/74f6126cf4b002c76f62877632377766> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/74f6126cf4b002c76f62877632377766/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/74f6126cf4b002c76f62877632377766/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/7637af263043ef6890fc747aeb81220b> a dsv:Column ;
+    rdfs:label "Unnamed: 25" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/7637af263043ef6890fc747aeb81220b> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/7637af263043ef6890fc747aeb81220b/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/7637af263043ef6890fc747aeb81220b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/76626f0b37699aa9fa063934f75831dd> a dsv:Column ;
+    rdfs:label """Main, parent or 
+sponsoring department: """ ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/76626f0b37699aa9fa063934f75831dd> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/76626f0b37699aa9fa063934f75831dd/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/76626f0b37699aa9fa063934f75831dd/summary-statistics/> dsv:columnCompleteness 8.666667e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/7c86058cd84b5f0501a3b3127e253fcb> a dsv:Column ;
+    rdfs:label "Unnamed: 33" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/7c86058cd84b5f0501a3b3127e253fcb> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/7c86058cd84b5f0501a3b3127e253fcb/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/7c86058cd84b5f0501a3b3127e253fcb/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/7f456386e5e046dda448afc792dc6156> a dsv:Column ;
+    rdfs:label "Organisation name" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/7f456386e5e046dda448afc792dc6156> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/7f456386e5e046dda448afc792dc6156/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/7f456386e5e046dda448afc792dc6156/summary-statistics/> dsv:columnCompleteness 8.666667e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9030b691eee3f2eab43719b9e80150a2> a dsv:Column ;
+    rdfs:label "Unnamed: 11" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/9030b691eee3f2eab43719b9e80150a2> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/9030b691eee3f2eab43719b9e80150a2/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9030b691eee3f2eab43719b9e80150a2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/930ab855e64b33a66150d79c04425e17> a dsv:Column ;
+    rdfs:label "Unnamed: 20" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/930ab855e64b33a66150d79c04425e17> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/930ab855e64b33a66150d79c04425e17/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/930ab855e64b33a66150d79c04425e17/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9388219871d1ca103f61a8f2f5c1fef6> a dsv:Column ;
+    rdfs:label "Unnamed: 5" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/9388219871d1ca103f61a8f2f5c1fef6> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/9388219871d1ca103f61a8f2f5c1fef6/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9388219871d1ca103f61a8f2f5c1fef6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/96ff143923dac568fe921ed5abe9303f> a dsv:Column ;
+    rdfs:label "Unnamed: 37" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/96ff143923dac568fe921ed5abe9303f> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/96ff143923dac568fe921ed5abe9303f/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/96ff143923dac568fe921ed5abe9303f/summary-statistics/> dsv:columnCompleteness 6.666667e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9d49dfe602c5a6e9c0b9f3ae6bfd33be> a dsv:Column ;
+    rdfs:label "Unnamed: 31" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/9d49dfe602c5a6e9c0b9f3ae6bfd33be> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/9d49dfe602c5a6e9c0b9f3ae6bfd33be/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9d49dfe602c5a6e9c0b9f3ae6bfd33be/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9ea377f8e7a1a7380a040eef012cda6c> a dsv:Column ;
+    rdfs:label """Organisation 
+type""" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/9ea377f8e7a1a7380a040eef012cda6c> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/9ea377f8e7a1a7380a040eef012cda6c/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/9ea377f8e7a1a7380a040eef012cda6c/summary-statistics/> dsv:columnCompleteness 8.666667e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/a4d2d9d0ea05070bff128e49eb8dbe51> a dsv:Column ;
+    rdfs:label "Unnamed: 23" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/a4d2d9d0ea05070bff128e49eb8dbe51> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/a4d2d9d0ea05070bff128e49eb8dbe51/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/a4d2d9d0ea05070bff128e49eb8dbe51/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/a897ee22e34a3cd8378553f47fc54acd> a dsv:Column ;
+    rdfs:label "Unnamed: 18" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/a897ee22e34a3cd8378553f47fc54acd> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/a897ee22e34a3cd8378553f47fc54acd/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/a897ee22e34a3cd8378553f47fc54acd/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c> a dsv:Column ;
+    rdfs:label "Unnamed: 14" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/aadf0e6e7dcadfd7dc442db63c4f1d1c> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/af64d92da1a5ee2c836aca453a94b6bd> a dsv:Column ;
+    rdfs:label "Payroll staff" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/af64d92da1a5ee2c836aca453a94b6bd> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/af64d92da1a5ee2c836aca453a94b6bd/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/af64d92da1a5ee2c836aca453a94b6bd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/cfa27d412b8900b4d524abd6339af4b6> a dsv:Column ;
+    rdfs:label "Unnamed: 15" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/cfa27d412b8900b4d524abd6339af4b6> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/d25695ff9776dd2bb18b834e8eeffbd6> a dsv:Column ;
+    rdfs:label "Unnamed: 26" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/d25695ff9776dd2bb18b834e8eeffbd6> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/d25695ff9776dd2bb18b834e8eeffbd6/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/d25695ff9776dd2bb18b834e8eeffbd6/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd> a dsv:Column ;
+    rdfs:label "Unnamed: 19" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/d83e3969e93cfcbfcec271ac1dfbb8dd> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/d874229a248d3cade83e765b9f557659> a dsv:Column ;
+    rdfs:label "Unnamed: 16" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/d874229a248d3cade83e765b9f557659> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/d874229a248d3cade83e765b9f557659/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/d874229a248d3cade83e765b9f557659/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/ddd9017ec8d4df6f8035999c55ee7861> a dsv:Column ;
+    rdfs:label "Unnamed: 8" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/ddd9017ec8d4df6f8035999c55ee7861> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/ddd9017ec8d4df6f8035999c55ee7861/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/ddd9017ec8d4df6f8035999c55ee7861/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/e32e8079184318edf84ce7593b657adc> a dsv:Column ;
+    rdfs:label "Unnamed: 10" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/e32e8079184318edf84ce7593b657adc> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/e32e8079184318edf84ce7593b657adc/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/e32e8079184318edf84ce7593b657adc/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/e6a04af2accc0d7154bb6f1f45a45089> a dsv:Column ;
+    rdfs:label "Payroll staff costs" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/e6a04af2accc0d7154bb6f1f45a45089> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/e6a04af2accc0d7154bb6f1f45a45089/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/e6a04af2accc0d7154bb6f1f45a45089/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/e7bc000cf03ef995bab688cc9d80df17> a dsv:Column ;
+    rdfs:label "Non-Payroll staff (contingent labour/consultancy) costs" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/e7bc000cf03ef995bab688cc9d80df17> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/e7bc000cf03ef995bab688cc9d80df17/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/e7bc000cf03ef995bab688cc9d80df17/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/ee789d099349b96a2d06becdaf042d16> a dsv:Column ;
+    rdfs:label """Comments
+(NB: These will be published alongside your row of information)""" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/ee789d099349b96a2d06becdaf042d16> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/ee789d099349b96a2d06becdaf042d16/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/ee789d099349b96a2d06becdaf042d16/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/f4a628edf7c75c3b3588f76a40842523> a dsv:Column ;
+    rdfs:label "Unnamed: 6" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/f4a628edf7c75c3b3588f76a40842523> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/f4a628edf7c75c3b3588f76a40842523/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/f4a628edf7c75c3b3588f76a40842523/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/fa3a0941735829f5367df0c8ff255635> a dsv:Column ;
+    rdfs:label "Unnamed: 30" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/fa3a0941735829f5367df0c8ff255635> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/fa3a0941735829f5367df0c8ff255635/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/fa3a0941735829f5367df0c8ff255635/summary-statistics/> dsv:columnCompleteness 9.333333e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/column/fd85b1672771bdee05505bd6b0f42ff7> a dsv:Column ;
+    rdfs:label "Grand Total paybill/staffing (payroll and non-payroll) costs" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_14.csv/properties-dictionary/fd85b1672771bdee05505bd6b0f42ff7> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_14.csv/column/fd85b1672771bdee05505bd6b0f42ff7/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_14.csv/column/fd85b1672771bdee05505bd6b0f42ff7/summary-statistics/> dsv:columnCompleteness 8.666667e-01 .
+
+<http://www.example.org/workforce_management_information_14.csv/summary-statistics/> dsv:datasetCompleteness 9.2e-01 ;
+    dsv:numberOfColumns 41 ;
+    dsv:numberOfRows 15 .
+

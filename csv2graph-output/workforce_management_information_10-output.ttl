@@ -1,0 +1,344 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/workforce_management_information_10.csv/> a dsv:Dataset ;
+    dcterms:title "Workforce Management Information 10" ;
+    dsv:datasetSchema <http://www.example.org/workforce_management_information_10.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/workforce_management_information_10.csv/column/09e066cf3a8937d28f9ea722b3fa160e>,
+        <http://www.example.org/workforce_management_information_10.csv/column/1824884978dc5e6887aee1e6fea9e8fc>,
+        <http://www.example.org/workforce_management_information_10.csv/column/18326f88a237307e9d8f12ce739e28a9>,
+        <http://www.example.org/workforce_management_information_10.csv/column/22cf88d4b5b7ccf6d6a7c689fbf543d3>,
+        <http://www.example.org/workforce_management_information_10.csv/column/253410ebed1575fea906cb7652b18a82>,
+        <http://www.example.org/workforce_management_information_10.csv/column/2930646f6e58f4c465336bda8387d8d2>,
+        <http://www.example.org/workforce_management_information_10.csv/column/30b30052e3020c2268b38924f4684432>,
+        <http://www.example.org/workforce_management_information_10.csv/column/31c8bdead3b1a3ab187681eb1b66a253>,
+        <http://www.example.org/workforce_management_information_10.csv/column/48a618cf6e3aa49c6d950239e1c2932b>,
+        <http://www.example.org/workforce_management_information_10.csv/column/5cf877211b8d766cad93dbe5805d1cac>,
+        <http://www.example.org/workforce_management_information_10.csv/column/7689d0d778ae0db1da5f659cf4224f7d>,
+        <http://www.example.org/workforce_management_information_10.csv/column/7e10dd723994bb59b89a6784acd0fa30>,
+        <http://www.example.org/workforce_management_information_10.csv/column/7f940c377de9e827e35b31564ad1ce61>,
+        <http://www.example.org/workforce_management_information_10.csv/column/81f90285930080889d48676dba0d95c1>,
+        <http://www.example.org/workforce_management_information_10.csv/column/8413c683b4b27cc3f4dbd4c90329d8ba>,
+        <http://www.example.org/workforce_management_information_10.csv/column/84d5e38e66ca37bbf38fefc6a455c2bb>,
+        <http://www.example.org/workforce_management_information_10.csv/column/8ded4ccdd556ce25c27602a49717f87c>,
+        <http://www.example.org/workforce_management_information_10.csv/column/94e78834eb319c9f1fb516093dc2551d>,
+        <http://www.example.org/workforce_management_information_10.csv/column/a12efcc528bec2028c51acc6ab5b090d>,
+        <http://www.example.org/workforce_management_information_10.csv/column/a856193e6bd15968f21876a4ed0d8ce4>,
+        <http://www.example.org/workforce_management_information_10.csv/column/aa8d6d726591150b5cd5f7eadb09f2a3>,
+        <http://www.example.org/workforce_management_information_10.csv/column/ab5e7ecdfb9a4e70e2bf43c1e5fb63fd>,
+        <http://www.example.org/workforce_management_information_10.csv/column/aeb5381d80146f6f91f838de33a619fd>,
+        <http://www.example.org/workforce_management_information_10.csv/column/b05e317132fcfdbb3d003b92efe17197>,
+        <http://www.example.org/workforce_management_information_10.csv/column/b05fe60bd377e4570bd17c371df75e07>,
+        <http://www.example.org/workforce_management_information_10.csv/column/bfc8a841f53f94bb8de1a00e1e3f0f39>,
+        <http://www.example.org/workforce_management_information_10.csv/column/c07a7412fddf75a2fdac495b2902cf86>,
+        <http://www.example.org/workforce_management_information_10.csv/column/c3059898a0e8d9cd56f16943735d27e9>,
+        <http://www.example.org/workforce_management_information_10.csv/column/c6d5013c0bc8e2a00786dfb81ba824cb>,
+        <http://www.example.org/workforce_management_information_10.csv/column/d65701b11cbf6609710cb1c3b8f0f095>,
+        <http://www.example.org/workforce_management_information_10.csv/column/d87791d9f4e04d0320e5dbb2e0aa89cb>,
+        <http://www.example.org/workforce_management_information_10.csv/column/e03a2fd1faf359461881a1e2e6ec3952>,
+        <http://www.example.org/workforce_management_information_10.csv/column/e06501a816129b5a7cf5d564e8fb3f2c>,
+        <http://www.example.org/workforce_management_information_10.csv/column/e34d30a84d5f740018851c2e16dc3f70>,
+        <http://www.example.org/workforce_management_information_10.csv/column/e52bcf28eaf9de15713ae13e5ba211c2>,
+        <http://www.example.org/workforce_management_information_10.csv/column/e7a6adda7b29f6dcaac5e570b84ebd85>,
+        <http://www.example.org/workforce_management_information_10.csv/column/ec9336e47bd488e6f6e9ef83ab306e90>,
+        <http://www.example.org/workforce_management_information_10.csv/column/f106f6db87281cd6282010fabd21f554>,
+        <http://www.example.org/workforce_management_information_10.csv/column/f70e9bd13bb3632ca5305fb7f59876bc>,
+        <http://www.example.org/workforce_management_information_10.csv/column/fd85b1672771bdee05505bd6b0f42ff7>,
+        <http://www.example.org/workforce_management_information_10.csv/column/fe8b454a212bc2b4b455a6f6fefb6153> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/09e066cf3a8937d28f9ea722b3fa160e> a dsv:Column ;
+    rdfs:label "Payroll Staff Costs Total paybill for payroll staff" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/09e066cf3a8937d28f9ea722b3fa160e> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/09e066cf3a8937d28f9ea722b3fa160e/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/09e066cf3a8937d28f9ea722b3fa160e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/1824884978dc5e6887aee1e6fea9e8fc> a dsv:Column ;
+    rdfs:label "Main, parent or sponsoring department" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/1824884978dc5e6887aee1e6fea9e8fc> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/1824884978dc5e6887aee1e6fea9e8fc/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/1824884978dc5e6887aee1e6fea9e8fc/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/18326f88a237307e9d8f12ce739e28a9> a dsv:Column ;
+    rdfs:label "Payroll staff AO/AA Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/18326f88a237307e9d8f12ce739e28a9> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/18326f88a237307e9d8f12ce739e28a9/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/18326f88a237307e9d8f12ce739e28a9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/22cf88d4b5b7ccf6d6a7c689fbf543d3> a dsv:Column ;
+    rdfs:label "Grand Total (workforce numbers) Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/22cf88d4b5b7ccf6d6a7c689fbf543d3> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/22cf88d4b5b7ccf6d6a7c689fbf543d3/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/22cf88d4b5b7ccf6d6a7c689fbf543d3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/253410ebed1575fea906cb7652b18a82> a dsv:Column ;
+    rdfs:label "Payroll staff SCS Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/253410ebed1575fea906cb7652b18a82> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/253410ebed1575fea906cb7652b18a82/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/253410ebed1575fea906cb7652b18a82/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/2930646f6e58f4c465336bda8387d8d2> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Agency staff (clerical/admin) Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/2930646f6e58f4c465336bda8387d8d2> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/2930646f6e58f4c465336bda8387d8d2/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/2930646f6e58f4c465336bda8387d8d2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/30b30052e3020c2268b38924f4684432> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Specialist Contractors Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/30b30052e3020c2268b38924f4684432> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/30b30052e3020c2268b38924f4684432/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/30b30052e3020c2268b38924f4684432/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/31c8bdead3b1a3ab187681eb1b66a253> a dsv:Column ;
+    rdfs:label "Organisation Type" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/31c8bdead3b1a3ab187681eb1b66a253> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/31c8bdead3b1a3ab187681eb1b66a253/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/31c8bdead3b1a3ab187681eb1b66a253/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/48a618cf6e3aa49c6d950239e1c2932b> a dsv:Column ;
+    rdfs:label "Payroll staff Grade 6/7 Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/48a618cf6e3aa49c6d950239e1c2932b> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/48a618cf6e3aa49c6d950239e1c2932b/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/48a618cf6e3aa49c6d950239e1c2932b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/5cf877211b8d766cad93dbe5805d1cac> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Total Employees Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/5cf877211b8d766cad93dbe5805d1cac> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/5cf877211b8d766cad93dbe5805d1cac/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/5cf877211b8d766cad93dbe5805d1cac/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/7689d0d778ae0db1da5f659cf4224f7d> a dsv:Column ;
+    rdfs:label "Payroll staff Total Employees Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/7689d0d778ae0db1da5f659cf4224f7d> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/7689d0d778ae0db1da5f659cf4224f7d/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/7689d0d778ae0db1da5f659cf4224f7d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/7e10dd723994bb59b89a6784acd0fa30> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Agency staff (clerical/admin) Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/7e10dd723994bb59b89a6784acd0fa30> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/7e10dd723994bb59b89a6784acd0fa30/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/7e10dd723994bb59b89a6784acd0fa30/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/7f940c377de9e827e35b31564ad1ce61> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Specialist Contractors Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/7f940c377de9e827e35b31564ad1ce61> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/7f940c377de9e827e35b31564ad1ce61/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/7f940c377de9e827e35b31564ad1ce61/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/81f90285930080889d48676dba0d95c1> a dsv:Column ;
+    rdfs:label "Payroll Staff Costs Allowances" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/81f90285930080889d48676dba0d95c1> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/81f90285930080889d48676dba0d95c1/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/81f90285930080889d48676dba0d95c1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/8413c683b4b27cc3f4dbd4c90329d8ba> a dsv:Column ;
+    rdfs:label "Comments" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/8413c683b4b27cc3f4dbd4c90329d8ba> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/8413c683b4b27cc3f4dbd4c90329d8ba/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/8413c683b4b27cc3f4dbd4c90329d8ba/summary-statistics/> dsv:columnCompleteness 2.222222e-01 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/84d5e38e66ca37bbf38fefc6a455c2bb> a dsv:Column ;
+    rdfs:label "Payroll staff EO Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/84d5e38e66ca37bbf38fefc6a455c2bb> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/84d5e38e66ca37bbf38fefc6a455c2bb/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/84d5e38e66ca37bbf38fefc6a455c2bb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/8ded4ccdd556ce25c27602a49717f87c> a dsv:Column ;
+    rdfs:label "Payroll Staff Costs Employer pension contributions" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/8ded4ccdd556ce25c27602a49717f87c> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/8ded4ccdd556ce25c27602a49717f87c/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/8ded4ccdd556ce25c27602a49717f87c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/94e78834eb319c9f1fb516093dc2551d> a dsv:Column ;
+    rdfs:label "Payroll Staff Costs Non-consolidated performance payments" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/94e78834eb319c9f1fb516093dc2551d> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/94e78834eb319c9f1fb516093dc2551d/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/94e78834eb319c9f1fb516093dc2551d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/a12efcc528bec2028c51acc6ab5b090d> a dsv:Column ;
+    rdfs:label "Payroll staff SEO/HEO Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/a12efcc528bec2028c51acc6ab5b090d> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/a12efcc528bec2028c51acc6ab5b090d/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/a12efcc528bec2028c51acc6ab5b090d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/a856193e6bd15968f21876a4ed0d8ce4> a dsv:Column ;
+    rdfs:label "Payroll staff SEO/HEO Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/a856193e6bd15968f21876a4ed0d8ce4> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/a856193e6bd15968f21876a4ed0d8ce4/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/a856193e6bd15968f21876a4ed0d8ce4/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/aa8d6d726591150b5cd5f7eadb09f2a3> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Interim Managers Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/aa8d6d726591150b5cd5f7eadb09f2a3> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/aa8d6d726591150b5cd5f7eadb09f2a3/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/aa8d6d726591150b5cd5f7eadb09f2a3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/ab5e7ecdfb9a4e70e2bf43c1e5fb63fd> a dsv:Column ;
+    rdfs:label "Payroll staff Other, unknown or unspecified Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/ab5e7ecdfb9a4e70e2bf43c1e5fb63fd> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/ab5e7ecdfb9a4e70e2bf43c1e5fb63fd/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/ab5e7ecdfb9a4e70e2bf43c1e5fb63fd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/aeb5381d80146f6f91f838de33a619fd> a dsv:Column ;
+    rdfs:label "Payroll staff SCS Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/aeb5381d80146f6f91f838de33a619fd> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/aeb5381d80146f6f91f838de33a619fd/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/aeb5381d80146f6f91f838de33a619fd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/b05e317132fcfdbb3d003b92efe17197> a dsv:Column ;
+    rdfs:label "Payroll staff Grade 6/7 Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/b05e317132fcfdbb3d003b92efe17197> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/b05e317132fcfdbb3d003b92efe17197/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/b05e317132fcfdbb3d003b92efe17197/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/b05fe60bd377e4570bd17c371df75e07> a dsv:Column ;
+    rdfs:label "Payroll staff Total Employees Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/b05fe60bd377e4570bd17c371df75e07> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/b05fe60bd377e4570bd17c371df75e07/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/b05fe60bd377e4570bd17c371df75e07/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/bfc8a841f53f94bb8de1a00e1e3f0f39> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Consultants/Consultancy Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/bfc8a841f53f94bb8de1a00e1e3f0f39> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/bfc8a841f53f94bb8de1a00e1e3f0f39/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/bfc8a841f53f94bb8de1a00e1e3f0f39/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/c07a7412fddf75a2fdac495b2902cf86> a dsv:Column ;
+    rdfs:label "Payroll Staff Costs Overtime" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/c07a7412fddf75a2fdac495b2902cf86> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/c07a7412fddf75a2fdac495b2902cf86/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/c07a7412fddf75a2fdac495b2902cf86/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/c3059898a0e8d9cd56f16943735d27e9> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Total cost of contingent labour: agency (clerical and admin) staff, interim managers and specialist contractors" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/c3059898a0e8d9cd56f16943735d27e9> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/c3059898a0e8d9cd56f16943735d27e9/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/c3059898a0e8d9cd56f16943735d27e9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/c6d5013c0bc8e2a00786dfb81ba824cb> a dsv:Column ;
+    rdfs:label "Payroll staff AO/AA Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/c6d5013c0bc8e2a00786dfb81ba824cb> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/c6d5013c0bc8e2a00786dfb81ba824cb/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/c6d5013c0bc8e2a00786dfb81ba824cb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/d65701b11cbf6609710cb1c3b8f0f095> a dsv:Column ;
+    rdfs:label "Payroll staff EO Full-time Equivalent" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/d65701b11cbf6609710cb1c3b8f0f095> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/d65701b11cbf6609710cb1c3b8f0f095/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/d65701b11cbf6609710cb1c3b8f0f095/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/d87791d9f4e04d0320e5dbb2e0aa89cb> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Total Employees Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/d87791d9f4e04d0320e5dbb2e0aa89cb> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/d87791d9f4e04d0320e5dbb2e0aa89cb/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/d87791d9f4e04d0320e5dbb2e0aa89cb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e03a2fd1faf359461881a1e2e6ec3952> a dsv:Column ;
+    rdfs:label "Organisation Name" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/e03a2fd1faf359461881a1e2e6ec3952> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/e03a2fd1faf359461881a1e2e6ec3952/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e03a2fd1faf359461881a1e2e6ec3952/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e06501a816129b5a7cf5d564e8fb3f2c> a dsv:Column ;
+    rdfs:label "Grand Total (workforce numbers) Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/e06501a816129b5a7cf5d564e8fb3f2c> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/e06501a816129b5a7cf5d564e8fb3f2c/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e06501a816129b5a7cf5d564e8fb3f2c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e34d30a84d5f740018851c2e16dc3f70> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Total non-payroll (CCL) staff costs" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/e34d30a84d5f740018851c2e16dc3f70> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/e34d30a84d5f740018851c2e16dc3f70/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e34d30a84d5f740018851c2e16dc3f70/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e52bcf28eaf9de15713ae13e5ba211c2> a dsv:Column ;
+    rdfs:label "Payroll staff Other, unknown or unspecified Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/e52bcf28eaf9de15713ae13e5ba211c2> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/e52bcf28eaf9de15713ae13e5ba211c2/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e52bcf28eaf9de15713ae13e5ba211c2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e7a6adda7b29f6dcaac5e570b84ebd85> a dsv:Column ;
+    rdfs:label "Payroll Staff Costs Employer national insurance contributions" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/e7a6adda7b29f6dcaac5e570b84ebd85> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/e7a6adda7b29f6dcaac5e570b84ebd85/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/e7a6adda7b29f6dcaac5e570b84ebd85/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/ec9336e47bd488e6f6e9ef83ab306e90> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Intermin Managers Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/ec9336e47bd488e6f6e9ef83ab306e90> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/ec9336e47bd488e6f6e9ef83ab306e90/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/ec9336e47bd488e6f6e9ef83ab306e90/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/f106f6db87281cd6282010fabd21f554> a dsv:Column ;
+    rdfs:label "Payroll Staff Costs Salary" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/f106f6db87281cd6282010fabd21f554> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/f106f6db87281cd6282010fabd21f554/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/f106f6db87281cd6282010fabd21f554/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/f70e9bd13bb3632ca5305fb7f59876bc> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Total cost of consultants/consultancy" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/f70e9bd13bb3632ca5305fb7f59876bc> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/f70e9bd13bb3632ca5305fb7f59876bc/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/f70e9bd13bb3632ca5305fb7f59876bc/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/fd85b1672771bdee05505bd6b0f42ff7> a dsv:Column ;
+    rdfs:label "Grand Total paybill/staffing (payroll and non-payroll) costs" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/fd85b1672771bdee05505bd6b0f42ff7> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/fd85b1672771bdee05505bd6b0f42ff7/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/fd85b1672771bdee05505bd6b0f42ff7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/column/fe8b454a212bc2b4b455a6f6fefb6153> a dsv:Column ;
+    rdfs:label "Non-payroll Staff Consultants/Consultancy Headcount" ;
+    dsv:columnProperty <http://www.example.org/workforce_management_information_10.csv/properties-dictionary/fe8b454a212bc2b4b455a6f6fefb6153> ;
+    dsv:summaryStatistics <http://www.example.org/workforce_management_information_10.csv/column/fe8b454a212bc2b4b455a6f6fefb6153/summary-statistics/> .
+
+<http://www.example.org/workforce_management_information_10.csv/column/fe8b454a212bc2b4b455a6f6fefb6153/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/workforce_management_information_10.csv/summary-statistics/> dsv:datasetCompleteness 9.8e-01 ;
+    dsv:numberOfColumns 41 ;
+    dsv:numberOfRows 18 .
+
