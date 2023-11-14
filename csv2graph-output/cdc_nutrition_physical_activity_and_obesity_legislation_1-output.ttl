@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/> a dsv:Dataset ;
+    dcterms:title "Cdc Nutrition Physical Activity And Obesity Legislation 1" ;
+    dsv:datasetSchema <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/0cf9ab0f5977d3fe0587aa862ef37d5c>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/296e0bd14587eeebcfc680dd591a93c8>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/51ac4bf63a0c6a9cefa7ba69b4154ef1>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/537c66b24ef5c83b7382cdc3f34885f2>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/72eef6c63d56162da02f3df1a4d2fafa>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/7df23e5f41084205d14a094150e87cbd>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b25cde1e74f3d27f678c2e309e06102e>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b78a3223503896721cca1303f776159b>,
+        <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/baaddb17f0846599548d875f80e9d4d7> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/0cf9ab0f5977d3fe0587aa862ef37d5c> a dsv:Column ;
+    rdfs:label "HealthTopic" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/0cf9ab0f5977d3fe0587aa862ef37d5c> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/0cf9ab0f5977d3fe0587aa862ef37d5c/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/0cf9ab0f5977d3fe0587aa862ef37d5c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/296e0bd14587eeebcfc680dd591a93c8> a dsv:Column ;
+    rdfs:label "PolicyTopicID" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/296e0bd14587eeebcfc680dd591a93c8> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/296e0bd14587eeebcfc680dd591a93c8/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/296e0bd14587eeebcfc680dd591a93c8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/51ac4bf63a0c6a9cefa7ba69b4154ef1> a dsv:Column ;
+    rdfs:label "Setting" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/51ac4bf63a0c6a9cefa7ba69b4154ef1> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/51ac4bf63a0c6a9cefa7ba69b4154ef1/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/51ac4bf63a0c6a9cefa7ba69b4154ef1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/537c66b24ef5c83b7382cdc3f34885f2> a dsv:Column ;
+    rdfs:label "Year" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/537c66b24ef5c83b7382cdc3f34885f2> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/537c66b24ef5c83b7382cdc3f34885f2/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/537c66b24ef5c83b7382cdc3f34885f2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/72eef6c63d56162da02f3df1a4d2fafa> a dsv:Column ;
+    rdfs:label "PolicyTopic" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/72eef6c63d56162da02f3df1a4d2fafa> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/72eef6c63d56162da02f3df1a4d2fafa/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/72eef6c63d56162da02f3df1a4d2fafa/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/7df23e5f41084205d14a094150e87cbd> a dsv:Column ;
+    rdfs:label "PolicyTypeID" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/7df23e5f41084205d14a094150e87cbd> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/7df23e5f41084205d14a094150e87cbd/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/7df23e5f41084205d14a094150e87cbd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b25cde1e74f3d27f678c2e309e06102e> a dsv:Column ;
+    rdfs:label "Quarter" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/b25cde1e74f3d27f678c2e309e06102e> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b25cde1e74f3d27f678c2e309e06102e/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b25cde1e74f3d27f678c2e309e06102e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b78a3223503896721cca1303f776159b> a dsv:Column ;
+    rdfs:label "Title" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/b78a3223503896721cca1303f776159b> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b78a3223503896721cca1303f776159b/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/b78a3223503896721cca1303f776159b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/baaddb17f0846599548d875f80e9d4d7> a dsv:Column ;
+    rdfs:label "LocationDesc" ;
+    dsv:columnProperty <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/properties-dictionary/baaddb17f0846599548d875f80e9d4d7> ;
+    dsv:summaryStatistics <http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/baaddb17f0846599548d875f80e9d4d7/summary-statistics/> .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/column/baaddb17f0846599548d875f80e9d4d7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cdc_nutrition_physical_activity_and_obesity_legislation_1.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 9 ;
+    dsv:numberOfRows 5000 .
+

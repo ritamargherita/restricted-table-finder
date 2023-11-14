@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/> a dsv:Dataset ;
+    dcterms:title "Tuition Assistance Program Tap Recipients A" ;
+    dsv:datasetSchema <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/27f0bb5e563affe23b0c7f66a2e16d8a>,
+        <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/36d1f5fe3acffbc064a9e4d4b636c590>,
+        <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/57a57ea59670ae6e6d34613cd9be2c02>,
+        <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/a0db49ba470c1c9ae2128c3470339153>,
+        <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/bc5fed22baf37a85c90507f61f8d8e83>,
+        <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/df89bf9bd35f6af1d0482f6df4f73980>,
+        <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/dfcbb00bf3e705c31d450e98700decf3>,
+        <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/e195cfb2d835b989c195b6e7980b8850> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/27f0bb5e563affe23b0c7f66a2e16d8a> a dsv:Column ;
+    rdfs:label "Recipient Age Group" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/27f0bb5e563affe23b0c7f66a2e16d8a> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/27f0bb5e563affe23b0c7f66a2e16d8a/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/27f0bb5e563affe23b0c7f66a2e16d8a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/36d1f5fe3acffbc064a9e4d4b636c590> a dsv:Column ;
+    rdfs:label "TAP Award Schedule" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/36d1f5fe3acffbc064a9e4d4b636c590> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/36d1f5fe3acffbc064a9e4d4b636c590/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/36d1f5fe3acffbc064a9e4d4b636c590/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/57a57ea59670ae6e6d34613cd9be2c02> a dsv:Column ;
+    rdfs:label "TAP Level of Study" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/57a57ea59670ae6e6d34613cd9be2c02> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/57a57ea59670ae6e6d34613cd9be2c02/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/57a57ea59670ae6e6d34613cd9be2c02/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/a0db49ba470c1c9ae2128c3470339153> a dsv:Column ;
+    rdfs:label "Level" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/a0db49ba470c1c9ae2128c3470339153> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/a0db49ba470c1c9ae2128c3470339153/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/a0db49ba470c1c9ae2128c3470339153/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/bc5fed22baf37a85c90507f61f8d8e83> a dsv:Column ;
+    rdfs:label "Sector Type" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/bc5fed22baf37a85c90507f61f8d8e83> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/bc5fed22baf37a85c90507f61f8d8e83/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/bc5fed22baf37a85c90507f61f8d8e83/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/df89bf9bd35f6af1d0482f6df4f73980> a dsv:Column ;
+    rdfs:label "TAP Degree or NonDegree" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/df89bf9bd35f6af1d0482f6df4f73980> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/df89bf9bd35f6af1d0482f6df4f73980/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/df89bf9bd35f6af1d0482f6df4f73980/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/dfcbb00bf3e705c31d450e98700decf3> a dsv:Column ;
+    rdfs:label "TAP Sector Group" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/dfcbb00bf3e705c31d450e98700decf3> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/dfcbb00bf3e705c31d450e98700decf3/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/dfcbb00bf3e705c31d450e98700decf3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/e195cfb2d835b989c195b6e7980b8850> a dsv:Column ;
+    rdfs:label "TAP Financial Status" ;
+    dsv:columnProperty <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/properties-dictionary/e195cfb2d835b989c195b6e7980b8850> ;
+    dsv:summaryStatistics <http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/e195cfb2d835b989c195b6e7980b8850/summary-statistics/> .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/column/e195cfb2d835b989c195b6e7980b8850/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/tuition_assistance_program_tap_recipients_a.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 8 ;
+    dsv:numberOfRows 46579 .
+

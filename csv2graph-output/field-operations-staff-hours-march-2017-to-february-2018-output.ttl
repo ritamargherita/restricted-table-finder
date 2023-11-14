@@ -1,0 +1,32 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/> a dsv:Dataset ;
+    dcterms:title "Field-Operations-Staff-Hours-March-2017-To-February-2018" ;
+    dsv:datasetSchema <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/summary-statistics/> .
+
+<http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/6a7e73161603d87b26a8eac49dab0a9c>,
+        <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/7cbb885aa1164b390a0bc050a64e1812> .
+
+<http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/6a7e73161603d87b26a8eac49dab0a9c> a dsv:Column ;
+    rdfs:label "Hours" ;
+    dsv:columnProperty <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/properties-dictionary/6a7e73161603d87b26a8eac49dab0a9c> ;
+    dsv:summaryStatistics <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/6a7e73161603d87b26a8eac49dab0a9c/summary-statistics/> .
+
+<http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/6a7e73161603d87b26a8eac49dab0a9c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/7cbb885aa1164b390a0bc050a64e1812> a dsv:Column ;
+    rdfs:label "Month" ;
+    dsv:columnProperty <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/properties-dictionary/7cbb885aa1164b390a0bc050a64e1812> ;
+    dsv:summaryStatistics <http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/7cbb885aa1164b390a0bc050a64e1812/summary-statistics/> .
+
+<http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/column/7cbb885aa1164b390a0bc050a64e1812/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/field-operations-staff-hours-march-2017-to-february-2018.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 2 ;
+    dsv:numberOfRows 12 .
+

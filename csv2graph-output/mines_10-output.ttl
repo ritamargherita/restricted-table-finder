@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/mines_10.csv/> a dsv:Dataset ;
+    dcterms:title "Mines 10" ;
+    dsv:datasetSchema <http://www.example.org/mines_10.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/mines_10.csv/column/13e39d435fd9ae492a0a067c0cdae1fe>,
+        <http://www.example.org/mines_10.csv/column/597c17d0c334e2de056455038b938afe>,
+        <http://www.example.org/mines_10.csv/column/a30aeb4c06399e0edbed665818894a53>,
+        <http://www.example.org/mines_10.csv/column/a54829d454e759904d9594897686dc7b>,
+        <http://www.example.org/mines_10.csv/column/b56b4df85dc9ba66d86014e6c0dc3b71>,
+        <http://www.example.org/mines_10.csv/column/cc7f4a345b75df6fb68e01d11b035394>,
+        <http://www.example.org/mines_10.csv/column/ce637f4ea80a9f062c512456c720e7c7>,
+        <http://www.example.org/mines_10.csv/column/d01105a464390b87eab3d6c69be43a08>,
+        <http://www.example.org/mines_10.csv/column/eeeaa8701edb0791e140c57b720ae20c> .
+
+<http://www.example.org/mines_10.csv/column/13e39d435fd9ae492a0a067c0cdae1fe> a dsv:Column ;
+    rdfs:label "DEPT_EN_DESC" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/13e39d435fd9ae492a0a067c0cdae1fe> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/13e39d435fd9ae492a0a067c0cdae1fe/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/13e39d435fd9ae492a0a067c0cdae1fe/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/mines_10.csv/column/597c17d0c334e2de056455038b938afe> a dsv:Column ;
+    rdfs:label "HLDR_TRST_ENG_NM" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/597c17d0c334e2de056455038b938afe> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/597c17d0c334e2de056455038b938afe/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/597c17d0c334e2de056455038b938afe/summary-statistics/> dsv:columnCompleteness 3.508772e-02 .
+
+<http://www.example.org/mines_10.csv/column/a30aeb4c06399e0edbed665818894a53> a dsv:Column ;
+    rdfs:label "DepartmentNumber-NumÃ©ro-de-MinistÃ¨re" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/a30aeb4c06399e0edbed665818894a53> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/a30aeb4c06399e0edbed665818894a53/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/a30aeb4c06399e0edbed665818894a53/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/mines_10.csv/column/a54829d454e759904d9594897686dc7b> a dsv:Column ;
+    rdfs:label "MINE" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/a54829d454e759904d9594897686dc7b> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/a54829d454e759904d9594897686dc7b/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/a54829d454e759904d9594897686dc7b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/mines_10.csv/column/b56b4df85dc9ba66d86014e6c0dc3b71> a dsv:Column ;
+    rdfs:label "ï»¿FSCL_YR" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/b56b4df85dc9ba66d86014e6c0dc3b71> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/b56b4df85dc9ba66d86014e6c0dc3b71/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/b56b4df85dc9ba66d86014e6c0dc3b71/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/mines_10.csv/column/cc7f4a345b75df6fb68e01d11b035394> a dsv:Column ;
+    rdfs:label "PYMNT_TYP_ENG_TXT" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/cc7f4a345b75df6fb68e01d11b035394> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/cc7f4a345b75df6fb68e01d11b035394/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/cc7f4a345b75df6fb68e01d11b035394/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/mines_10.csv/column/ce637f4ea80a9f062c512456c720e7c7> a dsv:Column ;
+    rdfs:label "MINC" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/ce637f4ea80a9f062c512456c720e7c7> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/ce637f4ea80a9f062c512456c720e7c7/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/ce637f4ea80a9f062c512456c720e7c7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/mines_10.csv/column/d01105a464390b87eab3d6c69be43a08> a dsv:Column ;
+    rdfs:label "AMOUNT" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/d01105a464390b87eab3d6c69be43a08> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/d01105a464390b87eab3d6c69be43a08/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/d01105a464390b87eab3d6c69be43a08/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/mines_10.csv/column/eeeaa8701edb0791e140c57b720ae20c> a dsv:Column ;
+    rdfs:label "PAYEE_ENG_NM" ;
+    dsv:columnProperty <http://www.example.org/mines_10.csv/properties-dictionary/eeeaa8701edb0791e140c57b720ae20c> ;
+    dsv:summaryStatistics <http://www.example.org/mines_10.csv/column/eeeaa8701edb0791e140c57b720ae20c/summary-statistics/> .
+
+<http://www.example.org/mines_10.csv/column/eeeaa8701edb0791e140c57b720ae20c/summary-statistics/> dsv:columnCompleteness 8.77193e-01 .
+
+<http://www.example.org/mines_10.csv/summary-statistics/> dsv:datasetCompleteness 8.8e-01 ;
+    dsv:numberOfColumns 9 ;
+    dsv:numberOfRows 57 .
+

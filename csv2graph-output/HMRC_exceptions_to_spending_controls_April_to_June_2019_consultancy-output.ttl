@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/> a dsv:Dataset ;
+    dcterms:title "Hmrc Exceptions To Spending Controls April To June 2019 Consultancy" ;
+    dsv:datasetSchema <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/1bd0f4204a78e990e57bc3b874e74392>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/215d6462dfa2f9991a886256092fbee8>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/3ee2fb72893048345ae298fa5a4304ed>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/6c07acb06e254a1637b219e7452ba0fc>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/a1595abbb4c3a326636dd178757cd6c1>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/d48791a155c3c251e700dfad7bd99e10>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e3252e1a8c33a30ae3fac99574706989>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e977beef211fbac2a50262f1d57826dd> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/1bd0f4204a78e990e57bc3b874e74392> a dsv:Column ;
+    rdfs:label "Reference Number" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/1bd0f4204a78e990e57bc3b874e74392> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/1bd0f4204a78e990e57bc3b874e74392/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/1bd0f4204a78e990e57bc3b874e74392/summary-statistics/> dsv:columnCompleteness 5e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/215d6462dfa2f9991a886256092fbee8> a dsv:Column ;
+    rdfs:label "Approval date" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/215d6462dfa2f9991a886256092fbee8> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/215d6462dfa2f9991a886256092fbee8/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/215d6462dfa2f9991a886256092fbee8/summary-statistics/> dsv:columnCompleteness 5e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/3ee2fb72893048345ae298fa5a4304ed> a dsv:Column ;
+    rdfs:label "Case details" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/3ee2fb72893048345ae298fa5a4304ed> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/3ee2fb72893048345ae298fa5a4304ed/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/3ee2fb72893048345ae298fa5a4304ed/summary-statistics/> dsv:columnCompleteness 5e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/6c07acb06e254a1637b219e7452ba0fc> a dsv:Column ;
+    rdfs:label "Value (£) (excluding VAT)" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/6c07acb06e254a1637b219e7452ba0fc> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/6c07acb06e254a1637b219e7452ba0fc/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/6c07acb06e254a1637b219e7452ba0fc/summary-statistics/> dsv:columnCompleteness 5e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/a1595abbb4c3a326636dd178757cd6c1> a dsv:Column ;
+    rdfs:label "Control" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/a1595abbb4c3a326636dd178757cd6c1> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/a1595abbb4c3a326636dd178757cd6c1/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/a1595abbb4c3a326636dd178757cd6c1/summary-statistics/> dsv:columnCompleteness 5e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/d48791a155c3c251e700dfad7bd99e10> a dsv:Column ;
+    rdfs:label "Owning Dept/ALB Department" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/d48791a155c3c251e700dfad7bd99e10> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/d48791a155c3c251e700dfad7bd99e10/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/d48791a155c3c251e700dfad7bd99e10/summary-statistics/> dsv:columnCompleteness 5e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e3252e1a8c33a30ae3fac99574706989> a dsv:Column ;
+    rdfs:label "ALB" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/e3252e1a8c33a30ae3fac99574706989> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e3252e1a8c33a30ae3fac99574706989/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e3252e1a8c33a30ae3fac99574706989/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e977beef211fbac2a50262f1d57826dd> a dsv:Column ;
+    rdfs:label "Case Name" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/properties-dictionary/e977beef211fbac2a50262f1d57826dd> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e977beef211fbac2a50262f1d57826dd/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/column/e977beef211fbac2a50262f1d57826dd/summary-statistics/> dsv:columnCompleteness 5e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_April_to_June_2019_consultancy.csv/summary-statistics/> dsv:datasetCompleteness 4.4e-01 ;
+    dsv:numberOfColumns 8 ;
+    dsv:numberOfRows 2 .
+

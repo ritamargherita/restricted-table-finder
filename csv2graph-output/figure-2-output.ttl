@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/figure-2.csv/> a dsv:Dataset ;
+    dcterms:title "Figure-2" ;
+    dsv:datasetSchema <http://www.example.org/figure-2.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/figure-2.csv/column/0f00a6489d26ab025a1ad44a3ff18c61>,
+        <http://www.example.org/figure-2.csv/column/1fcf6ad77f1a924620e76f31d5674759>,
+        <http://www.example.org/figure-2.csv/column/24ca6fa0717c14b45331838b63cbdc9a>,
+        <http://www.example.org/figure-2.csv/column/57710c8acd60ac0c1ada082c6cbd079b>,
+        <http://www.example.org/figure-2.csv/column/9388219871d1ca103f61a8f2f5c1fef6>,
+        <http://www.example.org/figure-2.csv/column/97c0fabcd02faf7c3412abcc9ade0077>,
+        <http://www.example.org/figure-2.csv/column/af5ca3c538eb785dd45ac0a638c2d5c2>,
+        <http://www.example.org/figure-2.csv/column/f4a628edf7c75c3b3588f76a40842523> .
+
+<http://www.example.org/figure-2.csv/column/0f00a6489d26ab025a1ad44a3ff18c61> a dsv:Column ;
+    rdfs:label "Unnamed: 2" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/0f00a6489d26ab025a1ad44a3ff18c61> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/0f00a6489d26ab025a1ad44a3ff18c61/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/0f00a6489d26ab025a1ad44a3ff18c61/summary-statistics/> dsv:columnCompleteness 9.961233e-01 .
+
+<http://www.example.org/figure-2.csv/column/1fcf6ad77f1a924620e76f31d5674759> a dsv:Column ;
+    rdfs:label "All staff (excluding non-academic atypical) by academic contract marker, activity standard occupational classification, atypical marker, nationality, mode of employment and sex and academic year" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/1fcf6ad77f1a924620e76f31d5674759> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/1fcf6ad77f1a924620e76f31d5674759/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/1fcf6ad77f1a924620e76f31d5674759/summary-statistics/> dsv:columnCompleteness 9.996308e-01 .
+
+<http://www.example.org/figure-2.csv/column/24ca6fa0717c14b45331838b63cbdc9a> a dsv:Column ;
+    rdfs:label "Unnamed: 4" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/24ca6fa0717c14b45331838b63cbdc9a> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/24ca6fa0717c14b45331838b63cbdc9a/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/24ca6fa0717c14b45331838b63cbdc9a/summary-statistics/> dsv:columnCompleteness 9.961233e-01 .
+
+<http://www.example.org/figure-2.csv/column/57710c8acd60ac0c1ada082c6cbd079b> a dsv:Column ;
+    rdfs:label "Unnamed: 7" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/57710c8acd60ac0c1ada082c6cbd079b> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/57710c8acd60ac0c1ada082c6cbd079b/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/57710c8acd60ac0c1ada082c6cbd079b/summary-statistics/> dsv:columnCompleteness 9.961233e-01 .
+
+<http://www.example.org/figure-2.csv/column/9388219871d1ca103f61a8f2f5c1fef6> a dsv:Column ;
+    rdfs:label "Unnamed: 5" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/9388219871d1ca103f61a8f2f5c1fef6> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/9388219871d1ca103f61a8f2f5c1fef6/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/9388219871d1ca103f61a8f2f5c1fef6/summary-statistics/> dsv:columnCompleteness 9.961233e-01 .
+
+<http://www.example.org/figure-2.csv/column/97c0fabcd02faf7c3412abcc9ade0077> a dsv:Column ;
+    rdfs:label "Unnamed: 3" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/97c0fabcd02faf7c3412abcc9ade0077> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/97c0fabcd02faf7c3412abcc9ade0077/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/97c0fabcd02faf7c3412abcc9ade0077/summary-statistics/> dsv:columnCompleteness 9.961233e-01 .
+
+<http://www.example.org/figure-2.csv/column/af5ca3c538eb785dd45ac0a638c2d5c2> a dsv:Column ;
+    rdfs:label "ï»¿Title" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/af5ca3c538eb785dd45ac0a638c2d5c2> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/af5ca3c538eb785dd45ac0a638c2d5c2/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/af5ca3c538eb785dd45ac0a638c2d5c2/summary-statistics/> dsv:columnCompleteness 9.996308e-01 .
+
+<http://www.example.org/figure-2.csv/column/f4a628edf7c75c3b3588f76a40842523> a dsv:Column ;
+    rdfs:label "Unnamed: 6" ;
+    dsv:columnProperty <http://www.example.org/figure-2.csv/properties-dictionary/f4a628edf7c75c3b3588f76a40842523> ;
+    dsv:summaryStatistics <http://www.example.org/figure-2.csv/column/f4a628edf7c75c3b3588f76a40842523/summary-statistics/> .
+
+<http://www.example.org/figure-2.csv/column/f4a628edf7c75c3b3588f76a40842523/summary-statistics/> dsv:columnCompleteness 9.961233e-01 .
+
+<http://www.example.org/figure-2.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 8 ;
+    dsv:numberOfRows 5417 .
+

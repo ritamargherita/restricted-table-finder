@@ -1,0 +1,176 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/data_mill_7.csv/> a dsv:Dataset ;
+    dcterms:title "Data Mill 7" ;
+    dsv:datasetSchema <http://www.example.org/data_mill_7.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/data_mill_7.csv/column/16ea456b932c54d5f47c5aee870ad565>,
+        <http://www.example.org/data_mill_7.csv/column/1d5eb95c2322a8239feff5b2a2366b44>,
+        <http://www.example.org/data_mill_7.csv/column/22128a4fe065e632f97859072f5c25d5>,
+        <http://www.example.org/data_mill_7.csv/column/3ce0af641e9265e4e980a1718b380f7a>,
+        <http://www.example.org/data_mill_7.csv/column/4663712304ff7de50d9a8941b9ef3c3b>,
+        <http://www.example.org/data_mill_7.csv/column/58ec3298db286417f933a435c6cda9aa>,
+        <http://www.example.org/data_mill_7.csv/column/6dece49378131ab53a9599c2c04086a0>,
+        <http://www.example.org/data_mill_7.csv/column/718599d4831ae60e2cd6449ad7156ac8>,
+        <http://www.example.org/data_mill_7.csv/column/7201f9d409fd2e84ad709de26d9a5f0c>,
+        <http://www.example.org/data_mill_7.csv/column/7f0dccae35f660913aa0b45f4c3353e3>,
+        <http://www.example.org/data_mill_7.csv/column/8bcdc441379cbf584638b0589a3f9adb>,
+        <http://www.example.org/data_mill_7.csv/column/8c9b8cb2872c613a03d15fcde9bb39c6>,
+        <http://www.example.org/data_mill_7.csv/column/a897ee22e34a3cd8378553f47fc54acd>,
+        <http://www.example.org/data_mill_7.csv/column/ac8354d2ac6d9b627a8a172286f81574>,
+        <http://www.example.org/data_mill_7.csv/column/ccf4db31081a889488ca7f0a740dcfd8>,
+        <http://www.example.org/data_mill_7.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd>,
+        <http://www.example.org/data_mill_7.csv/column/dd7bf230fde8d4836917806aff6a6b27>,
+        <http://www.example.org/data_mill_7.csv/column/ead3e80ef2227988d387ec4bba4cd444>,
+        <http://www.example.org/data_mill_7.csv/column/f16556496f5f6bda97366651e12e2f34>,
+        <http://www.example.org/data_mill_7.csv/column/f5d0174dddcdcb1c67aca22bdb9ca15d> .
+
+<http://www.example.org/data_mill_7.csv/column/16ea456b932c54d5f47c5aee870ad565> a dsv:Column ;
+    rdfs:label "Addr3" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/16ea456b932c54d5f47c5aee870ad565> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/16ea456b932c54d5f47c5aee870ad565/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/16ea456b932c54d5f47c5aee870ad565/summary-statistics/> dsv:columnCompleteness 9.203293e-01 .
+
+<http://www.example.org/data_mill_7.csv/column/1d5eb95c2322a8239feff5b2a2366b44> a dsv:Column ;
+    rdfs:label "Discretionary relief %" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/1d5eb95c2322a8239feff5b2a2366b44> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/1d5eb95c2322a8239feff5b2a2366b44/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/1d5eb95c2322a8239feff5b2a2366b44/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/22128a4fe065e632f97859072f5c25d5> a dsv:Column ;
+    rdfs:label "Billing Authority Reference" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/22128a4fe065e632f97859072f5c25d5> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/22128a4fe065e632f97859072f5c25d5/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/22128a4fe065e632f97859072f5c25d5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/3ce0af641e9265e4e980a1718b380f7a> a dsv:Column ;
+    rdfs:label "Rateable Value" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/3ce0af641e9265e4e980a1718b380f7a> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/3ce0af641e9265e4e980a1718b380f7a/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/3ce0af641e9265e4e980a1718b380f7a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/4663712304ff7de50d9a8941b9ef3c3b> a dsv:Column ;
+    rdfs:label "Description  Code" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/4663712304ff7de50d9a8941b9ef3c3b> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/4663712304ff7de50d9a8941b9ef3c3b/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/4663712304ff7de50d9a8941b9ef3c3b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/58ec3298db286417f933a435c6cda9aa> a dsv:Column ;
+    rdfs:label "Addr4" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/58ec3298db286417f933a435c6cda9aa> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/58ec3298db286417f933a435c6cda9aa/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/58ec3298db286417f933a435c6cda9aa/summary-statistics/> dsv:columnCompleteness 5.84268e-01 .
+
+<http://www.example.org/data_mill_7.csv/column/6dece49378131ab53a9599c2c04086a0> a dsv:Column ;
+    rdfs:label "Addr2" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/6dece49378131ab53a9599c2c04086a0> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/6dece49378131ab53a9599c2c04086a0/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/6dece49378131ab53a9599c2c04086a0/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/718599d4831ae60e2cd6449ad7156ac8> a dsv:Column ;
+    rdfs:label "Liable From" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/718599d4831ae60e2cd6449ad7156ac8> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/718599d4831ae60e2cd6449ad7156ac8/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/718599d4831ae60e2cd6449ad7156ac8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/7201f9d409fd2e84ad709de26d9a5f0c> a dsv:Column ;
+    rdfs:label "Empty From" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/7201f9d409fd2e84ad709de26d9a5f0c> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/7201f9d409fd2e84ad709de26d9a5f0c/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/7201f9d409fd2e84ad709de26d9a5f0c/summary-statistics/> dsv:columnCompleteness 1.917874e-01 .
+
+<http://www.example.org/data_mill_7.csv/column/7f0dccae35f660913aa0b45f4c3353e3> a dsv:Column ;
+    rdfs:label "Ratepayer" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/7f0dccae35f660913aa0b45f4c3353e3> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/7f0dccae35f660913aa0b45f4c3353e3/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/7f0dccae35f660913aa0b45f4c3353e3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/8bcdc441379cbf584638b0589a3f9adb> a dsv:Column ;
+    rdfs:label "Postcode" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/8bcdc441379cbf584638b0589a3f9adb> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/8bcdc441379cbf584638b0589a3f9adb/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/8bcdc441379cbf584638b0589a3f9adb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/8c9b8cb2872c613a03d15fcde9bb39c6> a dsv:Column ;
+    rdfs:label "Mandatory relief %" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/8c9b8cb2872c613a03d15fcde9bb39c6> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/8c9b8cb2872c613a03d15fcde9bb39c6/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/8c9b8cb2872c613a03d15fcde9bb39c6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/a897ee22e34a3cd8378553f47fc54acd> a dsv:Column ;
+    rdfs:label "Unnamed: 18" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/a897ee22e34a3cd8378553f47fc54acd> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/a897ee22e34a3cd8378553f47fc54acd/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/a897ee22e34a3cd8378553f47fc54acd/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/ac8354d2ac6d9b627a8a172286f81574> a dsv:Column ;
+    rdfs:label "Property Status" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/ac8354d2ac6d9b627a8a172286f81574> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/ac8354d2ac6d9b627a8a172286f81574/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/ac8354d2ac6d9b627a8a172286f81574/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/ccf4db31081a889488ca7f0a740dcfd8> a dsv:Column ;
+    rdfs:label "Exempt Empty" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/ccf4db31081a889488ca7f0a740dcfd8> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/ccf4db31081a889488ca7f0a740dcfd8/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/ccf4db31081a889488ca7f0a740dcfd8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd> a dsv:Column ;
+    rdfs:label "Unnamed: 19" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/d83e3969e93cfcbfcec271ac1dfbb8dd> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/d83e3969e93cfcbfcec271ac1dfbb8dd/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/dd7bf230fde8d4836917806aff6a6b27> a dsv:Column ;
+    rdfs:label "Address" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/dd7bf230fde8d4836917806aff6a6b27> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/dd7bf230fde8d4836917806aff6a6b27/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/dd7bf230fde8d4836917806aff6a6b27/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/ead3e80ef2227988d387ec4bba4cd444> a dsv:Column ;
+    rdfs:label "Small Business rate relief %" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/ead3e80ef2227988d387ec4bba4cd444> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/ead3e80ef2227988d387ec4bba4cd444/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/ead3e80ef2227988d387ec4bba4cd444/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/f16556496f5f6bda97366651e12e2f34> a dsv:Column ;
+    rdfs:label "Property Description" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/f16556496f5f6bda97366651e12e2f34> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/f16556496f5f6bda97366651e12e2f34/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/f16556496f5f6bda97366651e12e2f34/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/column/f5d0174dddcdcb1c67aca22bdb9ca15d> a dsv:Column ;
+    rdfs:label "Local Discount 2016/17" ;
+    dsv:columnProperty <http://www.example.org/data_mill_7.csv/properties-dictionary/f5d0174dddcdcb1c67aca22bdb9ca15d> ;
+    dsv:summaryStatistics <http://www.example.org/data_mill_7.csv/column/f5d0174dddcdcb1c67aca22bdb9ca15d/summary-statistics/> .
+
+<http://www.example.org/data_mill_7.csv/column/f5d0174dddcdcb1c67aca22bdb9ca15d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/data_mill_7.csv/summary-statistics/> dsv:datasetCompleteness 8.3e-01 ;
+    dsv:numberOfColumns 20 ;
+    dsv:numberOfRows 20773 .
+

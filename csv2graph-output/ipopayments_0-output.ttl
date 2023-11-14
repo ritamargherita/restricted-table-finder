@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/ipopayments_0.csv/> a dsv:Dataset ;
+    dcterms:title "Ipopayments 0" ;
+    dsv:datasetSchema <http://www.example.org/ipopayments_0.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/ipopayments_0.csv/column/0126116a9f9b1f23237d62087ba2d54e>,
+        <http://www.example.org/ipopayments_0.csv/column/1a434befae3f49ae09347ded52032f6f>,
+        <http://www.example.org/ipopayments_0.csv/column/44749712dbec183e983dcd78a7736c41>,
+        <http://www.example.org/ipopayments_0.csv/column/8008feba4a4b2713a73c5e319c914e83>,
+        <http://www.example.org/ipopayments_0.csv/column/9273bc1c6ba49f3246e7495874d6ca0f>,
+        <http://www.example.org/ipopayments_0.csv/column/94b02bed744805a2c55edd46223c6fc3>,
+        <http://www.example.org/ipopayments_0.csv/column/98f9f4b8fd7c2a61b8b8b46b1921dff5>,
+        <http://www.example.org/ipopayments_0.csv/column/b2f40690858b404ed10e62bdf422c704>,
+        <http://www.example.org/ipopayments_0.csv/column/ec136b444eede3bc85639fac0dd06229> .
+
+<http://www.example.org/ipopayments_0.csv/column/0126116a9f9b1f23237d62087ba2d54e> a dsv:Column ;
+    rdfs:label "Transaction number" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/0126116a9f9b1f23237d62087ba2d54e> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/0126116a9f9b1f23237d62087ba2d54e/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/0126116a9f9b1f23237d62087ba2d54e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/1a434befae3f49ae09347ded52032f6f> a dsv:Column ;
+    rdfs:label "Entity" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/1a434befae3f49ae09347ded52032f6f> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/1a434befae3f49ae09347ded52032f6f/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/1a434befae3f49ae09347ded52032f6f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/44749712dbec183e983dcd78a7736c41> a dsv:Column ;
+    rdfs:label "Date" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/44749712dbec183e983dcd78a7736c41> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/8008feba4a4b2713a73c5e319c914e83> a dsv:Column ;
+    rdfs:label "Department family" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/8008feba4a4b2713a73c5e319c914e83> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/8008feba4a4b2713a73c5e319c914e83/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/8008feba4a4b2713a73c5e319c914e83/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/9273bc1c6ba49f3246e7495874d6ca0f> a dsv:Column ;
+    rdfs:label "Expense type" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/9273bc1c6ba49f3246e7495874d6ca0f> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/9273bc1c6ba49f3246e7495874d6ca0f/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/9273bc1c6ba49f3246e7495874d6ca0f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/94b02bed744805a2c55edd46223c6fc3> a dsv:Column ;
+    rdfs:label "Expense area" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/94b02bed744805a2c55edd46223c6fc3> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/94b02bed744805a2c55edd46223c6fc3/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/94b02bed744805a2c55edd46223c6fc3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/98f9f4b8fd7c2a61b8b8b46b1921dff5> a dsv:Column ;
+    rdfs:label "VAT registration number" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/98f9f4b8fd7c2a61b8b8b46b1921dff5> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/98f9f4b8fd7c2a61b8b8b46b1921dff5/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/98f9f4b8fd7c2a61b8b8b46b1921dff5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/b2f40690858b404ed10e62bdf422c704> a dsv:Column ;
+    rdfs:label "Amount" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/b2f40690858b404ed10e62bdf422c704> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/b2f40690858b404ed10e62bdf422c704/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/b2f40690858b404ed10e62bdf422c704/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/column/ec136b444eede3bc85639fac0dd06229> a dsv:Column ;
+    rdfs:label "Supplier" ;
+    dsv:columnProperty <http://www.example.org/ipopayments_0.csv/properties-dictionary/ec136b444eede3bc85639fac0dd06229> ;
+    dsv:summaryStatistics <http://www.example.org/ipopayments_0.csv/column/ec136b444eede3bc85639fac0dd06229/summary-statistics/> .
+
+<http://www.example.org/ipopayments_0.csv/column/ec136b444eede3bc85639fac0dd06229/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ipopayments_0.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 9 ;
+    dsv:numberOfRows 910 .
+

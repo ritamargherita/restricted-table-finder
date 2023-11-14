@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/immigration_records_7.csv/> a dsv:Dataset ;
+    dcterms:title "Immigration Records 7" ;
+    dsv:datasetSchema <http://www.example.org/immigration_records_7.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/immigration_records_7.csv/summary-statistics/> .
+
+<http://www.example.org/immigration_records_7.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/immigration_records_7.csv/column/0f00a6489d26ab025a1ad44a3ff18c61>,
+        <http://www.example.org/immigration_records_7.csv/column/24ca6fa0717c14b45331838b63cbdc9a>,
+        <http://www.example.org/immigration_records_7.csv/column/6711c9c09714d1dedda151c3af6d7b1c>,
+        <http://www.example.org/immigration_records_7.csv/column/97c0fabcd02faf7c3412abcc9ade0077>,
+        <http://www.example.org/immigration_records_7.csv/column/cfa27d412b8900b4d524abd6339af4b6>,
+        <http://www.example.org/immigration_records_7.csv/column/d874229a248d3cade83e765b9f557659> .
+
+<http://www.example.org/immigration_records_7.csv/column/0f00a6489d26ab025a1ad44a3ff18c61> a dsv:Column ;
+    rdfs:label "Unnamed: 2" ;
+    dsv:columnProperty <http://www.example.org/immigration_records_7.csv/properties-dictionary/0f00a6489d26ab025a1ad44a3ff18c61> ;
+    dsv:summaryStatistics <http://www.example.org/immigration_records_7.csv/column/0f00a6489d26ab025a1ad44a3ff18c61/summary-statistics/> .
+
+<http://www.example.org/immigration_records_7.csv/column/0f00a6489d26ab025a1ad44a3ff18c61/summary-statistics/> dsv:columnCompleteness 9.984e-01 .
+
+<http://www.example.org/immigration_records_7.csv/column/24ca6fa0717c14b45331838b63cbdc9a> a dsv:Column ;
+    rdfs:label "Unnamed: 4" ;
+    dsv:columnProperty <http://www.example.org/immigration_records_7.csv/properties-dictionary/24ca6fa0717c14b45331838b63cbdc9a> ;
+    dsv:summaryStatistics <http://www.example.org/immigration_records_7.csv/column/24ca6fa0717c14b45331838b63cbdc9a/summary-statistics/> .
+
+<http://www.example.org/immigration_records_7.csv/column/24ca6fa0717c14b45331838b63cbdc9a/summary-statistics/> dsv:columnCompleteness 9.45e-01 .
+
+<http://www.example.org/immigration_records_7.csv/column/6711c9c09714d1dedda151c3af6d7b1c> a dsv:Column ;
+    rdfs:label "Immigration_Records" ;
+    dsv:columnProperty <http://www.example.org/immigration_records_7.csv/properties-dictionary/6711c9c09714d1dedda151c3af6d7b1c> ;
+    dsv:summaryStatistics <http://www.example.org/immigration_records_7.csv/column/6711c9c09714d1dedda151c3af6d7b1c/summary-statistics/> .
+
+<http://www.example.org/immigration_records_7.csv/column/6711c9c09714d1dedda151c3af6d7b1c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/immigration_records_7.csv/column/97c0fabcd02faf7c3412abcc9ade0077> a dsv:Column ;
+    rdfs:label "Unnamed: 3" ;
+    dsv:columnProperty <http://www.example.org/immigration_records_7.csv/properties-dictionary/97c0fabcd02faf7c3412abcc9ade0077> ;
+    dsv:summaryStatistics <http://www.example.org/immigration_records_7.csv/column/97c0fabcd02faf7c3412abcc9ade0077/summary-statistics/> .
+
+<http://www.example.org/immigration_records_7.csv/column/97c0fabcd02faf7c3412abcc9ade0077/summary-statistics/> dsv:columnCompleteness 8.56e-02 .
+
+<http://www.example.org/immigration_records_7.csv/column/cfa27d412b8900b4d524abd6339af4b6> a dsv:Column ;
+    rdfs:label "Unnamed: 15" ;
+    dsv:columnProperty <http://www.example.org/immigration_records_7.csv/properties-dictionary/cfa27d412b8900b4d524abd6339af4b6> ;
+    dsv:summaryStatistics <http://www.example.org/immigration_records_7.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> .
+
+<http://www.example.org/immigration_records_7.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/immigration_records_7.csv/column/d874229a248d3cade83e765b9f557659> a dsv:Column ;
+    rdfs:label "Unnamed: 16" ;
+    dsv:columnProperty <http://www.example.org/immigration_records_7.csv/properties-dictionary/d874229a248d3cade83e765b9f557659> ;
+    dsv:summaryStatistics <http://www.example.org/immigration_records_7.csv/column/d874229a248d3cade83e765b9f557659/summary-statistics/> .
+
+<http://www.example.org/immigration_records_7.csv/column/d874229a248d3cade83e765b9f557659/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/immigration_records_7.csv/summary-statistics/> dsv:datasetCompleteness 8.4e-01 ;
+    dsv:numberOfColumns 6 ;
+    dsv:numberOfRows 5000 .
+

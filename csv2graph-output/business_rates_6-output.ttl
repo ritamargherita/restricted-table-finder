@@ -1,0 +1,224 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/business_rates_6.csv/> a dsv:Dataset ;
+    dcterms:title "Business Rates 6" ;
+    dsv:datasetSchema <http://www.example.org/business_rates_6.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/business_rates_6.csv/column/1ac72e0991b5d94ac00d360f370c0b36>,
+        <http://www.example.org/business_rates_6.csv/column/1de619e8ea17464d31a7bbebe07a1e13>,
+        <http://www.example.org/business_rates_6.csv/column/22fcffe02ab9eda5b769387122f2ddce>,
+        <http://www.example.org/business_rates_6.csv/column/38dc304eb15bef1ff8dbebfe4bb5e727>,
+        <http://www.example.org/business_rates_6.csv/column/692bd13d0818c506c7bff350f0310191>,
+        <http://www.example.org/business_rates_6.csv/column/6ca1d556642a9fcc0ac799811b4d5a9c>,
+        <http://www.example.org/business_rates_6.csv/column/71ce359caa2455735e9226a9543c8271>,
+        <http://www.example.org/business_rates_6.csv/column/73cd3ecfd6fa454a84937fcdd5b0fef2>,
+        <http://www.example.org/business_rates_6.csv/column/79c5266a515f2e85ed7277373b5f74c2>,
+        <http://www.example.org/business_rates_6.csv/column/84268189a48fb671a4e3ff7a63d970b9>,
+        <http://www.example.org/business_rates_6.csv/column/8f1d311ac055d4b99aa8c9d7f1dc9d04>,
+        <http://www.example.org/business_rates_6.csv/column/8fb31ef4bf20a83b00469549ad50ca6f>,
+        <http://www.example.org/business_rates_6.csv/column/91f40c110d0a0ac25a9b50a9da03d56c>,
+        <http://www.example.org/business_rates_6.csv/column/92f3bc46b7a69b1da9a5b1cea85d15dd>,
+        <http://www.example.org/business_rates_6.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd>,
+        <http://www.example.org/business_rates_6.csv/column/a4655bf69bdb7dff9331fc0d637466d7>,
+        <http://www.example.org/business_rates_6.csv/column/adf0dd80fbe3b7ba407ab5805ab46dd1>,
+        <http://www.example.org/business_rates_6.csv/column/b72b0c8e58c88b0c573a1544a0813258>,
+        <http://www.example.org/business_rates_6.csv/column/bc1a642e8fd37ce038438fbc88eadd8e>,
+        <http://www.example.org/business_rates_6.csv/column/c4cb66d13988689d4567a12d7b741fcb>,
+        <http://www.example.org/business_rates_6.csv/column/ce54aa366520a1e9d017a95e876a66e1>,
+        <http://www.example.org/business_rates_6.csv/column/d3562dd8b21aafce415539f02c871f95>,
+        <http://www.example.org/business_rates_6.csv/column/e71c4326a6464528fec6cc93139aae45>,
+        <http://www.example.org/business_rates_6.csv/column/ea0666b63b24bfb1928b030c255aa4e7>,
+        <http://www.example.org/business_rates_6.csv/column/f9ca1358201583fecb60cfe6a47892df>,
+        <http://www.example.org/business_rates_6.csv/column/fa1ff2063fba4b60fb9f7d082cc8c3fd> .
+
+<http://www.example.org/business_rates_6.csv/column/1ac72e0991b5d94ac00d360f370c0b36> a dsv:Column ;
+    rdfs:label "Address4" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/1ac72e0991b5d94ac00d360f370c0b36> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/1ac72e0991b5d94ac00d360f370c0b36/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/1ac72e0991b5d94ac00d360f370c0b36/summary-statistics/> dsv:columnCompleteness 6.027651e-01 .
+
+<http://www.example.org/business_rates_6.csv/column/1de619e8ea17464d31a7bbebe07a1e13> a dsv:Column ;
+    rdfs:label "MandRlfCd" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/1de619e8ea17464d31a7bbebe07a1e13> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/1de619e8ea17464d31a7bbebe07a1e13/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/1de619e8ea17464d31a7bbebe07a1e13/summary-statistics/> dsv:columnCompleteness 4.434328e-02 .
+
+<http://www.example.org/business_rates_6.csv/column/22fcffe02ab9eda5b769387122f2ddce> a dsv:Column ;
+    rdfs:label "Address2" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/22fcffe02ab9eda5b769387122f2ddce> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/22fcffe02ab9eda5b769387122f2ddce/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/22fcffe02ab9eda5b769387122f2ddce/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/38dc304eb15bef1ff8dbebfe4bb5e727> a dsv:Column ;
+    rdfs:label "PropPostCode" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/38dc304eb15bef1ff8dbebfe4bb5e727> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/38dc304eb15bef1ff8dbebfe4bb5e727/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/38dc304eb15bef1ff8dbebfe4bb5e727/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/692bd13d0818c506c7bff350f0310191> a dsv:Column ;
+    rdfs:label "PropAddress1" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/692bd13d0818c506c7bff350f0310191> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/692bd13d0818c506c7bff350f0310191/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/692bd13d0818c506c7bff350f0310191/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/6ca1d556642a9fcc0ac799811b4d5a9c> a dsv:Column ;
+    rdfs:label "PropAddress2" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/6ca1d556642a9fcc0ac799811b4d5a9c> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/6ca1d556642a9fcc0ac799811b4d5a9c/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/6ca1d556642a9fcc0ac799811b4d5a9c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/71ce359caa2455735e9226a9543c8271> a dsv:Column ;
+    rdfs:label "DiscRlfCd" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/71ce359caa2455735e9226a9543c8271> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/71ce359caa2455735e9226a9543c8271/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/71ce359caa2455735e9226a9543c8271/summary-statistics/> dsv:columnCompleteness 3.911651e-02 .
+
+<http://www.example.org/business_rates_6.csv/column/73cd3ecfd6fa454a84937fcdd5b0fef2> a dsv:Column ;
+    rdfs:label "PropAddress4" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/73cd3ecfd6fa454a84937fcdd5b0fef2> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/73cd3ecfd6fa454a84937fcdd5b0fef2/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/73cd3ecfd6fa454a84937fcdd5b0fef2/summary-statistics/> dsv:columnCompleteness 6.518294e-01 .
+
+<http://www.example.org/business_rates_6.csv/column/79c5266a515f2e85ed7277373b5f74c2> a dsv:Column ;
+    rdfs:label "AddRlfCd" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/79c5266a515f2e85ed7277373b5f74c2> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/79c5266a515f2e85ed7277373b5f74c2/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/79c5266a515f2e85ed7277373b5f74c2/summary-statistics/> dsv:columnCompleteness 5.901197e-03 .
+
+<http://www.example.org/business_rates_6.csv/column/84268189a48fb671a4e3ff7a63d970b9> a dsv:Column ;
+    rdfs:label "Address5" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/84268189a48fb671a4e3ff7a63d970b9> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/84268189a48fb671a4e3ff7a63d970b9/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/84268189a48fb671a4e3ff7a63d970b9/summary-statistics/> dsv:columnCompleteness 2.835947e-01 .
+
+<http://www.example.org/business_rates_6.csv/column/8f1d311ac055d4b99aa8c9d7f1dc9d04> a dsv:Column ;
+    rdfs:label "PostCode" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/8f1d311ac055d4b99aa8c9d7f1dc9d04> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/8f1d311ac055d4b99aa8c9d7f1dc9d04/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/8f1d311ac055d4b99aa8c9d7f1dc9d04/summary-statistics/> dsv:columnCompleteness 9.993256e-01 .
+
+<http://www.example.org/business_rates_6.csv/column/8fb31ef4bf20a83b00469549ad50ca6f> a dsv:Column ;
+    rdfs:label "RateableVal" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/8fb31ef4bf20a83b00469549ad50ca6f> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/8fb31ef4bf20a83b00469549ad50ca6f/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/8fb31ef4bf20a83b00469549ad50ca6f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/91f40c110d0a0ac25a9b50a9da03d56c> a dsv:Column ;
+    rdfs:label "PropAddress5" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/91f40c110d0a0ac25a9b50a9da03d56c> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/91f40c110d0a0ac25a9b50a9da03d56c/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/91f40c110d0a0ac25a9b50a9da03d56c/summary-statistics/> dsv:columnCompleteness 2.812342e-01 .
+
+<http://www.example.org/business_rates_6.csv/column/92f3bc46b7a69b1da9a5b1cea85d15dd> a dsv:Column ;
+    rdfs:label "TRDisc/SSBCd" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/92f3bc46b7a69b1da9a5b1cea85d15dd> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/92f3bc46b7a69b1da9a5b1cea85d15dd/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/92f3bc46b7a69b1da9a5b1cea85d15dd/summary-statistics/> dsv:columnCompleteness 1.180239e-03 .
+
+<http://www.example.org/business_rates_6.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd> a dsv:Column ;
+    rdfs:label "Address1" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/93d03fe37ab3c6abc2a19dd8e41543bd> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/a4655bf69bdb7dff9331fc0d637466d7> a dsv:Column ;
+    rdfs:label "SBRRlf" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/a4655bf69bdb7dff9331fc0d637466d7> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/a4655bf69bdb7dff9331fc0d637466d7/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/a4655bf69bdb7dff9331fc0d637466d7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/adf0dd80fbe3b7ba407ab5805ab46dd1> a dsv:Column ;
+    rdfs:label "MandRlf" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/adf0dd80fbe3b7ba407ab5805ab46dd1> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/adf0dd80fbe3b7ba407ab5805ab46dd1/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/adf0dd80fbe3b7ba407ab5805ab46dd1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/b72b0c8e58c88b0c573a1544a0813258> a dsv:Column ;
+    rdfs:label "TRDisc/SSBAmt" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/b72b0c8e58c88b0c573a1544a0813258> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/b72b0c8e58c88b0c573a1544a0813258/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/b72b0c8e58c88b0c573a1544a0813258/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/bc1a642e8fd37ce038438fbc88eadd8e> a dsv:Column ;
+    rdfs:label "PropAddress3" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/bc1a642e8fd37ce038438fbc88eadd8e> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/bc1a642e8fd37ce038438fbc88eadd8e/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/bc1a642e8fd37ce038438fbc88eadd8e/summary-statistics/> dsv:columnCompleteness 8.98668e-01 .
+
+<http://www.example.org/business_rates_6.csv/column/c4cb66d13988689d4567a12d7b741fcb> a dsv:Column ;
+    rdfs:label "LiabStart" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/c4cb66d13988689d4567a12d7b741fcb> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/c4cb66d13988689d4567a12d7b741fcb/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/c4cb66d13988689d4567a12d7b741fcb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/ce54aa366520a1e9d017a95e876a66e1> a dsv:Column ;
+    rdfs:label "DiscRlf" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/ce54aa366520a1e9d017a95e876a66e1> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/ce54aa366520a1e9d017a95e876a66e1/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/ce54aa366520a1e9d017a95e876a66e1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/d3562dd8b21aafce415539f02c871f95> a dsv:Column ;
+    rdfs:label "AdditionalRlf" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/d3562dd8b21aafce415539f02c871f95> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/d3562dd8b21aafce415539f02c871f95/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/d3562dd8b21aafce415539f02c871f95/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/e71c4326a6464528fec6cc93139aae45> a dsv:Column ;
+    rdfs:label "PlaceRef" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/e71c4326a6464528fec6cc93139aae45> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/e71c4326a6464528fec6cc93139aae45/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/e71c4326a6464528fec6cc93139aae45/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/ea0666b63b24bfb1928b030c255aa4e7> a dsv:Column ;
+    rdfs:label "AccountName" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/ea0666b63b24bfb1928b030c255aa4e7> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/ea0666b63b24bfb1928b030c255aa4e7/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/ea0666b63b24bfb1928b030c255aa4e7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/column/f9ca1358201583fecb60cfe6a47892df> a dsv:Column ;
+    rdfs:label "Address3" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/f9ca1358201583fecb60cfe6a47892df> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/f9ca1358201583fecb60cfe6a47892df/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/f9ca1358201583fecb60cfe6a47892df/summary-statistics/> dsv:columnCompleteness 9.113134e-01 .
+
+<http://www.example.org/business_rates_6.csv/column/fa1ff2063fba4b60fb9f7d082cc8c3fd> a dsv:Column ;
+    rdfs:label "PropDesc" ;
+    dsv:columnProperty <http://www.example.org/business_rates_6.csv/properties-dictionary/fa1ff2063fba4b60fb9f7d082cc8c3fd> ;
+    dsv:summaryStatistics <http://www.example.org/business_rates_6.csv/column/fa1ff2063fba4b60fb9f7d082cc8c3fd/summary-statistics/> .
+
+<http://www.example.org/business_rates_6.csv/column/fa1ff2063fba4b60fb9f7d082cc8c3fd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/business_rates_6.csv/summary-statistics/> dsv:datasetCompleteness 7.6e-01 ;
+    dsv:numberOfColumns 26 ;
+    dsv:numberOfRows 5931 .
+

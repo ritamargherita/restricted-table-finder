@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/> a dsv:Dataset ;
+    dcterms:title "Advertising-July-Sept-2018" ;
+    dsv:datasetSchema <http://www.example.org/advertising-July-Sept-2018.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/advertising-July-Sept-2018.csv/column/11491a644392661e6a328ae300d5dc83>,
+        <http://www.example.org/advertising-July-Sept-2018.csv/column/269e78d1f721be5126be1f09bb4b091b>,
+        <http://www.example.org/advertising-July-Sept-2018.csv/column/3b6c17c1b8e1541bbab7df1c55e5cf74>,
+        <http://www.example.org/advertising-July-Sept-2018.csv/column/3da809d0eda48ea1d0e95740c4c0b29b>,
+        <http://www.example.org/advertising-July-Sept-2018.csv/column/b78a3223503896721cca1303f776159b>,
+        <http://www.example.org/advertising-July-Sept-2018.csv/column/bb94fe95e7bcad9f84fd96e6c3cab9ee>,
+        <http://www.example.org/advertising-July-Sept-2018.csv/column/c97caed0874bdcaf7240feb56c2ea07d>,
+        <http://www.example.org/advertising-July-Sept-2018.csv/column/dffa92f7007e8b61d918602384bd91f4> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/11491a644392661e6a328ae300d5dc83> a dsv:Column ;
+    rdfs:label "Minister Sub Date" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/11491a644392661e6a328ae300d5dc83> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/11491a644392661e6a328ae300d5dc83/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/11491a644392661e6a328ae300d5dc83/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/269e78d1f721be5126be1f09bb4b091b> a dsv:Column ;
+    rdfs:label "Dept" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/269e78d1f721be5126be1f09bb4b091b> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/269e78d1f721be5126be1f09bb4b091b/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/269e78d1f721be5126be1f09bb4b091b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/3b6c17c1b8e1541bbab7df1c55e5cf74> a dsv:Column ;
+    rdfs:label "Status/Decision/Result" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/3b6c17c1b8e1541bbab7df1c55e5cf74> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/3b6c17c1b8e1541bbab7df1c55e5cf74/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/3b6c17c1b8e1541bbab7df1c55e5cf74/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/3da809d0eda48ea1d0e95740c4c0b29b> a dsv:Column ;
+    rdfs:label "Requested Value" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/3da809d0eda48ea1d0e95740c4c0b29b> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/3da809d0eda48ea1d0e95740c4c0b29b/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/3da809d0eda48ea1d0e95740c4c0b29b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/b78a3223503896721cca1303f776159b> a dsv:Column ;
+    rdfs:label "Title" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/b78a3223503896721cca1303f776159b> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/b78a3223503896721cca1303f776159b/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/b78a3223503896721cca1303f776159b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/bb94fe95e7bcad9f84fd96e6c3cab9ee> a dsv:Column ;
+    rdfs:label "Control Type" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/bb94fe95e7bcad9f84fd96e6c3cab9ee> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/bb94fe95e7bcad9f84fd96e6c3cab9ee/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/bb94fe95e7bcad9f84fd96e6c3cab9ee/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/c97caed0874bdcaf7240feb56c2ea07d> a dsv:Column ;
+    rdfs:label "HMG Ref" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/c97caed0874bdcaf7240feb56c2ea07d> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/c97caed0874bdcaf7240feb56c2ea07d/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/c97caed0874bdcaf7240feb56c2ea07d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/dffa92f7007e8b61d918602384bd91f4> a dsv:Column ;
+    rdfs:label "Description/Notes for Minister" ;
+    dsv:columnProperty <http://www.example.org/advertising-July-Sept-2018.csv/properties-dictionary/dffa92f7007e8b61d918602384bd91f4> ;
+    dsv:summaryStatistics <http://www.example.org/advertising-July-Sept-2018.csv/column/dffa92f7007e8b61d918602384bd91f4/summary-statistics/> .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/column/dffa92f7007e8b61d918602384bd91f4/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/advertising-July-Sept-2018.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 8 ;
+    dsv:numberOfRows 2 .
+

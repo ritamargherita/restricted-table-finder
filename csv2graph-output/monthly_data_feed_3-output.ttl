@@ -1,0 +1,136 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/monthly_data_feed_3.csv/> a dsv:Dataset ;
+    dcterms:title "Monthly Data Feed 3" ;
+    dsv:datasetSchema <http://www.example.org/monthly_data_feed_3.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/monthly_data_feed_3.csv/column/14f628b797e0a2a2d2c8aad7c0ee21e2>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/208457aad33cf7fe9bad27b72c82aecf>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/405d83d6cbcf36ad219e247b9192c16a>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/44749712dbec183e983dcd78a7736c41>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/4d5e6427ee7b19197c006ff14f51ef43>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/57cf082b4296f602a351d5dc66b42121>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/63c4b51e70f83bd84ebbac30bff34294>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/685278bd46520cd8826426c2af0fa802>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/6e6704ee943e9b2abfc6e37386ebe958>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/74f82c8b582cf6ff7c921ecc8ab34c22>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/8052412ef328643e65f7445c2b76f7c7>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/a7d6475ec8993b7224d6facc8cb0ead6>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/b55e509c697e4cca0e1d160a7806698f>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/dda53631b9e77e04722849b760337ab9>,
+        <http://www.example.org/monthly_data_feed_3.csv/column/f82b97b27d4f7270777f7e8a36803c96> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/14f628b797e0a2a2d2c8aad7c0ee21e2> a dsv:Column ;
+    rdfs:label "BRCYear" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/14f628b797e0a2a2d2c8aad7c0ee21e2> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/14f628b797e0a2a2d2c8aad7c0ee21e2/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/14f628b797e0a2a2d2c8aad7c0ee21e2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/208457aad33cf7fe9bad27b72c82aecf> a dsv:Column ;
+    rdfs:label "LocationName" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/208457aad33cf7fe9bad27b72c82aecf> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/208457aad33cf7fe9bad27b72c82aecf/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/208457aad33cf7fe9bad27b72c82aecf/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/405d83d6cbcf36ad219e247b9192c16a> a dsv:Column ;
+    rdfs:label "LocationGroup" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/405d83d6cbcf36ad219e247b9192c16a> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/405d83d6cbcf36ad219e247b9192c16a/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/405d83d6cbcf36ad219e247b9192c16a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/44749712dbec183e983dcd78a7736c41> a dsv:Column ;
+    rdfs:label "Date" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/44749712dbec183e983dcd78a7736c41> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/4d5e6427ee7b19197c006ff14f51ef43> a dsv:Column ;
+    rdfs:label "OutCount" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/4d5e6427ee7b19197c006ff14f51ef43> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/4d5e6427ee7b19197c006ff14f51ef43/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/4d5e6427ee7b19197c006ff14f51ef43/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/57cf082b4296f602a351d5dc66b42121> a dsv:Column ;
+    rdfs:label "BRCWeekNum" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/57cf082b4296f602a351d5dc66b42121> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/57cf082b4296f602a351d5dc66b42121/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/57cf082b4296f602a351d5dc66b42121/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/63c4b51e70f83bd84ebbac30bff34294> a dsv:Column ;
+    rdfs:label "BRCMonthName" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/63c4b51e70f83bd84ebbac30bff34294> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/63c4b51e70f83bd84ebbac30bff34294/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/63c4b51e70f83bd84ebbac30bff34294/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/685278bd46520cd8826426c2af0fa802> a dsv:Column ;
+    rdfs:label "InCount" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/685278bd46520cd8826426c2af0fa802> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/685278bd46520cd8826426c2af0fa802/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/685278bd46520cd8826426c2af0fa802/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/6e6704ee943e9b2abfc6e37386ebe958> a dsv:Column ;
+    rdfs:label "DayName" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/6e6704ee943e9b2abfc6e37386ebe958> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/6e6704ee943e9b2abfc6e37386ebe958/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/6e6704ee943e9b2abfc6e37386ebe958/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/74f82c8b582cf6ff7c921ecc8ab34c22> a dsv:Column ;
+    rdfs:label "FactoredInCount" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/74f82c8b582cf6ff7c921ecc8ab34c22> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/74f82c8b582cf6ff7c921ecc8ab34c22/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/74f82c8b582cf6ff7c921ecc8ab34c22/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/8052412ef328643e65f7445c2b76f7c7> a dsv:Column ;
+    rdfs:label "FactoredReportCount" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/8052412ef328643e65f7445c2b76f7c7> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/8052412ef328643e65f7445c2b76f7c7/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/8052412ef328643e65f7445c2b76f7c7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/a7d6475ec8993b7224d6facc8cb0ead6> a dsv:Column ;
+    rdfs:label "Site" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/a7d6475ec8993b7224d6facc8cb0ead6> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/a7d6475ec8993b7224d6facc8cb0ead6/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/a7d6475ec8993b7224d6facc8cb0ead6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/b55e509c697e4cca0e1d160a7806698f> a dsv:Column ;
+    rdfs:label "Hour" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/b55e509c697e4cca0e1d160a7806698f> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/b55e509c697e4cca0e1d160a7806698f/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/b55e509c697e4cca0e1d160a7806698f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/dda53631b9e77e04722849b760337ab9> a dsv:Column ;
+    rdfs:label "FactoredOutCount" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/dda53631b9e77e04722849b760337ab9> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/dda53631b9e77e04722849b760337ab9/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/dda53631b9e77e04722849b760337ab9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/f82b97b27d4f7270777f7e8a36803c96> a dsv:Column ;
+    rdfs:label "ReportCount" ;
+    dsv:columnProperty <http://www.example.org/monthly_data_feed_3.csv/properties-dictionary/f82b97b27d4f7270777f7e8a36803c96> ;
+    dsv:summaryStatistics <http://www.example.org/monthly_data_feed_3.csv/column/f82b97b27d4f7270777f7e8a36803c96/summary-statistics/> .
+
+<http://www.example.org/monthly_data_feed_3.csv/column/f82b97b27d4f7270777f7e8a36803c96/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/monthly_data_feed_3.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 15 ;
+    dsv:numberOfRows 4320 .
+

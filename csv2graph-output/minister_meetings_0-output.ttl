@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/minister_meetings_0.csv/> a dsv:Dataset ;
+    dcterms:title "Minister Meetings 0" ;
+    dsv:datasetSchema <http://www.example.org/minister_meetings_0.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_0.csv/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_0.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/minister_meetings_0.csv/column/34809cc32c575717e7461955cb872785>,
+        <http://www.example.org/minister_meetings_0.csv/column/3666987f944680f09c514a151fa2304e>,
+        <http://www.example.org/minister_meetings_0.csv/column/5b461c58bd9e108a4351a7e2aa75e88e>,
+        <http://www.example.org/minister_meetings_0.csv/column/91fa579b4352cb329e30196563a3b2c7>,
+        <http://www.example.org/minister_meetings_0.csv/column/f01b5e9e980fbebbef5d8b4ab8419de8> .
+
+<http://www.example.org/minister_meetings_0.csv/column/34809cc32c575717e7461955cb872785> a dsv:Column ;
+    rdfs:label "Type of hospitality received" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_0.csv/properties-dictionary/34809cc32c575717e7461955cb872785> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_0.csv/column/34809cc32c575717e7461955cb872785/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_0.csv/column/34809cc32c575717e7461955cb872785/summary-statistics/> dsv:columnCompleteness 6.363636e-01 .
+
+<http://www.example.org/minister_meetings_0.csv/column/3666987f944680f09c514a151fa2304e> a dsv:Column ;
+    rdfs:label "Minister" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_0.csv/properties-dictionary/3666987f944680f09c514a151fa2304e> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_0.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_0.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/minister_meetings_0.csv/column/5b461c58bd9e108a4351a7e2aa75e88e> a dsv:Column ;
+    rdfs:label "Accompanied by spouse, family member(s) or friend?" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_0.csv/properties-dictionary/5b461c58bd9e108a4351a7e2aa75e88e> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_0.csv/column/5b461c58bd9e108a4351a7e2aa75e88e/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_0.csv/column/5b461c58bd9e108a4351a7e2aa75e88e/summary-statistics/> dsv:columnCompleteness 6.363636e-01 .
+
+<http://www.example.org/minister_meetings_0.csv/column/91fa579b4352cb329e30196563a3b2c7> a dsv:Column ;
+    rdfs:label "Date of Hospitality" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_0.csv/properties-dictionary/91fa579b4352cb329e30196563a3b2c7> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_0.csv/column/91fa579b4352cb329e30196563a3b2c7/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_0.csv/column/91fa579b4352cb329e30196563a3b2c7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/minister_meetings_0.csv/column/f01b5e9e980fbebbef5d8b4ab8419de8> a dsv:Column ;
+    rdfs:label "Name of Organisation" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_0.csv/properties-dictionary/f01b5e9e980fbebbef5d8b4ab8419de8> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_0.csv/column/f01b5e9e980fbebbef5d8b4ab8419de8/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_0.csv/column/f01b5e9e980fbebbef5d8b4ab8419de8/summary-statistics/> dsv:columnCompleteness 6.363636e-01 .
+
+<http://www.example.org/minister_meetings_0.csv/summary-statistics/> dsv:datasetCompleteness 7.8e-01 ;
+    dsv:numberOfColumns 5 ;
+    dsv:numberOfRows 11 .
+

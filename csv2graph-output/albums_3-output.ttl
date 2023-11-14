@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/albums_3.csv/> a dsv:Dataset ;
+    dcterms:title "Albums 3" ;
+    dsv:datasetSchema <http://www.example.org/albums_3.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/albums_3.csv/summary-statistics/> .
+
+<http://www.example.org/albums_3.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/albums_3.csv/column/0441f9e2d94c39a70e21b83829259aa4>,
+        <http://www.example.org/albums_3.csv/column/a4b2d20f456833bcdac42e73edad64c0>,
+        <http://www.example.org/albums_3.csv/column/d5d3db1765287eef77d7927cc956f50a> .
+
+<http://www.example.org/albums_3.csv/column/0441f9e2d94c39a70e21b83829259aa4> a dsv:Column ;
+    rdfs:label "artist" ;
+    dsv:columnProperty <http://www.example.org/albums_3.csv/properties-dictionary/0441f9e2d94c39a70e21b83829259aa4> ;
+    dsv:summaryStatistics <http://www.example.org/albums_3.csv/column/0441f9e2d94c39a70e21b83829259aa4/summary-statistics/> .
+
+<http://www.example.org/albums_3.csv/column/0441f9e2d94c39a70e21b83829259aa4/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/albums_3.csv/column/a4b2d20f456833bcdac42e73edad64c0> a dsv:Column ;
+    rdfs:label "album" ;
+    dsv:columnProperty <http://www.example.org/albums_3.csv/properties-dictionary/a4b2d20f456833bcdac42e73edad64c0> ;
+    dsv:summaryStatistics <http://www.example.org/albums_3.csv/column/a4b2d20f456833bcdac42e73edad64c0/summary-statistics/> .
+
+<http://www.example.org/albums_3.csv/column/a4b2d20f456833bcdac42e73edad64c0/summary-statistics/> dsv:columnCompleteness 9.455645e-01 .
+
+<http://www.example.org/albums_3.csv/column/d5d3db1765287eef77d7927cc956f50a> a dsv:Column ;
+    rdfs:label "title" ;
+    dsv:columnProperty <http://www.example.org/albums_3.csv/properties-dictionary/d5d3db1765287eef77d7927cc956f50a> ;
+    dsv:summaryStatistics <http://www.example.org/albums_3.csv/column/d5d3db1765287eef77d7927cc956f50a/summary-statistics/> .
+
+<http://www.example.org/albums_3.csv/column/d5d3db1765287eef77d7927cc956f50a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/albums_3.csv/summary-statistics/> dsv:datasetCompleteness 9.8e-01 ;
+    dsv:numberOfColumns 3 ;
+    dsv:numberOfRows 992 .
+

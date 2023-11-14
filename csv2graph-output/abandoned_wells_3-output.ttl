@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/abandoned_wells_3.csv/> a dsv:Dataset ;
+    dcterms:title "Abandoned Wells 3" ;
+    dsv:datasetSchema <http://www.example.org/abandoned_wells_3.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/abandoned_wells_3.csv/column/0d73025b2766cc7e2755b70b2b97e7b2>,
+        <http://www.example.org/abandoned_wells_3.csv/column/38862d5ec84f7f09f57bfa108a811666>,
+        <http://www.example.org/abandoned_wells_3.csv/column/50eebbf09a9e81a2031b8856d7a1634a>,
+        <http://www.example.org/abandoned_wells_3.csv/column/6e8683295736b61f371f7eae3d7e5500>,
+        <http://www.example.org/abandoned_wells_3.csv/column/6eedab144eb5c3bc897a3567efdedc46>,
+        <http://www.example.org/abandoned_wells_3.csv/column/70e9b15fb057fca663d66a6e348333ee>,
+        <http://www.example.org/abandoned_wells_3.csv/column/7abaae6db7a9316ed7e64a373c200322>,
+        <http://www.example.org/abandoned_wells_3.csv/column/7e5114cf86a06ccac78bd1ba39833db5>,
+        <http://www.example.org/abandoned_wells_3.csv/column/e00def0b1cb1132d39eadb2435556669> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/0d73025b2766cc7e2755b70b2b97e7b2> a dsv:Column ;
+    rdfs:label "API WELL NUMBER" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/0d73025b2766cc7e2755b70b2b97e7b2> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/0d73025b2766cc7e2755b70b2b97e7b2/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/0d73025b2766cc7e2755b70b2b97e7b2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/38862d5ec84f7f09f57bfa108a811666> a dsv:Column ;
+    rdfs:label "SURFACE LONGITUDE" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/38862d5ec84f7f09f57bfa108a811666> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/38862d5ec84f7f09f57bfa108a811666/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/38862d5ec84f7f09f57bfa108a811666/summary-statistics/> dsv:columnCompleteness 9.720117e-01 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/50eebbf09a9e81a2031b8856d7a1634a> a dsv:Column ;
+    rdfs:label "WELL STATUS CODE" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/50eebbf09a9e81a2031b8856d7a1634a> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/50eebbf09a9e81a2031b8856d7a1634a/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/50eebbf09a9e81a2031b8856d7a1634a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/6e8683295736b61f371f7eae3d7e5500> a dsv:Column ;
+    rdfs:label "WELL TYPE CODE" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/6e8683295736b61f371f7eae3d7e5500> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/6e8683295736b61f371f7eae3d7e5500/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/6e8683295736b61f371f7eae3d7e5500/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/6eedab144eb5c3bc897a3567efdedc46> a dsv:Column ;
+    rdfs:label "WELL NAME" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/6eedab144eb5c3bc897a3567efdedc46> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/6eedab144eb5c3bc897a3567efdedc46/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/6eedab144eb5c3bc897a3567efdedc46/summary-statistics/> dsv:columnCompleteness 9.994169e-01 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/70e9b15fb057fca663d66a6e348333ee> a dsv:Column ;
+    rdfs:label "TOWN" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/70e9b15fb057fca663d66a6e348333ee> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/70e9b15fb057fca663d66a6e348333ee/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/70e9b15fb057fca663d66a6e348333ee/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/7abaae6db7a9316ed7e64a373c200322> a dsv:Column ;
+    rdfs:label "SURFACE LATITUDE" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/7abaae6db7a9316ed7e64a373c200322> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/7abaae6db7a9316ed7e64a373c200322/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/7abaae6db7a9316ed7e64a373c200322/summary-statistics/> dsv:columnCompleteness 9.720117e-01 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/7e5114cf86a06ccac78bd1ba39833db5> a dsv:Column ;
+    rdfs:label "COMPANY NAME" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/7e5114cf86a06ccac78bd1ba39833db5> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/7e5114cf86a06ccac78bd1ba39833db5/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/7e5114cf86a06ccac78bd1ba39833db5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/abandoned_wells_3.csv/column/e00def0b1cb1132d39eadb2435556669> a dsv:Column ;
+    rdfs:label "COUNTY" ;
+    dsv:columnProperty <http://www.example.org/abandoned_wells_3.csv/properties-dictionary/e00def0b1cb1132d39eadb2435556669> ;
+    dsv:summaryStatistics <http://www.example.org/abandoned_wells_3.csv/column/e00def0b1cb1132d39eadb2435556669/summary-statistics/> .
+
+<http://www.example.org/abandoned_wells_3.csv/column/e00def0b1cb1132d39eadb2435556669/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/abandoned_wells_3.csv/summary-statistics/> dsv:datasetCompleteness 9.9e-01 ;
+    dsv:numberOfColumns 9 ;
+    dsv:numberOfRows 1715 .
+

@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/wholesale_markets_1.csv/> a dsv:Dataset ;
+    dcterms:title "Wholesale Markets 1" ;
+    dsv:datasetSchema <http://www.example.org/wholesale_markets_1.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/wholesale_markets_1.csv/column/2b848a8cc886d253d21a77c43cd50aae>,
+        <http://www.example.org/wholesale_markets_1.csv/column/2bdb430cf678ca029f549f0cc9cfaf21>,
+        <http://www.example.org/wholesale_markets_1.csv/column/3ed86d8733a342e8461edc88cab77325>,
+        <http://www.example.org/wholesale_markets_1.csv/column/859214628431995197c0558f7b5f8ffc>,
+        <http://www.example.org/wholesale_markets_1.csv/column/98690bf632c29c17c9e4c5a64069903c>,
+        <http://www.example.org/wholesale_markets_1.csv/column/c862ad450d0672119910eae1c934f666>,
+        <http://www.example.org/wholesale_markets_1.csv/column/ffb8d99dc885d37eec36c5497244cba8> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/2b848a8cc886d253d21a77c43cd50aae> a dsv:Column ;
+    rdfs:label "STATE" ;
+    dsv:columnProperty <http://www.example.org/wholesale_markets_1.csv/properties-dictionary/2b848a8cc886d253d21a77c43cd50aae> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/column/2b848a8cc886d253d21a77c43cd50aae/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/2b848a8cc886d253d21a77c43cd50aae/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/wholesale_markets_1.csv/column/2bdb430cf678ca029f549f0cc9cfaf21> a dsv:Column ;
+    rdfs:label "ACCOUNT NAME" ;
+    dsv:columnProperty <http://www.example.org/wholesale_markets_1.csv/properties-dictionary/2bdb430cf678ca029f549f0cc9cfaf21> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/column/2bdb430cf678ca029f549f0cc9cfaf21/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/2bdb430cf678ca029f549f0cc9cfaf21/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/wholesale_markets_1.csv/column/3ed86d8733a342e8461edc88cab77325> a dsv:Column ;
+    rdfs:label "APPLICATION TYPE" ;
+    dsv:columnProperty <http://www.example.org/wholesale_markets_1.csv/properties-dictionary/3ed86d8733a342e8461edc88cab77325> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/column/3ed86d8733a342e8461edc88cab77325/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/3ed86d8733a342e8461edc88cab77325/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/wholesale_markets_1.csv/column/859214628431995197c0558f7b5f8ffc> a dsv:Column ;
+    rdfs:label "CITY" ;
+    dsv:columnProperty <http://www.example.org/wholesale_markets_1.csv/properties-dictionary/859214628431995197c0558f7b5f8ffc> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/column/859214628431995197c0558f7b5f8ffc/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/859214628431995197c0558f7b5f8ffc/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/wholesale_markets_1.csv/column/98690bf632c29c17c9e4c5a64069903c> a dsv:Column ;
+    rdfs:label "CREATED" ;
+    dsv:columnProperty <http://www.example.org/wholesale_markets_1.csv/properties-dictionary/98690bf632c29c17c9e4c5a64069903c> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/column/98690bf632c29c17c9e4c5a64069903c/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/98690bf632c29c17c9e4c5a64069903c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/wholesale_markets_1.csv/column/c862ad450d0672119910eae1c934f666> a dsv:Column ;
+    rdfs:label "BIC NUMBER" ;
+    dsv:columnProperty <http://www.example.org/wholesale_markets_1.csv/properties-dictionary/c862ad450d0672119910eae1c934f666> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/column/c862ad450d0672119910eae1c934f666/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/c862ad450d0672119910eae1c934f666/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/wholesale_markets_1.csv/column/ffb8d99dc885d37eec36c5497244cba8> a dsv:Column ;
+    rdfs:label "MARKET" ;
+    dsv:columnProperty <http://www.example.org/wholesale_markets_1.csv/properties-dictionary/ffb8d99dc885d37eec36c5497244cba8> ;
+    dsv:summaryStatistics <http://www.example.org/wholesale_markets_1.csv/column/ffb8d99dc885d37eec36c5497244cba8/summary-statistics/> .
+
+<http://www.example.org/wholesale_markets_1.csv/column/ffb8d99dc885d37eec36c5497244cba8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/wholesale_markets_1.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 7 ;
+    dsv:numberOfRows 5000 .
+

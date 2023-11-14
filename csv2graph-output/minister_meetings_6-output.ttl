@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/minister_meetings_6.csv/> a dsv:Dataset ;
+    dcterms:title "Minister Meetings 6" ;
+    dsv:datasetSchema <http://www.example.org/minister_meetings_6.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_6.csv/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_6.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/minister_meetings_6.csv/column/3666987f944680f09c514a151fa2304e>,
+        <http://www.example.org/minister_meetings_6.csv/column/44749712dbec183e983dcd78a7736c41>,
+        <http://www.example.org/minister_meetings_6.csv/column/6f1a0903da3790865fab1cfe324b2100>,
+        <http://www.example.org/minister_meetings_6.csv/column/aacf0f58dca0a59da70bce115a151c51> .
+
+<http://www.example.org/minister_meetings_6.csv/column/3666987f944680f09c514a151fa2304e> a dsv:Column ;
+    rdfs:label "Minister" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_6.csv/properties-dictionary/3666987f944680f09c514a151fa2304e> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_6.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_6.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/minister_meetings_6.csv/column/44749712dbec183e983dcd78a7736c41> a dsv:Column ;
+    rdfs:label "Date" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_6.csv/properties-dictionary/44749712dbec183e983dcd78a7736c41> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_6.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_6.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/minister_meetings_6.csv/column/6f1a0903da3790865fab1cfe324b2100> a dsv:Column ;
+    rdfs:label "Name of organisation or individual" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_6.csv/properties-dictionary/6f1a0903da3790865fab1cfe324b2100> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_6.csv/column/6f1a0903da3790865fab1cfe324b2100/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_6.csv/column/6f1a0903da3790865fab1cfe324b2100/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/minister_meetings_6.csv/column/aacf0f58dca0a59da70bce115a151c51> a dsv:Column ;
+    rdfs:label "Purpose of meeting" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_6.csv/properties-dictionary/aacf0f58dca0a59da70bce115a151c51> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_6.csv/column/aacf0f58dca0a59da70bce115a151c51/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_6.csv/column/aacf0f58dca0a59da70bce115a151c51/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/minister_meetings_6.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 4 ;
+    dsv:numberOfRows 283 .
+

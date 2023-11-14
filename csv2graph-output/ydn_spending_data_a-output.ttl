@@ -1,0 +1,112 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/ydn_spending_data_a.csv/> a dsv:Dataset ;
+    dcterms:title "Ydn Spending Data A" ;
+    dsv:datasetSchema <http://www.example.org/ydn_spending_data_a.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/ydn_spending_data_a.csv/column/331ca7372a0e39522cfb04f75fcb5017>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/39a5e56f08f0a58a106c1fdd26e8f0b8>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/44749712dbec183e983dcd78a7736c41>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/7de42ace590ac5849de386ffccb38958>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/7fd6956c0f477599c3c963b36458cf12>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/a0f90befcd91156b3a2086605a1bf81a>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/a408dec6c109d744579f7f1c59a462ea>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/b2f40690858b404ed10e62bdf422c704>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/e4a66036d0e9e6931b422a3be28124aa>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/fc998087ff9d4d410b1f697283626d55>,
+        <http://www.example.org/ydn_spending_data_a.csv/column/fdeaed8149a6d8546df4f00071007bad> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/331ca7372a0e39522cfb04f75fcb5017> a dsv:Column ;
+    rdfs:label "Time Period for Grant" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/331ca7372a0e39522cfb04f75fcb5017> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/331ca7372a0e39522cfb04f75fcb5017/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/331ca7372a0e39522cfb04f75fcb5017/summary-statistics/> dsv:columnCompleteness 6.925208e-03 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/39a5e56f08f0a58a106c1fdd26e8f0b8> a dsv:Column ;
+    rdfs:label "Procurement Card?" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/39a5e56f08f0a58a106c1fdd26e8f0b8> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/39a5e56f08f0a58a106c1fdd26e8f0b8/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/39a5e56f08f0a58a106c1fdd26e8f0b8/summary-statistics/> dsv:columnCompleteness 1.565097e-01 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/44749712dbec183e983dcd78a7736c41> a dsv:Column ;
+    rdfs:label "Date" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/44749712dbec183e983dcd78a7736c41> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/7de42ace590ac5849de386ffccb38958> a dsv:Column ;
+    rdfs:label "Supplier Name" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/7de42ace590ac5849de386ffccb38958> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/7de42ace590ac5849de386ffccb38958/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/7de42ace590ac5849de386ffccb38958/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/7fd6956c0f477599c3c963b36458cf12> a dsv:Column ;
+    rdfs:label "Supplier ID" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/7fd6956c0f477599c3c963b36458cf12> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/7fd6956c0f477599c3c963b36458cf12/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/7fd6956c0f477599c3c963b36458cf12/summary-statistics/> dsv:columnCompleteness 9.501385e-01 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/a0f90befcd91156b3a2086605a1bf81a> a dsv:Column ;
+    rdfs:label "Expense Area" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/a0f90befcd91156b3a2086605a1bf81a> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/a0f90befcd91156b3a2086605a1bf81a/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/a0f90befcd91156b3a2086605a1bf81a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/a408dec6c109d744579f7f1c59a462ea> a dsv:Column ;
+    rdfs:label "Body Name" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/a408dec6c109d744579f7f1c59a462ea> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/a408dec6c109d744579f7f1c59a462ea/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/a408dec6c109d744579f7f1c59a462ea/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5> a dsv:Column ;
+    rdfs:label "Transaction Number" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/ac1d3ccc1bcfd04b713a97b7421639b5> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/b2f40690858b404ed10e62bdf422c704> a dsv:Column ;
+    rdfs:label "Amount" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/b2f40690858b404ed10e62bdf422c704> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/b2f40690858b404ed10e62bdf422c704/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/b2f40690858b404ed10e62bdf422c704/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/e4a66036d0e9e6931b422a3be28124aa> a dsv:Column ;
+    rdfs:label "Registration Number" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/e4a66036d0e9e6931b422a3be28124aa> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/e4a66036d0e9e6931b422a3be28124aa/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/e4a66036d0e9e6931b422a3be28124aa/summary-statistics/> dsv:columnCompleteness 2.770083e-03 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/fc998087ff9d4d410b1f697283626d55> a dsv:Column ;
+    rdfs:label "Purpose of Grant" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/fc998087ff9d4d410b1f697283626d55> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/fc998087ff9d4d410b1f697283626d55/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/fc998087ff9d4d410b1f697283626d55/summary-statistics/> dsv:columnCompleteness 6.925208e-03 .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/fdeaed8149a6d8546df4f00071007bad> a dsv:Column ;
+    rdfs:label "Expense Type" ;
+    dsv:columnProperty <http://www.example.org/ydn_spending_data_a.csv/properties-dictionary/fdeaed8149a6d8546df4f00071007bad> ;
+    dsv:summaryStatistics <http://www.example.org/ydn_spending_data_a.csv/column/fdeaed8149a6d8546df4f00071007bad/summary-statistics/> .
+
+<http://www.example.org/ydn_spending_data_a.csv/column/fdeaed8149a6d8546df4f00071007bad/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/ydn_spending_data_a.csv/summary-statistics/> dsv:datasetCompleteness 6.8e-01 ;
+    dsv:numberOfColumns 12 ;
+    dsv:numberOfRows 722 .
+

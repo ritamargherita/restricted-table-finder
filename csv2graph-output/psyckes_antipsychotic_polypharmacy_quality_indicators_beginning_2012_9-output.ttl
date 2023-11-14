@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/> a dsv:Dataset ;
+    dcterms:title "Psyckes Antipsychotic Polypharmacy Quality Indicators Beginning 2012 9" ;
+    dsv:datasetSchema <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/057ee872b051818ae538aab78efa4a13>,
+        <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/27703c8f150ac4bb0a3a83a7857353af>,
+        <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/6e0c3dc54f0f2086165fd3c3916be063>,
+        <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/7bdaf0a5c4902ac43fe097faf48d2451>,
+        <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/a333bf1c65b65a1f188c9762bc22248a>,
+        <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/cc93f9119503b1d3953313f2211c378c>,
+        <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/057ee872b051818ae538aab78efa4a13> a dsv:Column ;
+    rdfs:label "Number With QI Flag" ;
+    dsv:columnProperty <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/properties-dictionary/057ee872b051818ae538aab78efa4a13> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/057ee872b051818ae538aab78efa4a13/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/057ee872b051818ae538aab78efa4a13/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/27703c8f150ac4bb0a3a83a7857353af> a dsv:Column ;
+    rdfs:label "Provider" ;
+    dsv:columnProperty <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/properties-dictionary/27703c8f150ac4bb0a3a83a7857353af> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/27703c8f150ac4bb0a3a83a7857353af/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/27703c8f150ac4bb0a3a83a7857353af/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/6e0c3dc54f0f2086165fd3c3916be063> a dsv:Column ;
+    rdfs:label "Rate High?" ;
+    dsv:columnProperty <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/properties-dictionary/6e0c3dc54f0f2086165fd3c3916be063> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/6e0c3dc54f0f2086165fd3c3916be063/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/6e0c3dc54f0f2086165fd3c3916be063/summary-statistics/> dsv:columnCompleteness 2.518e-01 .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/7bdaf0a5c4902ac43fe097faf48d2451> a dsv:Column ;
+    rdfs:label "Indicator Name" ;
+    dsv:columnProperty <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/properties-dictionary/7bdaf0a5c4902ac43fe097faf48d2451> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/7bdaf0a5c4902ac43fe097faf48d2451/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/7bdaf0a5c4902ac43fe097faf48d2451/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/a333bf1c65b65a1f188c9762bc22248a> a dsv:Column ;
+    rdfs:label "Eligible Population" ;
+    dsv:columnProperty <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/properties-dictionary/a333bf1c65b65a1f188c9762bc22248a> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/a333bf1c65b65a1f188c9762bc22248a/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/a333bf1c65b65a1f188c9762bc22248a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/cc93f9119503b1d3953313f2211c378c> a dsv:Column ;
+    rdfs:label "Age Group" ;
+    dsv:columnProperty <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/properties-dictionary/cc93f9119503b1d3953313f2211c378c> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/cc93f9119503b1d3953313f2211c378c/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/cc93f9119503b1d3953313f2211c378c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3> a dsv:Column ;
+    rdfs:label "County" ;
+    dsv:columnProperty <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/properties-dictionary/e25b163360646e8f71af8a8ee0fad1a3> ;
+    dsv:summaryStatistics <http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3/summary-statistics/> .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/psyckes_antipsychotic_polypharmacy_quality_indicators_beginning_2012_9.csv/summary-statistics/> dsv:datasetCompleteness 8.9e-01 ;
+    dsv:numberOfColumns 7 ;
+    dsv:numberOfRows 5000 .
+

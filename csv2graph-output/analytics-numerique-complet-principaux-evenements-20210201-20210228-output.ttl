@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/> a dsv:Dataset ;
+    dcterms:title "Analytics-Numerique-Complet-Principaux-Evenements-20210201-20210228" ;
+    dsv:datasetSchema <http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/summary-statistics/> .
+
+<http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/column/ad7610fa6c9cd11088f6160675c77169> .
+
+<http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/column/ad7610fa6c9cd11088f6160675c77169> a dsv:Column ;
+    rdfs:label "ï»¿Terme de recherche;Nombre total de recherches;Nombre total de recherches uniques" ;
+    dsv:columnProperty <http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/properties-dictionary/ad7610fa6c9cd11088f6160675c77169> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/column/ad7610fa6c9cd11088f6160675c77169/summary-statistics/> .
+
+<http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/column/ad7610fa6c9cd11088f6160675c77169/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-numerique-complet-principaux-evenements-20210201-20210228.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 1 ;
+    dsv:numberOfRows 249 .
+

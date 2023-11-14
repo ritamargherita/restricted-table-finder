@@ -1,0 +1,112 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/animal_tag_data_9.csv/> a dsv:Dataset ;
+    dcterms:title "Animal Tag Data 9" ;
+    dsv:datasetSchema <http://www.example.org/animal_tag_data_9.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/animal_tag_data_9.csv/column/33c377426dfda223265e90a4f980bb36>,
+        <http://www.example.org/animal_tag_data_9.csv/column/3b1c24085d5bbd223a759a8b72914eba>,
+        <http://www.example.org/animal_tag_data_9.csv/column/50120079e07f30d2a76b2453f48667f4>,
+        <http://www.example.org/animal_tag_data_9.csv/column/64e47bd85cd8c3e6ca5279bc97143ca2>,
+        <http://www.example.org/animal_tag_data_9.csv/column/6b0e53d7b698590d472b1ae598bca8cf>,
+        <http://www.example.org/animal_tag_data_9.csv/column/732ef9b7aa4ae4b7f6487e06f808ebc1>,
+        <http://www.example.org/animal_tag_data_9.csv/column/75a57b798e5892c0fa1fd4f81f85ae01>,
+        <http://www.example.org/animal_tag_data_9.csv/column/82c1a1ee2d54b23301fc01708e64284f>,
+        <http://www.example.org/animal_tag_data_9.csv/column/8ef88a4e8cfa28163867e2ce7a370b68>,
+        <http://www.example.org/animal_tag_data_9.csv/column/d5189de027922f81005951e6efe0efd5>,
+        <http://www.example.org/animal_tag_data_9.csv/column/d773c927d78dac261486fc410a5c33ba>,
+        <http://www.example.org/animal_tag_data_9.csv/column/f9ce9ea26edbcdcd813065cde8d3756c> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/33c377426dfda223265e90a4f980bb36> a dsv:Column ;
+    rdfs:label "animal_id" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/33c377426dfda223265e90a4f980bb36> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/33c377426dfda223265e90a4f980bb36/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/33c377426dfda223265e90a4f980bb36/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/3b1c24085d5bbd223a759a8b72914eba> a dsv:Column ;
+    rdfs:label "primary_breed" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/3b1c24085d5bbd223a759a8b72914eba> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/3b1c24085d5bbd223a759a8b72914eba/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/3b1c24085d5bbd223a759a8b72914eba/summary-statistics/> dsv:columnCompleteness 9.934e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/50120079e07f30d2a76b2453f48667f4> a dsv:Column ;
+    rdfs:label "tag_type" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/50120079e07f30d2a76b2453f48667f4> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/50120079e07f30d2a76b2453f48667f4/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/50120079e07f30d2a76b2453f48667f4/summary-statistics/> dsv:columnCompleteness 8.356e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/64e47bd85cd8c3e6ca5279bc97143ca2> a dsv:Column ;
+    rdfs:label "animal_identity" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/64e47bd85cd8c3e6ca5279bc97143ca2> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/64e47bd85cd8c3e6ca5279bc97143ca2/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/64e47bd85cd8c3e6ca5279bc97143ca2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/6b0e53d7b698590d472b1ae598bca8cf> a dsv:Column ;
+    rdfs:label "breed_group" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/6b0e53d7b698590d472b1ae598bca8cf> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/6b0e53d7b698590d472b1ae598bca8cf/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/6b0e53d7b698590d472b1ae598bca8cf/summary-statistics/> dsv:columnCompleteness 9.822e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/732ef9b7aa4ae4b7f6487e06f808ebc1> a dsv:Column ;
+    rdfs:label "animal_type" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/732ef9b7aa4ae4b7f6487e06f808ebc1> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/732ef9b7aa4ae4b7f6487e06f808ebc1/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/732ef9b7aa4ae4b7f6487e06f808ebc1/summary-statistics/> dsv:columnCompleteness 9.998e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/75a57b798e5892c0fa1fd4f81f85ae01> a dsv:Column ;
+    rdfs:label "color_group" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/75a57b798e5892c0fa1fd4f81f85ae01> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/75a57b798e5892c0fa1fd4f81f85ae01/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/75a57b798e5892c0fa1fd4f81f85ae01/summary-statistics/> dsv:columnCompleteness 9.786e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/82c1a1ee2d54b23301fc01708e64284f> a dsv:Column ;
+    rdfs:label "status_date" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/82c1a1ee2d54b23301fc01708e64284f> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/82c1a1ee2d54b23301fc01708e64284f/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/82c1a1ee2d54b23301fc01708e64284f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/8ef88a4e8cfa28163867e2ce7a370b68> a dsv:Column ;
+    rdfs:label "tag_subtype" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/8ef88a4e8cfa28163867e2ce7a370b68> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/8ef88a4e8cfa28163867e2ce7a370b68/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/8ef88a4e8cfa28163867e2ce7a370b68/summary-statistics/> dsv:columnCompleteness 8.08e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/d5189de027922f81005951e6efe0efd5> a dsv:Column ;
+    rdfs:label "location" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/d5189de027922f81005951e6efe0efd5> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/d5189de027922f81005951e6efe0efd5/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/d5189de027922f81005951e6efe0efd5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/d773c927d78dac261486fc410a5c33ba> a dsv:Column ;
+    rdfs:label "tag_no" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/d773c927d78dac261486fc410a5c33ba> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/d773c927d78dac261486fc410a5c33ba/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/d773c927d78dac261486fc410a5c33ba/summary-statistics/> dsv:columnCompleteness 8.358e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/column/f9ce9ea26edbcdcd813065cde8d3756c> a dsv:Column ;
+    rdfs:label "primary_color" ;
+    dsv:columnProperty <http://www.example.org/animal_tag_data_9.csv/properties-dictionary/f9ce9ea26edbcdcd813065cde8d3756c> ;
+    dsv:summaryStatistics <http://www.example.org/animal_tag_data_9.csv/column/f9ce9ea26edbcdcd813065cde8d3756c/summary-statistics/> .
+
+<http://www.example.org/animal_tag_data_9.csv/column/f9ce9ea26edbcdcd813065cde8d3756c/summary-statistics/> dsv:columnCompleteness 9.852e-01 .
+
+<http://www.example.org/animal_tag_data_9.csv/summary-statistics/> dsv:datasetCompleteness 9.5e-01 ;
+    dsv:numberOfColumns 12 ;
+    dsv:numberOfRows 5000 .
+

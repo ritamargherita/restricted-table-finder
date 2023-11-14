@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/minister_meetings_1.csv/> a dsv:Dataset ;
+    dcterms:title "Minister Meetings 1" ;
+    dsv:datasetSchema <http://www.example.org/minister_meetings_1.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/minister_meetings_1.csv/column/03784a4057f41e78f43d5afbdedd3949>,
+        <http://www.example.org/minister_meetings_1.csv/column/0a46de70ae6b2cefdbf40ede983b330c>,
+        <http://www.example.org/minister_meetings_1.csv/column/12007e1d59f4d09c87dbe2c438256244>,
+        <http://www.example.org/minister_meetings_1.csv/column/3666987f944680f09c514a151fa2304e>,
+        <http://www.example.org/minister_meetings_1.csv/column/406833963fe193e14dce681d2ab1b3c1>,
+        <http://www.example.org/minister_meetings_1.csv/column/4bbce7bac9caa88ca16be5b26e1cea15>,
+        <http://www.example.org/minister_meetings_1.csv/column/5a9c8c067e7ac647b569b438fac1f3ec>,
+        <http://www.example.org/minister_meetings_1.csv/column/5ad29368939e580bdcf87516e51562f2>,
+        <http://www.example.org/minister_meetings_1.csv/column/67121cca6c93be405e4a7c8e6fc1bc00>,
+        <http://www.example.org/minister_meetings_1.csv/column/6906c55c560ea9ae9f8a557d3a6e3e64> .
+
+<http://www.example.org/minister_meetings_1.csv/column/03784a4057f41e78f43d5afbdedd3949> a dsv:Column ;
+    rdfs:label "Start Date of Trip" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/03784a4057f41e78f43d5afbdedd3949> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/03784a4057f41e78f43d5afbdedd3949/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/03784a4057f41e78f43d5afbdedd3949/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/0a46de70ae6b2cefdbf40ede983b330c> a dsv:Column ;
+    rdfs:label "Cost of private jet or RAF plane hire, if relevant (£)" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/0a46de70ae6b2cefdbf40ede983b330c> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/0a46de70ae6b2cefdbf40ede983b330c/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/0a46de70ae6b2cefdbf40ede983b330c/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/12007e1d59f4d09c87dbe2c438256244> a dsv:Column ;
+    rdfs:label "Destination" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/12007e1d59f4d09c87dbe2c438256244> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/12007e1d59f4d09c87dbe2c438256244/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/12007e1d59f4d09c87dbe2c438256244/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/3666987f944680f09c514a151fa2304e> a dsv:Column ;
+    rdfs:label "Minister" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/3666987f944680f09c514a151fa2304e> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/406833963fe193e14dce681d2ab1b3c1> a dsv:Column ;
+    rdfs:label "Number of officials who accompanied minister if non-scheduled travel was used" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/406833963fe193e14dce681d2ab1b3c1> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/406833963fe193e14dce681d2ab1b3c1/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/406833963fe193e14dce681d2ab1b3c1/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/4bbce7bac9caa88ca16be5b26e1cea15> a dsv:Column ;
+    rdfs:label "Total cost (for minister only) including all visas, accommodation, travel, meals etc (£)" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/4bbce7bac9caa88ca16be5b26e1cea15> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/4bbce7bac9caa88ca16be5b26e1cea15/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/4bbce7bac9caa88ca16be5b26e1cea15/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/5a9c8c067e7ac647b569b438fac1f3ec> a dsv:Column ;
+    rdfs:label "Mode of Transport" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/5a9c8c067e7ac647b569b438fac1f3ec> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/5a9c8c067e7ac647b569b438fac1f3ec/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/5a9c8c067e7ac647b569b438fac1f3ec/summary-statistics/> dsv:columnCompleteness 7.894737e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/5ad29368939e580bdcf87516e51562f2> a dsv:Column ;
+    rdfs:label "Purpose of Trip" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/5ad29368939e580bdcf87516e51562f2> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/5ad29368939e580bdcf87516e51562f2/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/5ad29368939e580bdcf87516e51562f2/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/67121cca6c93be405e4a7c8e6fc1bc00> a dsv:Column ;
+    rdfs:label "End Date of Trip" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/67121cca6c93be405e4a7c8e6fc1bc00> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/67121cca6c93be405e4a7c8e6fc1bc00/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/67121cca6c93be405e4a7c8e6fc1bc00/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/column/6906c55c560ea9ae9f8a557d3a6e3e64> a dsv:Column ;
+    rdfs:label "Accompanied by spouse, family member(s) or friend at public expense?" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_1.csv/properties-dictionary/6906c55c560ea9ae9f8a557d3a6e3e64> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_1.csv/column/6906c55c560ea9ae9f8a557d3a6e3e64/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_1.csv/column/6906c55c560ea9ae9f8a557d3a6e3e64/summary-statistics/> dsv:columnCompleteness 7.368421e-01 .
+
+<http://www.example.org/minister_meetings_1.csv/summary-statistics/> dsv:datasetCompleteness 7.4e-01 ;
+    dsv:numberOfColumns 10 ;
+    dsv:numberOfRows 19 .
+

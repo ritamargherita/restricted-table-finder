@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/> a dsv:Dataset ;
+    dcterms:title "Time Spent Watching Vcr Movies 9" ;
+    dsv:datasetSchema <http://www.example.org/time_spent_watching_vcr_movies_9.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/time_spent_watching_vcr_movies_9.csv/summary-statistics/> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/246ee18f9dfea9cc17d434a4b9fba85e>,
+        <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/6bba24b1d443ce7743d1ee8fb4a0d5a3>,
+        <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/86ebcae7d2007aa2d590c51d8e04b3df>,
+        <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/bb8913cd17d59f182acc7be1020007b7>,
+        <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/ecfc2dffe568c10a67dbc6d3724cfde2>,
+        <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/eefc30691afee713d8fc7f6e8f504fe3> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/246ee18f9dfea9cc17d434a4b9fba85e> a dsv:Column ;
+    rdfs:label "DGUID" ;
+    dsv:columnProperty <http://www.example.org/time_spent_watching_vcr_movies_9.csv/properties-dictionary/246ee18f9dfea9cc17d434a4b9fba85e> ;
+    dsv:summaryStatistics <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/246ee18f9dfea9cc17d434a4b9fba85e/summary-statistics/> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/246ee18f9dfea9cc17d434a4b9fba85e/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/6bba24b1d443ce7743d1ee8fb4a0d5a3> a dsv:Column ;
+    rdfs:label "UOM_ID" ;
+    dsv:columnProperty <http://www.example.org/time_spent_watching_vcr_movies_9.csv/properties-dictionary/6bba24b1d443ce7743d1ee8fb4a0d5a3> ;
+    dsv:summaryStatistics <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/6bba24b1d443ce7743d1ee8fb4a0d5a3/summary-statistics/> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/6bba24b1d443ce7743d1ee8fb4a0d5a3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/86ebcae7d2007aa2d590c51d8e04b3df> a dsv:Column ;
+    rdfs:label "SCALAR_FACTOR" ;
+    dsv:columnProperty <http://www.example.org/time_spent_watching_vcr_movies_9.csv/properties-dictionary/86ebcae7d2007aa2d590c51d8e04b3df> ;
+    dsv:summaryStatistics <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/86ebcae7d2007aa2d590c51d8e04b3df/summary-statistics/> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/86ebcae7d2007aa2d590c51d8e04b3df/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/bb8913cd17d59f182acc7be1020007b7> a dsv:Column ;
+    rdfs:label "UOM" ;
+    dsv:columnProperty <http://www.example.org/time_spent_watching_vcr_movies_9.csv/properties-dictionary/bb8913cd17d59f182acc7be1020007b7> ;
+    dsv:summaryStatistics <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/bb8913cd17d59f182acc7be1020007b7/summary-statistics/> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/bb8913cd17d59f182acc7be1020007b7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/ecfc2dffe568c10a67dbc6d3724cfde2> a dsv:Column ;
+    rdfs:label "Activity" ;
+    dsv:columnProperty <http://www.example.org/time_spent_watching_vcr_movies_9.csv/properties-dictionary/ecfc2dffe568c10a67dbc6d3724cfde2> ;
+    dsv:summaryStatistics <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/ecfc2dffe568c10a67dbc6d3724cfde2/summary-statistics/> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/ecfc2dffe568c10a67dbc6d3724cfde2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/eefc30691afee713d8fc7f6e8f504fe3> a dsv:Column ;
+    rdfs:label "Time spent" ;
+    dsv:columnProperty <http://www.example.org/time_spent_watching_vcr_movies_9.csv/properties-dictionary/eefc30691afee713d8fc7f6e8f504fe3> ;
+    dsv:summaryStatistics <http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/eefc30691afee713d8fc7f6e8f504fe3/summary-statistics/> .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/column/eefc30691afee713d8fc7f6e8f504fe3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/time_spent_watching_vcr_movies_9.csv/summary-statistics/> dsv:datasetCompleteness 8.3e-01 ;
+    dsv:numberOfColumns 6 ;
+    dsv:numberOfRows 1217 .
+

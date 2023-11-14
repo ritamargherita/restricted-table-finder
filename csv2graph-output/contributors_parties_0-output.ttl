@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/contributors_parties_0.csv/> a dsv:Dataset ;
+    dcterms:title "Contributors Parties 0" ;
+    dsv:datasetSchema <http://www.example.org/contributors_parties_0.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_0.csv/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_0.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/contributors_parties_0.csv/column/5d6103b662f41b07e10687f03aca8fdc>,
+        <http://www.example.org/contributors_parties_0.csv/column/77795dc2a4aebd2b5bea2bd79499a566>,
+        <http://www.example.org/contributors_parties_0.csv/column/89b41025ec8549e1299f7cca1f6f3030>,
+        <http://www.example.org/contributors_parties_0.csv/column/c5c0ea662a7a20441c138078976bcde4>,
+        <http://www.example.org/contributors_parties_0.csv/column/d78b20ca477d0d0627e2d576ec0a9a21> .
+
+<http://www.example.org/contributors_parties_0.csv/column/5d6103b662f41b07e10687f03aca8fdc> a dsv:Column ;
+    rdfs:label "Recipient" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_0.csv/properties-dictionary/5d6103b662f41b07e10687f03aca8fdc> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_0.csv/column/5d6103b662f41b07e10687f03aca8fdc/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_0.csv/column/5d6103b662f41b07e10687f03aca8fdc/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_0.csv/column/77795dc2a4aebd2b5bea2bd79499a566> a dsv:Column ;
+    rdfs:label "Electoral event" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_0.csv/properties-dictionary/77795dc2a4aebd2b5bea2bd79499a566> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_0.csv/column/77795dc2a4aebd2b5bea2bd79499a566/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_0.csv/column/77795dc2a4aebd2b5bea2bd79499a566/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_0.csv/column/89b41025ec8549e1299f7cca1f6f3030> a dsv:Column ;
+    rdfs:label "Recipient ID" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_0.csv/properties-dictionary/89b41025ec8549e1299f7cca1f6f3030> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_0.csv/column/89b41025ec8549e1299f7cca1f6f3030/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_0.csv/column/89b41025ec8549e1299f7cca1f6f3030/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_0.csv/column/c5c0ea662a7a20441c138078976bcde4> a dsv:Column ;
+    rdfs:label "Fiscal date" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_0.csv/properties-dictionary/c5c0ea662a7a20441c138078976bcde4> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_0.csv/column/c5c0ea662a7a20441c138078976bcde4/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_0.csv/column/c5c0ea662a7a20441c138078976bcde4/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_0.csv/column/d78b20ca477d0d0627e2d576ec0a9a21> a dsv:Column ;
+    rdfs:label "Political Entity" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_0.csv/properties-dictionary/d78b20ca477d0d0627e2d576ec0a9a21> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_0.csv/column/d78b20ca477d0d0627e2d576ec0a9a21/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_0.csv/column/d78b20ca477d0d0627e2d576ec0a9a21/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_0.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 5 ;
+    dsv:numberOfRows 5000 .
+

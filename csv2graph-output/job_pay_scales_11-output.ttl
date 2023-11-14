@@ -1,0 +1,168 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/job_pay_scales_11.csv/> a dsv:Dataset ;
+    dcterms:title "Job Pay Scales 11" ;
+    dsv:datasetSchema <http://www.example.org/job_pay_scales_11.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/job_pay_scales_11.csv/column/147d649f6d34b6efaa1fdd1b43e23699>,
+        <http://www.example.org/job_pay_scales_11.csv/column/17b83ae34e7863096eadb985ed537870>,
+        <http://www.example.org/job_pay_scales_11.csv/column/19c562a36aeb455d09534f93b4f5236f>,
+        <http://www.example.org/job_pay_scales_11.csv/column/251fffea3c5e1a83d8ee47d2a7d0adb1>,
+        <http://www.example.org/job_pay_scales_11.csv/column/2ff4eb00580dcddf86fbcf4357c21fb9>,
+        <http://www.example.org/job_pay_scales_11.csv/column/49ee3087348e8d44e1feda1917443987>,
+        <http://www.example.org/job_pay_scales_11.csv/column/4c2fcd2bbd99a8202e11e07d12051a69>,
+        <http://www.example.org/job_pay_scales_11.csv/column/62732f2ca26bac3e70975c726b1f2c0f>,
+        <http://www.example.org/job_pay_scales_11.csv/column/6ed081846875a1b7a7d026272c3994c6>,
+        <http://www.example.org/job_pay_scales_11.csv/column/6fdfd4bebe6d5e470f933b504d80d877>,
+        <http://www.example.org/job_pay_scales_11.csv/column/754e1e134bc554a0af39749edbb59b9f>,
+        <http://www.example.org/job_pay_scales_11.csv/column/8304f58514b7fe4a568dff673c597441>,
+        <http://www.example.org/job_pay_scales_11.csv/column/8646b6886368d68071088a184e22fae9>,
+        <http://www.example.org/job_pay_scales_11.csv/column/9a499769a8bf4e3465e86d413d1dd2cf>,
+        <http://www.example.org/job_pay_scales_11.csv/column/ad356e257236bdf90830a96bd7cebc40>,
+        <http://www.example.org/job_pay_scales_11.csv/column/c36399c42a754c8a0178dc986cc8525c>,
+        <http://www.example.org/job_pay_scales_11.csv/column/cfa27d412b8900b4d524abd6339af4b6>,
+        <http://www.example.org/job_pay_scales_11.csv/column/e800012717bfb5a6f4a5d3d1b4313fdc>,
+        <http://www.example.org/job_pay_scales_11.csv/column/f4c6f851b00d5518bf888815de279aba> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/147d649f6d34b6efaa1fdd1b43e23699> a dsv:Column ;
+    rdfs:label "Post Unique Reference" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/147d649f6d34b6efaa1fdd1b43e23699> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/147d649f6d34b6efaa1fdd1b43e23699/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/147d649f6d34b6efaa1fdd1b43e23699/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/17b83ae34e7863096eadb985ed537870> a dsv:Column ;
+    rdfs:label "Organisation" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/17b83ae34e7863096eadb985ed537870> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/17b83ae34e7863096eadb985ed537870/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/17b83ae34e7863096eadb985ed537870/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/19c562a36aeb455d09534f93b4f5236f> a dsv:Column ;
+    rdfs:label "Unit" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/19c562a36aeb455d09534f93b4f5236f> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/19c562a36aeb455d09534f93b4f5236f/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/19c562a36aeb455d09534f93b4f5236f/summary-statistics/> dsv:columnCompleteness 9.855072e-01 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/251fffea3c5e1a83d8ee47d2a7d0adb1> a dsv:Column ;
+    rdfs:label "Actual Pay Ceiling (Â£)" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/251fffea3c5e1a83d8ee47d2a7d0adb1> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/251fffea3c5e1a83d8ee47d2a7d0adb1/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/251fffea3c5e1a83d8ee47d2a7d0adb1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/2ff4eb00580dcddf86fbcf4357c21fb9> a dsv:Column ;
+    rdfs:label "Salary Cost of Reports (Â£)" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/2ff4eb00580dcddf86fbcf4357c21fb9> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/2ff4eb00580dcddf86fbcf4357c21fb9/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/2ff4eb00580dcddf86fbcf4357c21fb9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/49ee3087348e8d44e1feda1917443987> a dsv:Column ;
+    rdfs:label "Name" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/49ee3087348e8d44e1feda1917443987> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/49ee3087348e8d44e1feda1917443987/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/49ee3087348e8d44e1feda1917443987/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/4c2fcd2bbd99a8202e11e07d12051a69> a dsv:Column ;
+    rdfs:label "Professional/Occupational Group" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/4c2fcd2bbd99a8202e11e07d12051a69> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/4c2fcd2bbd99a8202e11e07d12051a69/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/4c2fcd2bbd99a8202e11e07d12051a69/summary-statistics/> dsv:columnCompleteness 8.447205e-01 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/62732f2ca26bac3e70975c726b1f2c0f> a dsv:Column ;
+    rdfs:label "Job/Team Function" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/62732f2ca26bac3e70975c726b1f2c0f> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/62732f2ca26bac3e70975c726b1f2c0f/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/62732f2ca26bac3e70975c726b1f2c0f/summary-statistics/> dsv:columnCompleteness 9.855072e-01 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/6ed081846875a1b7a7d026272c3994c6> a dsv:Column ;
+    rdfs:label "Parent Department" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/6ed081846875a1b7a7d026272c3994c6> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/6ed081846875a1b7a7d026272c3994c6/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/6ed081846875a1b7a7d026272c3994c6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/6fdfd4bebe6d5e470f933b504d80d877> a dsv:Column ;
+    rdfs:label "FTE" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/6fdfd4bebe6d5e470f933b504d80d877> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/6fdfd4bebe6d5e470f933b504d80d877/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/6fdfd4bebe6d5e470f933b504d80d877/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/754e1e134bc554a0af39749edbb59b9f> a dsv:Column ;
+    rdfs:label "Job Title" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/754e1e134bc554a0af39749edbb59b9f> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/754e1e134bc554a0af39749edbb59b9f/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/754e1e134bc554a0af39749edbb59b9f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/8304f58514b7fe4a568dff673c597441> a dsv:Column ;
+    rdfs:label "Reports to Senior Post" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/8304f58514b7fe4a568dff673c597441> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/8304f58514b7fe4a568dff673c597441/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/8304f58514b7fe4a568dff673c597441/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/8646b6886368d68071088a184e22fae9> a dsv:Column ;
+    rdfs:label "Grade (or equivalent)" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/8646b6886368d68071088a184e22fae9> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/8646b6886368d68071088a184e22fae9/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/8646b6886368d68071088a184e22fae9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/9a499769a8bf4e3465e86d413d1dd2cf> a dsv:Column ;
+    rdfs:label "Valid?" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/9a499769a8bf4e3465e86d413d1dd2cf> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/9a499769a8bf4e3465e86d413d1dd2cf/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/9a499769a8bf4e3465e86d413d1dd2cf/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/ad356e257236bdf90830a96bd7cebc40> a dsv:Column ;
+    rdfs:label "Contact E-mail" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/ad356e257236bdf90830a96bd7cebc40> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/ad356e257236bdf90830a96bd7cebc40/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/ad356e257236bdf90830a96bd7cebc40/summary-statistics/> dsv:columnCompleteness 6.832298e-01 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/c36399c42a754c8a0178dc986cc8525c> a dsv:Column ;
+    rdfs:label "Contact Phone" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/c36399c42a754c8a0178dc986cc8525c> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/c36399c42a754c8a0178dc986cc8525c/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/c36399c42a754c8a0178dc986cc8525c/summary-statistics/> dsv:columnCompleteness 6.832298e-01 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/cfa27d412b8900b4d524abd6339af4b6> a dsv:Column ;
+    rdfs:label "Unnamed: 15" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/cfa27d412b8900b4d524abd6339af4b6> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/e800012717bfb5a6f4a5d3d1b4313fdc> a dsv:Column ;
+    rdfs:label "Actual Pay Floor (Â£)" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/e800012717bfb5a6f4a5d3d1b4313fdc> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/e800012717bfb5a6f4a5d3d1b4313fdc/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/e800012717bfb5a6f4a5d3d1b4313fdc/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/job_pay_scales_11.csv/column/f4c6f851b00d5518bf888815de279aba> a dsv:Column ;
+    rdfs:label "Notes" ;
+    dsv:columnProperty <http://www.example.org/job_pay_scales_11.csv/properties-dictionary/f4c6f851b00d5518bf888815de279aba> ;
+    dsv:summaryStatistics <http://www.example.org/job_pay_scales_11.csv/column/f4c6f851b00d5518bf888815de279aba/summary-statistics/> .
+
+<http://www.example.org/job_pay_scales_11.csv/column/f4c6f851b00d5518bf888815de279aba/summary-statistics/> dsv:columnCompleteness 2.898551e-02 .
+
+<http://www.example.org/job_pay_scales_11.csv/summary-statistics/> dsv:datasetCompleteness 8.5e-01 ;
+    dsv:numberOfColumns 19 ;
+    dsv:numberOfRows 483 .
+

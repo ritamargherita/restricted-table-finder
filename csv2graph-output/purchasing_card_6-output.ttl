@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/purchasing_card_6.csv/> a dsv:Dataset ;
+    dcterms:title "Purchasing Card 6" ;
+    dsv:datasetSchema <http://www.example.org/purchasing_card_6.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/purchasing_card_6.csv/column/16621c148ef1366d1db334780196a95e>,
+        <http://www.example.org/purchasing_card_6.csv/column/286798f285e8e55305f56d1394fc6ba0>,
+        <http://www.example.org/purchasing_card_6.csv/column/524b23c589aacc3dfcac7c9a1f277aca>,
+        <http://www.example.org/purchasing_card_6.csv/column/57fe2bfab897d3b8b7f0338ea0ef24c8>,
+        <http://www.example.org/purchasing_card_6.csv/column/916ac52722ff7cba7f4d560db19fb233>,
+        <http://www.example.org/purchasing_card_6.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5>,
+        <http://www.example.org/purchasing_card_6.csv/column/bfd402764421d79276de1a8548a35e8a>,
+        <http://www.example.org/purchasing_card_6.csv/column/d56904efc673aa25ddc71a08927b9d34>,
+        <http://www.example.org/purchasing_card_6.csv/column/e03a2fd1faf359461881a1e2e6ec3952>,
+        <http://www.example.org/purchasing_card_6.csv/column/edbebe08044dc6aac5e682350eb20813> .
+
+<http://www.example.org/purchasing_card_6.csv/column/16621c148ef1366d1db334780196a95e> a dsv:Column ;
+    rdfs:label "Service Category Label" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/16621c148ef1366d1db334780196a95e> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/16621c148ef1366d1db334780196a95e/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/16621c148ef1366d1db334780196a95e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/286798f285e8e55305f56d1394fc6ba0> a dsv:Column ;
+    rdfs:label "Purchase Date" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/286798f285e8e55305f56d1394fc6ba0> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/286798f285e8e55305f56d1394fc6ba0/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/286798f285e8e55305f56d1394fc6ba0/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/524b23c589aacc3dfcac7c9a1f277aca> a dsv:Column ;
+    rdfs:label "Purpose of Expenditure" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/524b23c589aacc3dfcac7c9a1f277aca> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/524b23c589aacc3dfcac7c9a1f277aca/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/524b23c589aacc3dfcac7c9a1f277aca/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/57fe2bfab897d3b8b7f0338ea0ef24c8> a dsv:Column ;
+    rdfs:label "Settlement Date" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/57fe2bfab897d3b8b7f0338ea0ef24c8> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/57fe2bfab897d3b8b7f0338ea0ef24c8/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/57fe2bfab897d3b8b7f0338ea0ef24c8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/916ac52722ff7cba7f4d560db19fb233> a dsv:Column ;
+    rdfs:label "Department where exp. Incurred" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/916ac52722ff7cba7f4d560db19fb233> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/916ac52722ff7cba7f4d560db19fb233/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/916ac52722ff7cba7f4d560db19fb233/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5> a dsv:Column ;
+    rdfs:label "Transaction Number" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/ac1d3ccc1bcfd04b713a97b7421639b5> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/ac1d3ccc1bcfd04b713a97b7421639b5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/bfd402764421d79276de1a8548a35e8a> a dsv:Column ;
+    rdfs:label "Supplier (Beneficiary)" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/bfd402764421d79276de1a8548a35e8a> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/bfd402764421d79276de1a8548a35e8a/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/bfd402764421d79276de1a8548a35e8a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/d56904efc673aa25ddc71a08927b9d34> a dsv:Column ;
+    rdfs:label "Procurement (Merchant) Category" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/d56904efc673aa25ddc71a08927b9d34> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/d56904efc673aa25ddc71a08927b9d34/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/d56904efc673aa25ddc71a08927b9d34/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/e03a2fd1faf359461881a1e2e6ec3952> a dsv:Column ;
+    rdfs:label "Organisation Name" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/e03a2fd1faf359461881a1e2e6ec3952> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/e03a2fd1faf359461881a1e2e6ec3952/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/e03a2fd1faf359461881a1e2e6ec3952/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/column/edbebe08044dc6aac5e682350eb20813> a dsv:Column ;
+    rdfs:label "Net Amount (£)" ;
+    dsv:columnProperty <http://www.example.org/purchasing_card_6.csv/properties-dictionary/edbebe08044dc6aac5e682350eb20813> ;
+    dsv:summaryStatistics <http://www.example.org/purchasing_card_6.csv/column/edbebe08044dc6aac5e682350eb20813/summary-statistics/> .
+
+<http://www.example.org/purchasing_card_6.csv/column/edbebe08044dc6aac5e682350eb20813/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/purchasing_card_6.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 10 ;
+    dsv:numberOfRows 313 .
+

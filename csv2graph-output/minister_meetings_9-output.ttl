@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/minister_meetings_9.csv/> a dsv:Dataset ;
+    dcterms:title "Minister Meetings 9" ;
+    dsv:datasetSchema <http://www.example.org/minister_meetings_9.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_9.csv/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_9.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/minister_meetings_9.csv/column/34809cc32c575717e7461955cb872785>,
+        <http://www.example.org/minister_meetings_9.csv/column/3666987f944680f09c514a151fa2304e>,
+        <http://www.example.org/minister_meetings_9.csv/column/44749712dbec183e983dcd78a7736c41>,
+        <http://www.example.org/minister_meetings_9.csv/column/5479ccb7aa59033e40dd4f160bf084c9>,
+        <http://www.example.org/minister_meetings_9.csv/column/5b461c58bd9e108a4351a7e2aa75e88e> .
+
+<http://www.example.org/minister_meetings_9.csv/column/34809cc32c575717e7461955cb872785> a dsv:Column ;
+    rdfs:label "Type of hospitality received" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_9.csv/properties-dictionary/34809cc32c575717e7461955cb872785> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_9.csv/column/34809cc32c575717e7461955cb872785/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_9.csv/column/34809cc32c575717e7461955cb872785/summary-statistics/> dsv:columnCompleteness 9.2e-01 .
+
+<http://www.example.org/minister_meetings_9.csv/column/3666987f944680f09c514a151fa2304e> a dsv:Column ;
+    rdfs:label "Minister" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_9.csv/properties-dictionary/3666987f944680f09c514a151fa2304e> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_9.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_9.csv/column/3666987f944680f09c514a151fa2304e/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/minister_meetings_9.csv/column/44749712dbec183e983dcd78a7736c41> a dsv:Column ;
+    rdfs:label "Date" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_9.csv/properties-dictionary/44749712dbec183e983dcd78a7736c41> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_9.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_9.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> dsv:columnCompleteness 9.2e-01 .
+
+<http://www.example.org/minister_meetings_9.csv/column/5479ccb7aa59033e40dd4f160bf084c9> a dsv:Column ;
+    rdfs:label "Person or organisation that offered hospitality" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_9.csv/properties-dictionary/5479ccb7aa59033e40dd4f160bf084c9> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_9.csv/column/5479ccb7aa59033e40dd4f160bf084c9/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_9.csv/column/5479ccb7aa59033e40dd4f160bf084c9/summary-statistics/> dsv:columnCompleteness 9.2e-01 .
+
+<http://www.example.org/minister_meetings_9.csv/column/5b461c58bd9e108a4351a7e2aa75e88e> a dsv:Column ;
+    rdfs:label "Accompanied by spouse, family member(s) or friend?" ;
+    dsv:columnProperty <http://www.example.org/minister_meetings_9.csv/properties-dictionary/5b461c58bd9e108a4351a7e2aa75e88e> ;
+    dsv:summaryStatistics <http://www.example.org/minister_meetings_9.csv/column/5b461c58bd9e108a4351a7e2aa75e88e/summary-statistics/> .
+
+<http://www.example.org/minister_meetings_9.csv/column/5b461c58bd9e108a4351a7e2aa75e88e/summary-statistics/> dsv:columnCompleteness 9.2e-01 .
+
+<http://www.example.org/minister_meetings_9.csv/summary-statistics/> dsv:datasetCompleteness 9.3e-01 ;
+    dsv:numberOfColumns 5 ;
+    dsv:numberOfRows 25 .
+

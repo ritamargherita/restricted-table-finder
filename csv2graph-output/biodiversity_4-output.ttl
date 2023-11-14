@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/biodiversity_4.csv/> a dsv:Dataset ;
+    dcterms:title "Biodiversity 4" ;
+    dsv:datasetSchema <http://www.example.org/biodiversity_4.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/biodiversity_4.csv/column/2b1d0f85975d8b2f8ce2dbb7748ec8c2>,
+        <http://www.example.org/biodiversity_4.csv/column/3e24cebd87fe25f6889f504409c78a91>,
+        <http://www.example.org/biodiversity_4.csv/column/3eebfb280dd63d990b6284f4705fed63>,
+        <http://www.example.org/biodiversity_4.csv/column/6ba76967eaad8aad9dbbf30326f2f41e>,
+        <http://www.example.org/biodiversity_4.csv/column/77f482ceb4f5d2871ac0a29ed1d4519f>,
+        <http://www.example.org/biodiversity_4.csv/column/d2326c13a8b67c8569718065ea427cd0>,
+        <http://www.example.org/biodiversity_4.csv/column/d7357f99c7ed3b9ed6dcf5530efbe069> .
+
+<http://www.example.org/biodiversity_4.csv/column/2b1d0f85975d8b2f8ce2dbb7748ec8c2> a dsv:Column ;
+    rdfs:label "Scientific_Names" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_4.csv/properties-dictionary/2b1d0f85975d8b2f8ce2dbb7748ec8c2> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/column/2b1d0f85975d8b2f8ce2dbb7748ec8c2/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/column/2b1d0f85975d8b2f8ce2dbb7748ec8c2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/biodiversity_4.csv/column/3e24cebd87fe25f6889f504409c78a91> a dsv:Column ;
+    rdfs:label "Taxonomic_Serial_Numbers" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_4.csv/properties-dictionary/3e24cebd87fe25f6889f504409c78a91> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/column/3e24cebd87fe25f6889f504409c78a91/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/column/3e24cebd87fe25f6889f504409c78a91/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/biodiversity_4.csv/column/3eebfb280dd63d990b6284f4705fed63> a dsv:Column ;
+    rdfs:label "French_Names" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_4.csv/properties-dictionary/3eebfb280dd63d990b6284f4705fed63> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/column/3eebfb280dd63d990b6284f4705fed63/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/column/3eebfb280dd63d990b6284f4705fed63/summary-statistics/> dsv:columnCompleteness 6.789744e-01 .
+
+<http://www.example.org/biodiversity_4.csv/column/6ba76967eaad8aad9dbbf30326f2f41e> a dsv:Column ;
+    rdfs:label "French_Species_Risk_Groups" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_4.csv/properties-dictionary/6ba76967eaad8aad9dbbf30326f2f41e> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/column/6ba76967eaad8aad9dbbf30326f2f41e/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/column/6ba76967eaad8aad9dbbf30326f2f41e/summary-statistics/> dsv:columnCompleteness 3.882051e-01 .
+
+<http://www.example.org/biodiversity_4.csv/column/77f482ceb4f5d2871ac0a29ed1d4519f> a dsv:Column ;
+    rdfs:label "English_Names" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_4.csv/properties-dictionary/77f482ceb4f5d2871ac0a29ed1d4519f> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/column/77f482ceb4f5d2871ac0a29ed1d4519f/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/column/77f482ceb4f5d2871ac0a29ed1d4519f/summary-statistics/> dsv:columnCompleteness 9.553846e-01 .
+
+<http://www.example.org/biodiversity_4.csv/column/d2326c13a8b67c8569718065ea427cd0> a dsv:Column ;
+    rdfs:label "English_Species_Risk_Groups" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_4.csv/properties-dictionary/d2326c13a8b67c8569718065ea427cd0> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/column/d2326c13a8b67c8569718065ea427cd0/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/column/d2326c13a8b67c8569718065ea427cd0/summary-statistics/> dsv:columnCompleteness 3.882051e-01 .
+
+<http://www.example.org/biodiversity_4.csv/column/d7357f99c7ed3b9ed6dcf5530efbe069> a dsv:Column ;
+    rdfs:label "Family_Scientific_Names" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_4.csv/properties-dictionary/d7357f99c7ed3b9ed6dcf5530efbe069> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_4.csv/column/d7357f99c7ed3b9ed6dcf5530efbe069/summary-statistics/> .
+
+<http://www.example.org/biodiversity_4.csv/column/d7357f99c7ed3b9ed6dcf5530efbe069/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/biodiversity_4.csv/summary-statistics/> dsv:datasetCompleteness 7.7e-01 ;
+    dsv:numberOfColumns 7 ;
+    dsv:numberOfRows 1950 .
+

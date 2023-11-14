@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/> a dsv:Dataset ;
+    dcterms:title "311 Calls Historic Data 1" ;
+    dsv:datasetSchema <http://www.example.org/311_calls_historic_data_1.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/311_calls_historic_data_1.csv/column/173da0ba7bddffc6fa0da864f27c5104>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/1995df36724c39a2ec5703c32b6b8a59>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/1f34a213615f696092dd5b0d2458cd83>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/3497657f8e020e5c55ba15c670b9ba56>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/446f1bedc2698877a6c1c054cf0391ce>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/4ed5d2eaed1a1fadcc41ad1d58ed603e>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/649b92cd2814a1c763883483020f1ccd>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/7e61d24dee78e092433ad58b844df658>,
+        <http://www.example.org/311_calls_historic_data_1.csv/column/9ed39e2ea931586b6a985a6942ef573e> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/173da0ba7bddffc6fa0da864f27c5104> a dsv:Column ;
+    rdfs:label "neighborhood_district" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/173da0ba7bddffc6fa0da864f27c5104> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/173da0ba7bddffc6fa0da864f27c5104/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/173da0ba7bddffc6fa0da864f27c5104/summary-statistics/> dsv:columnCompleteness 9.552e-01 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/1995df36724c39a2ec5703c32b6b8a59> a dsv:Column ;
+    rdfs:label "issue_type" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/1995df36724c39a2ec5703c32b6b8a59> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/1995df36724c39a2ec5703c32b6b8a59/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/1995df36724c39a2ec5703c32b6b8a59/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/1f34a213615f696092dd5b0d2458cd83> a dsv:Column ;
+    rdfs:label "ticket_created_date_time" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/1f34a213615f696092dd5b0d2458cd83> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/1f34a213615f696092dd5b0d2458cd83/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/1f34a213615f696092dd5b0d2458cd83/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/3497657f8e020e5c55ba15c670b9ba56> a dsv:Column ;
+    rdfs:label "case_title" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/3497657f8e020e5c55ba15c670b9ba56> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/3497657f8e020e5c55ba15c670b9ba56/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/3497657f8e020e5c55ba15c670b9ba56/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/446f1bedc2698877a6c1c054cf0391ce> a dsv:Column ;
+    rdfs:label "ticket_status" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/446f1bedc2698877a6c1c054cf0391ce> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/446f1bedc2698877a6c1c054cf0391ce/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/446f1bedc2698877a6c1c054cf0391ce/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/4ed5d2eaed1a1fadcc41ad1d58ed603e> a dsv:Column ;
+    rdfs:label "city" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/4ed5d2eaed1a1fadcc41ad1d58ed603e> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/4ed5d2eaed1a1fadcc41ad1d58ed603e/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/4ed5d2eaed1a1fadcc41ad1d58ed603e/summary-statistics/> dsv:columnCompleteness 9.554e-01 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/649b92cd2814a1c763883483020f1ccd> a dsv:Column ;
+    rdfs:label "ticket_id" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/649b92cd2814a1c763883483020f1ccd> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/649b92cd2814a1c763883483020f1ccd/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/649b92cd2814a1c763883483020f1ccd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/7e61d24dee78e092433ad58b844df658> a dsv:Column ;
+    rdfs:label "ticket_closed_date_time" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/7e61d24dee78e092433ad58b844df658> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/7e61d24dee78e092433ad58b844df658/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/7e61d24dee78e092433ad58b844df658/summary-statistics/> dsv:columnCompleteness 9.11e-01 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/9ed39e2ea931586b6a985a6942ef573e> a dsv:Column ;
+    rdfs:label "state" ;
+    dsv:columnProperty <http://www.example.org/311_calls_historic_data_1.csv/properties-dictionary/9ed39e2ea931586b6a985a6942ef573e> ;
+    dsv:summaryStatistics <http://www.example.org/311_calls_historic_data_1.csv/column/9ed39e2ea931586b6a985a6942ef573e/summary-statistics/> .
+
+<http://www.example.org/311_calls_historic_data_1.csv/column/9ed39e2ea931586b6a985a6942ef573e/summary-statistics/> dsv:columnCompleteness 9.554e-01 .
+
+<http://www.example.org/311_calls_historic_data_1.csv/summary-statistics/> dsv:datasetCompleteness 9.8e-01 ;
+    dsv:numberOfColumns 9 ;
+    dsv:numberOfRows 5000 .
+

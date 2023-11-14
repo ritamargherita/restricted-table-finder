@@ -1,0 +1,176 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/stockport_contracts_1.csv/> a dsv:Dataset ;
+    dcterms:title "Stockport Contracts 1" ;
+    dsv:datasetSchema <http://www.example.org/stockport_contracts_1.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/stockport_contracts_1.csv/column/0919cc9dc63cc307380ef5ae887624c9>,
+        <http://www.example.org/stockport_contracts_1.csv/column/30ea26bba24c952278cd91f5aa178e0d>,
+        <http://www.example.org/stockport_contracts_1.csv/column/43629fb18eed3c436735459e66be4225>,
+        <http://www.example.org/stockport_contracts_1.csv/column/495b49cd2b13ecc3dd3e87c1dbb71475>,
+        <http://www.example.org/stockport_contracts_1.csv/column/4d9a8fa9913a17286b8c5320512ed519>,
+        <http://www.example.org/stockport_contracts_1.csv/column/577d7068826de925ea2aec01dbadf5e4>,
+        <http://www.example.org/stockport_contracts_1.csv/column/5bc66da464ca2969bf7878ccbe763027>,
+        <http://www.example.org/stockport_contracts_1.csv/column/61ffb6fd1f6c477881282da91734179a>,
+        <http://www.example.org/stockport_contracts_1.csv/column/64cccac1a0112f7effdb7b9822e264bb>,
+        <http://www.example.org/stockport_contracts_1.csv/column/6dbda354bbccf51947dfcc643a1c8c07>,
+        <http://www.example.org/stockport_contracts_1.csv/column/70b34c3528e91ccd75b584a227ca2c34>,
+        <http://www.example.org/stockport_contracts_1.csv/column/77bc11805242b1453a38b92a16192770>,
+        <http://www.example.org/stockport_contracts_1.csv/column/7de42ace590ac5849de386ffccb38958>,
+        <http://www.example.org/stockport_contracts_1.csv/column/840f15d4308745cf491a654c9e29857b>,
+        <http://www.example.org/stockport_contracts_1.csv/column/8bcdc441379cbf584638b0589a3f9adb>,
+        <http://www.example.org/stockport_contracts_1.csv/column/8c4e7ab6dc70a998a6d7bb93ec5c08da>,
+        <http://www.example.org/stockport_contracts_1.csv/column/c566de9fb2a1a82ba6ec03bcc151b6da>,
+        <http://www.example.org/stockport_contracts_1.csv/column/e2e3caffe5d0441f40bdcd6567dd30f6>,
+        <http://www.example.org/stockport_contracts_1.csv/column/e7d22294bdcb7133967c3548ece982e5>,
+        <http://www.example.org/stockport_contracts_1.csv/column/fe706741fff9b8b94131e550c436b86c> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/0919cc9dc63cc307380ef5ae887624c9> a dsv:Column ;
+    rdfs:label "Agreement Type" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/0919cc9dc63cc307380ef5ae887624c9> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/0919cc9dc63cc307380ef5ae887624c9/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/0919cc9dc63cc307380ef5ae887624c9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/30ea26bba24c952278cd91f5aa178e0d> a dsv:Column ;
+    rdfs:label "Contract Start Date" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/30ea26bba24c952278cd91f5aa178e0d> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/30ea26bba24c952278cd91f5aa178e0d/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/30ea26bba24c952278cd91f5aa178e0d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/43629fb18eed3c436735459e66be4225> a dsv:Column ;
+    rdfs:label "Review Date" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/43629fb18eed3c436735459e66be4225> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/43629fb18eed3c436735459e66be4225/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/43629fb18eed3c436735459e66be4225/summary-statistics/> dsv:columnCompleteness 9.819495e-01 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/495b49cd2b13ecc3dd3e87c1dbb71475> a dsv:Column ;
+    rdfs:label "Contract End Date" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/495b49cd2b13ecc3dd3e87c1dbb71475> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/495b49cd2b13ecc3dd3e87c1dbb71475/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/495b49cd2b13ecc3dd3e87c1dbb71475/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/4d9a8fa9913a17286b8c5320512ed519> a dsv:Column ;
+    rdfs:label "Registered Number" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/4d9a8fa9913a17286b8c5320512ed519> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/4d9a8fa9913a17286b8c5320512ed519/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/4d9a8fa9913a17286b8c5320512ed519/summary-statistics/> dsv:columnCompleteness 9.963899e-01 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/577d7068826de925ea2aec01dbadf5e4> a dsv:Column ;
+    rdfs:label "Client" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/577d7068826de925ea2aec01dbadf5e4> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/577d7068826de925ea2aec01dbadf5e4/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/577d7068826de925ea2aec01dbadf5e4/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/5bc66da464ca2969bf7878ccbe763027> a dsv:Column ;
+    rdfs:label "Maximum Extend Date" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/5bc66da464ca2969bf7878ccbe763027> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/5bc66da464ca2969bf7878ccbe763027/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/5bc66da464ca2969bf7878ccbe763027/summary-statistics/> dsv:columnCompleteness 9.963899e-01 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/61ffb6fd1f6c477881282da91734179a> a dsv:Column ;
+    rdfs:label "Council Directorate" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/61ffb6fd1f6c477881282da91734179a> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/61ffb6fd1f6c477881282da91734179a/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/61ffb6fd1f6c477881282da91734179a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/64cccac1a0112f7effdb7b9822e264bb> a dsv:Column ;
+    rdfs:label "Maximum Duration of Contract (Months)" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/64cccac1a0112f7effdb7b9822e264bb> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/64cccac1a0112f7effdb7b9822e264bb/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/64cccac1a0112f7effdb7b9822e264bb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/6dbda354bbccf51947dfcc643a1c8c07> a dsv:Column ;
+    rdfs:label "Estimated Annual Value" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/6dbda354bbccf51947dfcc643a1c8c07> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/6dbda354bbccf51947dfcc643a1c8c07/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/6dbda354bbccf51947dfcc643a1c8c07/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/70b34c3528e91ccd75b584a227ca2c34> a dsv:Column ;
+    rdfs:label "Contract Term (Months)" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/70b34c3528e91ccd75b584a227ca2c34> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/70b34c3528e91ccd75b584a227ca2c34/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/70b34c3528e91ccd75b584a227ca2c34/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/77bc11805242b1453a38b92a16192770> a dsv:Column ;
+    rdfs:label "Route to Market" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/77bc11805242b1453a38b92a16192770> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/77bc11805242b1453a38b92a16192770/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/77bc11805242b1453a38b92a16192770/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/7de42ace590ac5849de386ffccb38958> a dsv:Column ;
+    rdfs:label "Supplier Name" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/7de42ace590ac5849de386ffccb38958> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/7de42ace590ac5849de386ffccb38958/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/7de42ace590ac5849de386ffccb38958/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/840f15d4308745cf491a654c9e29857b> a dsv:Column ;
+    rdfs:label "Supplier Type" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/840f15d4308745cf491a654c9e29857b> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/840f15d4308745cf491a654c9e29857b/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/840f15d4308745cf491a654c9e29857b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/8bcdc441379cbf584638b0589a3f9adb> a dsv:Column ;
+    rdfs:label "Postcode" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/8bcdc441379cbf584638b0589a3f9adb> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/8bcdc441379cbf584638b0589a3f9adb/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/8bcdc441379cbf584638b0589a3f9adb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/8c4e7ab6dc70a998a6d7bb93ec5c08da> a dsv:Column ;
+    rdfs:label "Pro Class" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/8c4e7ab6dc70a998a6d7bb93ec5c08da> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/8c4e7ab6dc70a998a6d7bb93ec5c08da/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/8c4e7ab6dc70a998a6d7bb93ec5c08da/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/c566de9fb2a1a82ba6ec03bcc151b6da> a dsv:Column ;
+    rdfs:label "Estimated Total Value" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/c566de9fb2a1a82ba6ec03bcc151b6da> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/c566de9fb2a1a82ba6ec03bcc151b6da/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/c566de9fb2a1a82ba6ec03bcc151b6da/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/e2e3caffe5d0441f40bdcd6567dd30f6> a dsv:Column ;
+    rdfs:label "Contract Title" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/e2e3caffe5d0441f40bdcd6567dd30f6> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/e2e3caffe5d0441f40bdcd6567dd30f6/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/e2e3caffe5d0441f40bdcd6567dd30f6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/e7d22294bdcb7133967c3548ece982e5> a dsv:Column ;
+    rdfs:label "UID" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/e7d22294bdcb7133967c3548ece982e5> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/e7d22294bdcb7133967c3548ece982e5/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/e7d22294bdcb7133967c3548ece982e5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/column/fe706741fff9b8b94131e550c436b86c> a dsv:Column ;
+    rdfs:label "Ext. Applied to Contract" ;
+    dsv:columnProperty <http://www.example.org/stockport_contracts_1.csv/properties-dictionary/fe706741fff9b8b94131e550c436b86c> ;
+    dsv:summaryStatistics <http://www.example.org/stockport_contracts_1.csv/column/fe706741fff9b8b94131e550c436b86c/summary-statistics/> .
+
+<http://www.example.org/stockport_contracts_1.csv/column/fe706741fff9b8b94131e550c436b86c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/stockport_contracts_1.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 20 ;
+    dsv:numberOfRows 554 .
+

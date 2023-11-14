@@ -1,0 +1,184 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/> a dsv:Dataset ;
+    dcterms:title "Admissionssummaryallocatedsecondary2017" ;
+    dsv:datasetSchema <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/07647b9bfbc1a8604849671fb61a0089>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0a1d07df9a43688c7128eefbe3d41b08>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0aa6f4210bf373c95eda00232e93cd98>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/1a231b28cbcd8618807659bef5762b7b>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/28f2bb32e0bdc58111ac87bd3e43cc43>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/457b5a070a29fb7d7d2ad37e8737ff3e>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/537c66b24ef5c83b7382cdc3f34885f2>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6311ae17c1ee52b36e68aaf4ad066387>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6e2117797bfd720eb8868c3fb4ff758c>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/78d77a0b8ec57890944b8cfce506b113>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/93bbe00a504bf8a90ddced0cf96e3ad1>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/96b0141273eabab320119c467cdcaf17>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/9b8866e7a86b89da7fecd9e6e871e428>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a1d603bf7f3fb46a2fa731a522e6c41b>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a55776db79ab6991edfbfc1f983c41a8>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a86e2c2fb0a2349583c43f74e196d33c>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/aef94e03cd53d471d3c15dc343b440f1>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/ba3f6a5526b54675d54123702760ddf2>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/bdd1ee096ea1aaac7020b7f023d4779b>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/c1f3ad35092f7f93c03c1017625c2c77>,
+        <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/f25844b18a0daddf44287ad9a987f1e2> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/07647b9bfbc1a8604849671fb61a0089> a dsv:Column ;
+    rdfs:label "PlaceAllocated" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/07647b9bfbc1a8604849671fb61a0089> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/07647b9bfbc1a8604849671fb61a0089/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/07647b9bfbc1a8604849671fb61a0089/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0a1d07df9a43688c7128eefbe3d41b08> a dsv:Column ;
+    rdfs:label "SLE" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/0a1d07df9a43688c7128eefbe3d41b08> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0a1d07df9a43688c7128eefbe3d41b08/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0a1d07df9a43688c7128eefbe3d41b08/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0aa6f4210bf373c95eda00232e93cd98> a dsv:Column ;
+    rdfs:label "Distance" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/0aa6f4210bf373c95eda00232e93cd98> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0aa6f4210bf373c95eda00232e93cd98/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/0aa6f4210bf373c95eda00232e93cd98/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/1a231b28cbcd8618807659bef5762b7b> a dsv:Column ;
+    rdfs:label "Unplaced" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/1a231b28cbcd8618807659bef5762b7b> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/1a231b28cbcd8618807659bef5762b7b/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/1a231b28cbcd8618807659bef5762b7b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/28f2bb32e0bdc58111ac87bd3e43cc43> a dsv:Column ;
+    rdfs:label "4thPref" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/28f2bb32e0bdc58111ac87bd3e43cc43> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/28f2bb32e0bdc58111ac87bd3e43cc43/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/28f2bb32e0bdc58111ac87bd3e43cc43/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/457b5a070a29fb7d7d2ad37e8737ff3e> a dsv:Column ;
+    rdfs:label "Feeder" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/457b5a070a29fb7d7d2ad37e8737ff3e> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/457b5a070a29fb7d7d2ad37e8737ff3e/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/457b5a070a29fb7d7d2ad37e8737ff3e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/537c66b24ef5c83b7382cdc3f34885f2> a dsv:Column ;
+    rdfs:label "Year" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/537c66b24ef5c83b7382cdc3f34885f2> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/537c66b24ef5c83b7382cdc3f34885f2/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/537c66b24ef5c83b7382cdc3f34885f2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6311ae17c1ee52b36e68aaf4ad066387> a dsv:Column ;
+    rdfs:label "Other" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/6311ae17c1ee52b36e68aaf4ad066387> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6311ae17c1ee52b36e68aaf4ad066387/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6311ae17c1ee52b36e68aaf4ad066387/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6e2117797bfd720eb8868c3fb4ff758c> a dsv:Column ;
+    rdfs:label "InsideSpecifiedArea" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/6e2117797bfd720eb8868c3fb4ff758c> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6e2117797bfd720eb8868c3fb4ff758c/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/6e2117797bfd720eb8868c3fb4ff758c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/78d77a0b8ec57890944b8cfce506b113> a dsv:Column ;
+    rdfs:label "Places" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/78d77a0b8ec57890944b8cfce506b113> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/78d77a0b8ec57890944b8cfce506b113/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/78d77a0b8ec57890944b8cfce506b113/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/93bbe00a504bf8a90ddced0cf96e3ad1> a dsv:Column ;
+    rdfs:label "OutsideSpecifiedArea" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/93bbe00a504bf8a90ddced0cf96e3ad1> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/93bbe00a504bf8a90ddced0cf96e3ad1/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/93bbe00a504bf8a90ddced0cf96e3ad1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/96b0141273eabab320119c467cdcaf17> a dsv:Column ;
+    rdfs:label "Total" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/96b0141273eabab320119c467cdcaf17> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/96b0141273eabab320119c467cdcaf17/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/96b0141273eabab320119c467cdcaf17/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/9b8866e7a86b89da7fecd9e6e871e428> a dsv:Column ;
+    rdfs:label "DfENumber" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/9b8866e7a86b89da7fecd9e6e871e428> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/9b8866e7a86b89da7fecd9e6e871e428/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/9b8866e7a86b89da7fecd9e6e871e428/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a1d603bf7f3fb46a2fa731a522e6c41b> a dsv:Column ;
+    rdfs:label "Religion" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/a1d603bf7f3fb46a2fa731a522e6c41b> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a1d603bf7f3fb46a2fa731a522e6c41b/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a1d603bf7f3fb46a2fa731a522e6c41b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a55776db79ab6991edfbfc1f983c41a8> a dsv:Column ;
+    rdfs:label "Catchment" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/a55776db79ab6991edfbfc1f983c41a8> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a55776db79ab6991edfbfc1f983c41a8/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a55776db79ab6991edfbfc1f983c41a8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a86e2c2fb0a2349583c43f74e196d33c> a dsv:Column ;
+    rdfs:label "1stPref" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/a86e2c2fb0a2349583c43f74e196d33c> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a86e2c2fb0a2349583c43f74e196d33c/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/a86e2c2fb0a2349583c43f74e196d33c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/aef94e03cd53d471d3c15dc343b440f1> a dsv:Column ;
+    rdfs:label "SchoolName" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/aef94e03cd53d471d3c15dc343b440f1> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/aef94e03cd53d471d3c15dc343b440f1/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/aef94e03cd53d471d3c15dc343b440f1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/ba3f6a5526b54675d54123702760ddf2> a dsv:Column ;
+    rdfs:label "Sibling" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/ba3f6a5526b54675d54123702760ddf2> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/ba3f6a5526b54675d54123702760ddf2/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/ba3f6a5526b54675d54123702760ddf2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/bdd1ee096ea1aaac7020b7f023d4779b> a dsv:Column ;
+    rdfs:label "2ndPref" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/bdd1ee096ea1aaac7020b7f023d4779b> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/bdd1ee096ea1aaac7020b7f023d4779b/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/bdd1ee096ea1aaac7020b7f023d4779b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/c1f3ad35092f7f93c03c1017625c2c77> a dsv:Column ;
+    rdfs:label "5thPref" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/c1f3ad35092f7f93c03c1017625c2c77> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/c1f3ad35092f7f93c03c1017625c2c77/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/c1f3ad35092f7f93c03c1017625c2c77/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/f25844b18a0daddf44287ad9a987f1e2> a dsv:Column ;
+    rdfs:label "3rdPref" ;
+    dsv:columnProperty <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/properties-dictionary/f25844b18a0daddf44287ad9a987f1e2> ;
+    dsv:summaryStatistics <http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/f25844b18a0daddf44287ad9a987f1e2/summary-statistics/> .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/column/f25844b18a0daddf44287ad9a987f1e2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/admissionssummaryallocatedsecondary2017.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 21 ;
+    dsv:numberOfRows 9 .
+

@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/> a dsv:Dataset ;
+    dcterms:title "New York City Restaurant Inspection Results 28" ;
+    dsv:datasetSchema <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/0e8babb93364c6b9ba9a3dd44dc13bdc>,
+        <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/6ab38020574855a5756517f864e23994>,
+        <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/7ac87e42d0e28da672b0ad402cfa3934>,
+        <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/822dc4762d421891cbd649edaf7a1e4e>,
+        <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/968a9ba33c20456bda0f27c11f42c30b>,
+        <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/a106a3789d743857215dc021ae7006dd>,
+        <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/c9b2281fa6fd403855443e6555aa16a9>,
+        <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/f9dd946cc89c1f3b41a0edbe0f36931d> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/0e8babb93364c6b9ba9a3dd44dc13bdc> a dsv:Column ;
+    rdfs:label "NTA" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/0e8babb93364c6b9ba9a3dd44dc13bdc> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/0e8babb93364c6b9ba9a3dd44dc13bdc/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/0e8babb93364c6b9ba9a3dd44dc13bdc/summary-statistics/> dsv:columnCompleteness 9.832e-01 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/6ab38020574855a5756517f864e23994> a dsv:Column ;
+    rdfs:label "BBL" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/6ab38020574855a5756517f864e23994> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/6ab38020574855a5756517f864e23994/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/6ab38020574855a5756517f864e23994/summary-statistics/> dsv:columnCompleteness 9.96e-01 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/7ac87e42d0e28da672b0ad402cfa3934> a dsv:Column ;
+    rdfs:label "DBA" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/7ac87e42d0e28da672b0ad402cfa3934> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/7ac87e42d0e28da672b0ad402cfa3934/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/7ac87e42d0e28da672b0ad402cfa3934/summary-statistics/> dsv:columnCompleteness 9.982e-01 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/822dc4762d421891cbd649edaf7a1e4e> a dsv:Column ;
+    rdfs:label "CAMIS" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/822dc4762d421891cbd649edaf7a1e4e> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/822dc4762d421891cbd649edaf7a1e4e/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/822dc4762d421891cbd649edaf7a1e4e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/968a9ba33c20456bda0f27c11f42c30b> a dsv:Column ;
+    rdfs:label "INSPECTION TYPE" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/968a9ba33c20456bda0f27c11f42c30b> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/968a9ba33c20456bda0f27c11f42c30b/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/968a9ba33c20456bda0f27c11f42c30b/summary-statistics/> dsv:columnCompleteness 9.878e-01 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/a106a3789d743857215dc021ae7006dd> a dsv:Column ;
+    rdfs:label "CUISINE DESCRIPTION" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/a106a3789d743857215dc021ae7006dd> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/a106a3789d743857215dc021ae7006dd/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/a106a3789d743857215dc021ae7006dd/summary-statistics/> dsv:columnCompleteness 9.878e-01 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/c9b2281fa6fd403855443e6555aa16a9> a dsv:Column ;
+    rdfs:label "SCORE" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/c9b2281fa6fd403855443e6555aa16a9> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/c9b2281fa6fd403855443e6555aa16a9/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/c9b2281fa6fd403855443e6555aa16a9/summary-statistics/> dsv:columnCompleteness 9.456e-01 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/f9dd946cc89c1f3b41a0edbe0f36931d> a dsv:Column ;
+    rdfs:label "PHONE" ;
+    dsv:columnProperty <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/properties-dictionary/f9dd946cc89c1f3b41a0edbe0f36931d> ;
+    dsv:summaryStatistics <http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/f9dd946cc89c1f3b41a0edbe0f36931d/summary-statistics/> .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/column/f9dd946cc89c1f3b41a0edbe0f36931d/summary-statistics/> dsv:columnCompleteness 9.998e-01 .
+
+<http://www.example.org/new_york_city_restaurant_inspection_results_28.csv/summary-statistics/> dsv:datasetCompleteness 9.9e-01 ;
+    dsv:numberOfColumns 8 ;
+    dsv:numberOfRows 5000 .
+

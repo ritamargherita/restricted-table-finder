@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/> a dsv:Dataset ;
+    dcterms:title "Analytics-Inmedia-Complet-Principaux-Evenements-20190401-20190430" ;
+    dsv:datasetSchema <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/summary-statistics/> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/312a3c931f9f4f90dbf5e29c1794f4be>,
+        <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/37305d9f5a054fadcf1b9a2389009a54>,
+        <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/eac576c7bbbd9937950043cdbde22326> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/312a3c931f9f4f90dbf5e29c1794f4be> a dsv:Column ;
+    rdfs:label "Nombre_total_de_recherches_uniques" ;
+    dsv:columnProperty <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/properties-dictionary/312a3c931f9f4f90dbf5e29c1794f4be> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/312a3c931f9f4f90dbf5e29c1794f4be/summary-statistics/> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/312a3c931f9f4f90dbf5e29c1794f4be/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/37305d9f5a054fadcf1b9a2389009a54> a dsv:Column ;
+    rdfs:label "Nombre_total_de_recherches" ;
+    dsv:columnProperty <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/properties-dictionary/37305d9f5a054fadcf1b9a2389009a54> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/37305d9f5a054fadcf1b9a2389009a54/summary-statistics/> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/37305d9f5a054fadcf1b9a2389009a54/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/eac576c7bbbd9937950043cdbde22326> a dsv:Column ;
+    rdfs:label "ï»¿Terme_de_recherche" ;
+    dsv:columnProperty <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/properties-dictionary/eac576c7bbbd9937950043cdbde22326> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/eac576c7bbbd9937950043cdbde22326/summary-statistics/> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/column/eac576c7bbbd9937950043cdbde22326/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20190401-20190430.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 3 ;
+    dsv:numberOfRows 250 .
+

@@ -1,0 +1,128 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/lane_description_6.csv/> a dsv:Dataset ;
+    dcterms:title "Lane Description 6" ;
+    dsv:datasetSchema <http://www.example.org/lane_description_6.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/lane_description_6.csv/column/0a3dac2314e66e15240f019afcbd6b0f>,
+        <http://www.example.org/lane_description_6.csv/column/0bcfa1003ca93ccc60de05f70f80a803>,
+        <http://www.example.org/lane_description_6.csv/column/1901606ea069a83dc7beea17881ef95a>,
+        <http://www.example.org/lane_description_6.csv/column/2915d23fedc4df16fb8f0aef5e0e90e0>,
+        <http://www.example.org/lane_description_6.csv/column/2b4126640273383629a71e1bd14a132e>,
+        <http://www.example.org/lane_description_6.csv/column/430d77e9a829718ef7bfb40f803d7700>,
+        <http://www.example.org/lane_description_6.csv/column/4ea7801f17a4e5485e8b050c052fb443>,
+        <http://www.example.org/lane_description_6.csv/column/5a6b6b58a30728840547bb621794c1f7>,
+        <http://www.example.org/lane_description_6.csv/column/ab5e81312c34a082305b7af0ba19dff3>,
+        <http://www.example.org/lane_description_6.csv/column/ad2376beebecdcf7846ba973fa1a005b>,
+        <http://www.example.org/lane_description_6.csv/column/bd7a9717d29c5ddcab1bc175eda1e298>,
+        <http://www.example.org/lane_description_6.csv/column/cd096bba57f2f3139d4597bf4b62ba68>,
+        <http://www.example.org/lane_description_6.csv/column/e853cc3eed19ad4dc7609e2b94545fb9>,
+        <http://www.example.org/lane_description_6.csv/column/f7fe2a8fda6c5c80609613cefb48a0fc> .
+
+<http://www.example.org/lane_description_6.csv/column/0a3dac2314e66e15240f019afcbd6b0f> a dsv:Column ;
+    rdfs:label "Study" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/0a3dac2314e66e15240f019afcbd6b0f> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/0a3dac2314e66e15240f019afcbd6b0f/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/0a3dac2314e66e15240f019afcbd6b0f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/0bcfa1003ca93ccc60de05f70f80a803> a dsv:Column ;
+    rdfs:label "Bins" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/0bcfa1003ca93ccc60de05f70f80a803> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/0bcfa1003ca93ccc60de05f70f80a803/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/0bcfa1003ca93ccc60de05f70f80a803/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/1901606ea069a83dc7beea17881ef95a> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/1901606ea069a83dc7beea17881ef95a> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/1901606ea069a83dc7beea17881ef95a/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/1901606ea069a83dc7beea17881ef95a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/2915d23fedc4df16fb8f0aef5e0e90e0> a dsv:Column ;
+    rdfs:label "LaneDescription" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/2915d23fedc4df16fb8f0aef5e0e90e0> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/2915d23fedc4df16fb8f0aef5e0e90e0/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/2915d23fedc4df16fb8f0aef5e0e90e0/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/2b4126640273383629a71e1bd14a132e> a dsv:Column ;
+    rdfs:label "#Bins" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/2b4126640273383629a71e1bd14a132e> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/2b4126640273383629a71e1bd14a132e/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/2b4126640273383629a71e1bd14a132e/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/430d77e9a829718ef7bfb40f803d7700> a dsv:Column ;
+    rdfs:label "DirectionDescription" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/430d77e9a829718ef7bfb40f803d7700> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/430d77e9a829718ef7bfb40f803d7700/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/430d77e9a829718ef7bfb40f803d7700/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/4ea7801f17a4e5485e8b050c052fb443> a dsv:Column ;
+    rdfs:label "Flags" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/4ea7801f17a4e5485e8b050c052fb443> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/4ea7801f17a4e5485e8b050c052fb443/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/4ea7801f17a4e5485e8b050c052fb443/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/5a6b6b58a30728840547bb621794c1f7> a dsv:Column ;
+    rdfs:label "Flag Text" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/5a6b6b58a30728840547bb621794c1f7> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/5a6b6b58a30728840547bb621794c1f7/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/5a6b6b58a30728840547bb621794c1f7/summary-statistics/> dsv:columnCompleteness 1.805556e-01 .
+
+<http://www.example.org/lane_description_6.csv/column/ab5e81312c34a082305b7af0ba19dff3> a dsv:Column ;
+    rdfs:label "LaneDirection" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/ab5e81312c34a082305b7af0ba19dff3> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/ab5e81312c34a082305b7af0ba19dff3/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/ab5e81312c34a082305b7af0ba19dff3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/ad2376beebecdcf7846ba973fa1a005b> a dsv:Column ;
+    rdfs:label "Setup" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/ad2376beebecdcf7846ba973fa1a005b> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/ad2376beebecdcf7846ba973fa1a005b/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/ad2376beebecdcf7846ba973fa1a005b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/bd7a9717d29c5ddcab1bc175eda1e298> a dsv:Column ;
+    rdfs:label "Volume" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/bd7a9717d29c5ddcab1bc175eda1e298> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/bd7a9717d29c5ddcab1bc175eda1e298/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/bd7a9717d29c5ddcab1bc175eda1e298/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/cd096bba57f2f3139d4597bf4b62ba68> a dsv:Column ;
+    rdfs:label "Sdate" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/cd096bba57f2f3139d4597bf4b62ba68> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/cd096bba57f2f3139d4597bf4b62ba68/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/cd096bba57f2f3139d4597bf4b62ba68/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/e853cc3eed19ad4dc7609e2b94545fb9> a dsv:Column ;
+    rdfs:label "LaneNumber" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/e853cc3eed19ad4dc7609e2b94545fb9> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/e853cc3eed19ad4dc7609e2b94545fb9/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/e853cc3eed19ad4dc7609e2b94545fb9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/column/f7fe2a8fda6c5c80609613cefb48a0fc> a dsv:Column ;
+    rdfs:label "Cosit" ;
+    dsv:columnProperty <http://www.example.org/lane_description_6.csv/properties-dictionary/f7fe2a8fda6c5c80609613cefb48a0fc> ;
+    dsv:summaryStatistics <http://www.example.org/lane_description_6.csv/column/f7fe2a8fda6c5c80609613cefb48a0fc/summary-statistics/> .
+
+<http://www.example.org/lane_description_6.csv/column/f7fe2a8fda6c5c80609613cefb48a0fc/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/lane_description_6.csv/summary-statistics/> dsv:datasetCompleteness 8.7e-01 ;
+    dsv:numberOfColumns 14 ;
+    dsv:numberOfRows 5184 .
+

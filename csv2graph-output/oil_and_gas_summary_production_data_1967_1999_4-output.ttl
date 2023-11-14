@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/> a dsv:Dataset ;
+    dcterms:title "Oil And Gas Summary Production Data 1967 1999 4" ;
+    dsv:datasetSchema <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/00a6ec60f0dd019658c4e09d72add4b3>,
+        <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/2fca16dac62c935a91ebd73669c81be7>,
+        <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/6f16a5f8ff5d75ab84c018adacdfcbb7>,
+        <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/88aadc969f30e5b817fce2c6dc6fcce2>,
+        <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/a9e6367b0f21bdd146ce598112e5a106>,
+        <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e1b3ec89ead7f83a9245ed5c9cacfdbf>,
+        <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e25b163360646e8f71af8a8ee0fad1a3>,
+        <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/f1d925c5f7563471060e09d49655333c> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/00a6ec60f0dd019658c4e09d72add4b3> a dsv:Column ;
+    rdfs:label "Active Oil Wells" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/00a6ec60f0dd019658c4e09d72add4b3> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/00a6ec60f0dd019658c4e09d72add4b3/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/00a6ec60f0dd019658c4e09d72add4b3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/2fca16dac62c935a91ebd73669c81be7> a dsv:Column ;
+    rdfs:label "Self-use Well" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/2fca16dac62c935a91ebd73669c81be7> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/2fca16dac62c935a91ebd73669c81be7/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/2fca16dac62c935a91ebd73669c81be7/summary-statistics/> dsv:columnCompleteness 9.794e-01 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/6f16a5f8ff5d75ab84c018adacdfcbb7> a dsv:Column ;
+    rdfs:label "Field" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/6f16a5f8ff5d75ab84c018adacdfcbb7> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/6f16a5f8ff5d75ab84c018adacdfcbb7/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/6f16a5f8ff5d75ab84c018adacdfcbb7/summary-statistics/> dsv:columnCompleteness 9.57e-01 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/88aadc969f30e5b817fce2c6dc6fcce2> a dsv:Column ;
+    rdfs:label "Inactive Oil Wells" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/88aadc969f30e5b817fce2c6dc6fcce2> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/88aadc969f30e5b817fce2c6dc6fcce2/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/88aadc969f30e5b817fce2c6dc6fcce2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/a9e6367b0f21bdd146ce598112e5a106> a dsv:Column ;
+    rdfs:label "Production Date Entered" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/a9e6367b0f21bdd146ce598112e5a106> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/a9e6367b0f21bdd146ce598112e5a106/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/a9e6367b0f21bdd146ce598112e5a106/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e1b3ec89ead7f83a9245ed5c9cacfdbf> a dsv:Column ;
+    rdfs:label "Operator" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/e1b3ec89ead7f83a9245ed5c9cacfdbf> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e1b3ec89ead7f83a9245ed5c9cacfdbf/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e1b3ec89ead7f83a9245ed5c9cacfdbf/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e25b163360646e8f71af8a8ee0fad1a3> a dsv:Column ;
+    rdfs:label "County" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/e25b163360646e8f71af8a8ee0fad1a3> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e25b163360646e8f71af8a8ee0fad1a3/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/e25b163360646e8f71af8a8ee0fad1a3/summary-statistics/> dsv:columnCompleteness 9.988e-01 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/f1d925c5f7563471060e09d49655333c> a dsv:Column ;
+    rdfs:label "Production Year" ;
+    dsv:columnProperty <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/properties-dictionary/f1d925c5f7563471060e09d49655333c> ;
+    dsv:summaryStatistics <http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/f1d925c5f7563471060e09d49655333c/summary-statistics/> .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/column/f1d925c5f7563471060e09d49655333c/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/oil_and_gas_summary_production_data_1967_1999_4.csv/summary-statistics/> dsv:datasetCompleteness 9.9e-01 ;
+    dsv:numberOfColumns 8 ;
+    dsv:numberOfRows 5000 .
+

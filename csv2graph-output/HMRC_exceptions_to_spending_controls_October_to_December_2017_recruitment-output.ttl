@@ -1,0 +1,168 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/> a dsv:Dataset ;
+    dcterms:title "Hmrc Exceptions To Spending Controls October To December 2017 Recruitment" ;
+    dsv:datasetSchema <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0e74fc420a821a849c93ab01fef3432e>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/1d17cb9923b99f823da9f5a16dc460e5>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/25338b215daaaed03b0e8930fe0f583c>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/46c7136e62339172cf4575f4f34bee3b>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/57710c8acd60ac0c1ada082c6cbd079b>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/5973f6616b1e56119552941e868d4487>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/65e1675d9b114b66f0aefd77bd98fbf4>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/8cc50eeec359e452404c9cc942328dd5>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9030b691eee3f2eab43719b9e80150a2>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9388219871d1ca103f61a8f2f5c1fef6>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/a330e0f9a98da7bb52128a89c9b397ef>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ae4821d7e7f4648301b5765177dbc74a>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/b4196706a3bed3255921afbbe501e51b>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/cfa27d412b8900b4d524abd6339af4b6>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ddd9017ec8d4df6f8035999c55ee7861>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/f4a628edf7c75c3b3588f76a40842523>,
+        <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ff6fb060f2a22335165d926454b17da9> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81> a dsv:Column ;
+    rdfs:label "Unnamed: 12" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/0d9c7e8ddd5438e2b6052da2b3072c81> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0d9c7e8ddd5438e2b6052da2b3072c81/summary-statistics/> dsv:columnCompleteness 1.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0e74fc420a821a849c93ab01fef3432e> a dsv:Column ;
+    rdfs:label "Unnamed: 9" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/0e74fc420a821a849c93ab01fef3432e> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0e74fc420a821a849c93ab01fef3432e/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/0e74fc420a821a849c93ab01fef3432e/summary-statistics/> dsv:columnCompleteness 3.8e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/1d17cb9923b99f823da9f5a16dc460e5> a dsv:Column ;
+    rdfs:label "Department" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/1d17cb9923b99f823da9f5a16dc460e5> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/1d17cb9923b99f823da9f5a16dc460e5/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/1d17cb9923b99f823da9f5a16dc460e5/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/25338b215daaaed03b0e8930fe0f583c> a dsv:Column ;
+    rdfs:label "Approval month" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/25338b215daaaed03b0e8930fe0f583c> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/25338b215daaaed03b0e8930fe0f583c/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/25338b215daaaed03b0e8930fe0f583c/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/46c7136e62339172cf4575f4f34bee3b> a dsv:Column ;
+    rdfs:label "Unnamed: 13" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/46c7136e62339172cf4575f4f34bee3b> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/46c7136e62339172cf4575f4f34bee3b/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/46c7136e62339172cf4575f4f34bee3b/summary-statistics/> dsv:columnCompleteness 2.4e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/57710c8acd60ac0c1ada082c6cbd079b> a dsv:Column ;
+    rdfs:label "Unnamed: 7" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/57710c8acd60ac0c1ada082c6cbd079b> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/57710c8acd60ac0c1ada082c6cbd079b/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/57710c8acd60ac0c1ada082c6cbd079b/summary-statistics/> dsv:columnCompleteness 2.4e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/5973f6616b1e56119552941e868d4487> a dsv:Column ;
+    rdfs:label "Date of approval" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/5973f6616b1e56119552941e868d4487> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/5973f6616b1e56119552941e868d4487/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/5973f6616b1e56119552941e868d4487/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/65e1675d9b114b66f0aefd77bd98fbf4> a dsv:Column ;
+    rdfs:label "Civil Service Grade (FTE)" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/65e1675d9b114b66f0aefd77bd98fbf4> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/65e1675d9b114b66f0aefd77bd98fbf4/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/65e1675d9b114b66f0aefd77bd98fbf4/summary-statistics/> dsv:columnCompleteness 1.2e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/8cc50eeec359e452404c9cc942328dd5> a dsv:Column ;
+    rdfs:label "Total approvals (Headcount)" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/8cc50eeec359e452404c9cc942328dd5> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/8cc50eeec359e452404c9cc942328dd5/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/8cc50eeec359e452404c9cc942328dd5/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9030b691eee3f2eab43719b9e80150a2> a dsv:Column ;
+    rdfs:label "Unnamed: 11" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/9030b691eee3f2eab43719b9e80150a2> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9030b691eee3f2eab43719b9e80150a2/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9030b691eee3f2eab43719b9e80150a2/summary-statistics/> dsv:columnCompleteness 8e-02 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9388219871d1ca103f61a8f2f5c1fef6> a dsv:Column ;
+    rdfs:label "Unnamed: 5" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/9388219871d1ca103f61a8f2f5c1fef6> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9388219871d1ca103f61a8f2f5c1fef6/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/9388219871d1ca103f61a8f2f5c1fef6/summary-statistics/> dsv:columnCompleteness 8e-02 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/a330e0f9a98da7bb52128a89c9b397ef> a dsv:Column ;
+    rdfs:label "Basis for expenditure approval" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/a330e0f9a98da7bb52128a89c9b397ef> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/a330e0f9a98da7bb52128a89c9b397ef/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/a330e0f9a98da7bb52128a89c9b397ef/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c> a dsv:Column ;
+    rdfs:label "Unnamed: 14" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/aadf0e6e7dcadfd7dc442db63c4f1d1c> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/aadf0e6e7dcadfd7dc442db63c4f1d1c/summary-statistics/> dsv:columnCompleteness 3.4e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ae4821d7e7f4648301b5765177dbc74a> a dsv:Column ;
+    rdfs:label "Total Approvals (FTE)" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/ae4821d7e7f4648301b5765177dbc74a> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ae4821d7e7f4648301b5765177dbc74a/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ae4821d7e7f4648301b5765177dbc74a/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/b4196706a3bed3255921afbbe501e51b> a dsv:Column ;
+    rdfs:label "Business Stream" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/b4196706a3bed3255921afbbe501e51b> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/b4196706a3bed3255921afbbe501e51b/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/b4196706a3bed3255921afbbe501e51b/summary-statistics/> dsv:columnCompleteness 9.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/cfa27d412b8900b4d524abd6339af4b6> a dsv:Column ;
+    rdfs:label "Unnamed: 15" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/cfa27d412b8900b4d524abd6339af4b6> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/cfa27d412b8900b4d524abd6339af4b6/summary-statistics/> dsv:columnCompleteness 3.8e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ddd9017ec8d4df6f8035999c55ee7861> a dsv:Column ;
+    rdfs:label "Unnamed: 8" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/ddd9017ec8d4df6f8035999c55ee7861> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ddd9017ec8d4df6f8035999c55ee7861/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ddd9017ec8d4df6f8035999c55ee7861/summary-statistics/> dsv:columnCompleteness 3.4e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/f4a628edf7c75c3b3588f76a40842523> a dsv:Column ;
+    rdfs:label "Unnamed: 6" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/f4a628edf7c75c3b3588f76a40842523> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/f4a628edf7c75c3b3588f76a40842523/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/f4a628edf7c75c3b3588f76a40842523/summary-statistics/> dsv:columnCompleteness 1.6e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ff6fb060f2a22335165d926454b17da9> a dsv:Column ;
+    rdfs:label "Civil Service Grade (Headcount)" ;
+    dsv:columnProperty <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/properties-dictionary/ff6fb060f2a22335165d926454b17da9> ;
+    dsv:summaryStatistics <http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ff6fb060f2a22335165d926454b17da9/summary-statistics/> .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/column/ff6fb060f2a22335165d926454b17da9/summary-statistics/> dsv:columnCompleteness 1.2e-01 .
+
+<http://www.example.org/HMRC_exceptions_to_spending_controls_October_to_December_2017_recruitment.csv/summary-statistics/> dsv:datasetCompleteness 4.9e-01 ;
+    dsv:numberOfColumns 19 ;
+    dsv:numberOfRows 50 .
+

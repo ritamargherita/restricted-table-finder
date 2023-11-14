@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/albums_13.csv/> a dsv:Dataset ;
+    dcterms:title "Albums 13" ;
+    dsv:datasetSchema <http://www.example.org/albums_13.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/albums_13.csv/summary-statistics/> .
+
+<http://www.example.org/albums_13.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/albums_13.csv/column/368cc7b17925cc0f9c4b5a90db1e68c1>,
+        <http://www.example.org/albums_13.csv/column/84cdc76cabf41bd7c961f6ab12f117d8>,
+        <http://www.example.org/albums_13.csv/column/a4b2d20f456833bcdac42e73edad64c0>,
+        <http://www.example.org/albums_13.csv/column/d5d3db1765287eef77d7927cc956f50a> .
+
+<http://www.example.org/albums_13.csv/column/368cc7b17925cc0f9c4b5a90db1e68c1> a dsv:Column ;
+    rdfs:label "track" ;
+    dsv:columnProperty <http://www.example.org/albums_13.csv/properties-dictionary/368cc7b17925cc0f9c4b5a90db1e68c1> ;
+    dsv:summaryStatistics <http://www.example.org/albums_13.csv/column/368cc7b17925cc0f9c4b5a90db1e68c1/summary-statistics/> .
+
+<http://www.example.org/albums_13.csv/column/368cc7b17925cc0f9c4b5a90db1e68c1/summary-statistics/> dsv:columnCompleteness 9.538462e-01 .
+
+<http://www.example.org/albums_13.csv/column/84cdc76cabf41bd7c961f6ab12f117d8> a dsv:Column ;
+    rdfs:label "year" ;
+    dsv:columnProperty <http://www.example.org/albums_13.csv/properties-dictionary/84cdc76cabf41bd7c961f6ab12f117d8> ;
+    dsv:summaryStatistics <http://www.example.org/albums_13.csv/column/84cdc76cabf41bd7c961f6ab12f117d8/summary-statistics/> .
+
+<http://www.example.org/albums_13.csv/column/84cdc76cabf41bd7c961f6ab12f117d8/summary-statistics/> dsv:columnCompleteness 9.736264e-01 .
+
+<http://www.example.org/albums_13.csv/column/a4b2d20f456833bcdac42e73edad64c0> a dsv:Column ;
+    rdfs:label "album" ;
+    dsv:columnProperty <http://www.example.org/albums_13.csv/properties-dictionary/a4b2d20f456833bcdac42e73edad64c0> ;
+    dsv:summaryStatistics <http://www.example.org/albums_13.csv/column/a4b2d20f456833bcdac42e73edad64c0/summary-statistics/> .
+
+<http://www.example.org/albums_13.csv/column/a4b2d20f456833bcdac42e73edad64c0/summary-statistics/> dsv:columnCompleteness 9.604396e-01 .
+
+<http://www.example.org/albums_13.csv/column/d5d3db1765287eef77d7927cc956f50a> a dsv:Column ;
+    rdfs:label "title" ;
+    dsv:columnProperty <http://www.example.org/albums_13.csv/properties-dictionary/d5d3db1765287eef77d7927cc956f50a> ;
+    dsv:summaryStatistics <http://www.example.org/albums_13.csv/column/d5d3db1765287eef77d7927cc956f50a/summary-statistics/> .
+
+<http://www.example.org/albums_13.csv/column/d5d3db1765287eef77d7927cc956f50a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/albums_13.csv/summary-statistics/> dsv:datasetCompleteness 9.7e-01 ;
+    dsv:numberOfColumns 4 ;
+    dsv:numberOfRows 910 .
+

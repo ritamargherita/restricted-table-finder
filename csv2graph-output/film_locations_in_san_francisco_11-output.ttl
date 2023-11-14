@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/> a dsv:Dataset ;
+    dcterms:title "Film Locations In San Francisco 11" ;
+    dsv:datasetSchema <http://www.example.org/film_locations_in_san_francisco_11.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/film_locations_in_san_francisco_11.csv/summary-statistics/> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/film_locations_in_san_francisco_11.csv/column/1d5554ea77ffdb67ea4ea5dc22592996>,
+        <http://www.example.org/film_locations_in_san_francisco_11.csv/column/3c904f555f5adb29da5c0c6d1a0555d8>,
+        <http://www.example.org/film_locations_in_san_francisco_11.csv/column/4d5e4b4e50e8bb37de7fbc36e2dc180b>,
+        <http://www.example.org/film_locations_in_san_francisco_11.csv/column/7c5ba892645af8d7dba520e3978c726f>,
+        <http://www.example.org/film_locations_in_san_francisco_11.csv/column/a2d7c3fb4d3cc662ccb1931a51bf1dde>,
+        <http://www.example.org/film_locations_in_san_francisco_11.csv/column/b78a3223503896721cca1303f776159b> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/1d5554ea77ffdb67ea4ea5dc22592996> a dsv:Column ;
+    rdfs:label "Production Company" ;
+    dsv:columnProperty <http://www.example.org/film_locations_in_san_francisco_11.csv/properties-dictionary/1d5554ea77ffdb67ea4ea5dc22592996> ;
+    dsv:summaryStatistics <http://www.example.org/film_locations_in_san_francisco_11.csv/column/1d5554ea77ffdb67ea4ea5dc22592996/summary-statistics/> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/1d5554ea77ffdb67ea4ea5dc22592996/summary-statistics/> dsv:columnCompleteness 9.976932e-01 .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/3c904f555f5adb29da5c0c6d1a0555d8> a dsv:Column ;
+    rdfs:label "Actor 1" ;
+    dsv:columnProperty <http://www.example.org/film_locations_in_san_francisco_11.csv/properties-dictionary/3c904f555f5adb29da5c0c6d1a0555d8> ;
+    dsv:summaryStatistics <http://www.example.org/film_locations_in_san_francisco_11.csv/column/3c904f555f5adb29da5c0c6d1a0555d8/summary-statistics/> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/3c904f555f5adb29da5c0c6d1a0555d8/summary-statistics/> dsv:columnCompleteness 9.976932e-01 .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/4d5e4b4e50e8bb37de7fbc36e2dc180b> a dsv:Column ;
+    rdfs:label "Actor 3" ;
+    dsv:columnProperty <http://www.example.org/film_locations_in_san_francisco_11.csv/properties-dictionary/4d5e4b4e50e8bb37de7fbc36e2dc180b> ;
+    dsv:summaryStatistics <http://www.example.org/film_locations_in_san_francisco_11.csv/column/4d5e4b4e50e8bb37de7fbc36e2dc180b/summary-statistics/> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/4d5e4b4e50e8bb37de7fbc36e2dc180b/summary-statistics/> dsv:columnCompleteness 7.185698e-01 .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/7c5ba892645af8d7dba520e3978c726f> a dsv:Column ;
+    rdfs:label "Director" ;
+    dsv:columnProperty <http://www.example.org/film_locations_in_san_francisco_11.csv/properties-dictionary/7c5ba892645af8d7dba520e3978c726f> ;
+    dsv:summaryStatistics <http://www.example.org/film_locations_in_san_francisco_11.csv/column/7c5ba892645af8d7dba520e3978c726f/summary-statistics/> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/7c5ba892645af8d7dba520e3978c726f/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/a2d7c3fb4d3cc662ccb1931a51bf1dde> a dsv:Column ;
+    rdfs:label "Actor 2" ;
+    dsv:columnProperty <http://www.example.org/film_locations_in_san_francisco_11.csv/properties-dictionary/a2d7c3fb4d3cc662ccb1931a51bf1dde> ;
+    dsv:summaryStatistics <http://www.example.org/film_locations_in_san_francisco_11.csv/column/a2d7c3fb4d3cc662ccb1931a51bf1dde/summary-statistics/> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/a2d7c3fb4d3cc662ccb1931a51bf1dde/summary-statistics/> dsv:columnCompleteness 9.457901e-01 .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/b78a3223503896721cca1303f776159b> a dsv:Column ;
+    rdfs:label "Title" ;
+    dsv:columnProperty <http://www.example.org/film_locations_in_san_francisco_11.csv/properties-dictionary/b78a3223503896721cca1303f776159b> ;
+    dsv:summaryStatistics <http://www.example.org/film_locations_in_san_francisco_11.csv/column/b78a3223503896721cca1303f776159b/summary-statistics/> .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/column/b78a3223503896721cca1303f776159b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/film_locations_in_san_francisco_11.csv/summary-statistics/> dsv:datasetCompleteness 9.4e-01 ;
+    dsv:numberOfColumns 6 ;
+    dsv:numberOfRows 867 .
+

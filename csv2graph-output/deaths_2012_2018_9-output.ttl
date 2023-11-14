@@ -1,0 +1,104 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/> a dsv:Dataset ;
+    dcterms:title "Deaths 2012 2018 9" ;
+    dsv:datasetSchema <http://www.example.org/deaths_2012_2018_9.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/deaths_2012_2018_9.csv/column/25bb95c9445670c255e4fc55f7ed31cd>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/382a505dc62a5b8d56a8b6e04015154e>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/3da2e9b5eeeab0c482ee736cddebb4d1>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/44749712dbec183e983dcd78a7736c41>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/5030551cd5ca2f5644f3d4e00ff6eba7>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/5b9cb98695a908703bd8148baa0e2deb>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/9d5a6e923966caef0cdad0683978652b>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/9d8d2d5ab12b515182a505f54db7f538>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/b718adec73e04ce3ec720dd11a06a308>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/ce5bf551379459c1c61d2a204061c455>,
+        <http://www.example.org/deaths_2012_2018_9.csv/column/daab80c5dadc81fa2d019c562f805994> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/25bb95c9445670c255e4fc55f7ed31cd> a dsv:Column ;
+    rdfs:label "InjuryPlace" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/25bb95c9445670c255e4fc55f7ed31cd> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/25bb95c9445670c255e4fc55f7ed31cd/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/25bb95c9445670c255e4fc55f7ed31cd/summary-statistics/> dsv:columnCompleteness 9.885222e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/382a505dc62a5b8d56a8b6e04015154e> a dsv:Column ;
+    rdfs:label "DateType" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/382a505dc62a5b8d56a8b6e04015154e> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/382a505dc62a5b8d56a8b6e04015154e/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/382a505dc62a5b8d56a8b6e04015154e/summary-statistics/> dsv:columnCompleteness 9.992826e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/3da2e9b5eeeab0c482ee736cddebb4d1> a dsv:Column ;
+    rdfs:label "ResidenceCounty" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/3da2e9b5eeeab0c482ee736cddebb4d1> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/3da2e9b5eeeab0c482ee736cddebb4d1/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/3da2e9b5eeeab0c482ee736cddebb4d1/summary-statistics/> dsv:columnCompleteness 8.522238e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/44749712dbec183e983dcd78a7736c41> a dsv:Column ;
+    rdfs:label "Date" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/44749712dbec183e983dcd78a7736c41> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/44749712dbec183e983dcd78a7736c41/summary-statistics/> dsv:columnCompleteness 9.992826e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/5030551cd5ca2f5644f3d4e00ff6eba7> a dsv:Column ;
+    rdfs:label "COD" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/5030551cd5ca2f5644f3d4e00ff6eba7> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/5030551cd5ca2f5644f3d4e00ff6eba7/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/5030551cd5ca2f5644f3d4e00ff6eba7/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/5b9cb98695a908703bd8148baa0e2deb> a dsv:Column ;
+    rdfs:label "DescriptionofInjury" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/5b9cb98695a908703bd8148baa0e2deb> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/5b9cb98695a908703bd8148baa0e2deb/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/5b9cb98695a908703bd8148baa0e2deb/summary-statistics/> dsv:columnCompleteness 8.364419e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/9d5a6e923966caef0cdad0683978652b> a dsv:Column ;
+    rdfs:label "ResidenceCity" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/9d5a6e923966caef0cdad0683978652b> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/9d5a6e923966caef0cdad0683978652b/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/9d5a6e923966caef0cdad0683978652b/summary-statistics/> dsv:columnCompleteness 9.634146e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/9d8d2d5ab12b515182a505f54db7f538> a dsv:Column ;
+    rdfs:label "Age" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/9d8d2d5ab12b515182a505f54db7f538> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/9d8d2d5ab12b515182a505f54db7f538/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/9d8d2d5ab12b515182a505f54db7f538/summary-statistics/> dsv:columnCompleteness 9.992826e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/b718adec73e04ce3ec720dd11a06a308> a dsv:Column ;
+    rdfs:label "ID" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/b718adec73e04ce3ec720dd11a06a308> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/b718adec73e04ce3ec720dd11a06a308/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/b718adec73e04ce3ec720dd11a06a308/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/ce5bf551379459c1c61d2a204061c455> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/ce5bf551379459c1c61d2a204061c455> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/ce5bf551379459c1c61d2a204061c455/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/ce5bf551379459c1c61d2a204061c455/summary-statistics/> dsv:columnCompleteness 9.971306e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/daab80c5dadc81fa2d019c562f805994> a dsv:Column ;
+    rdfs:label "Sex" ;
+    dsv:columnProperty <http://www.example.org/deaths_2012_2018_9.csv/properties-dictionary/daab80c5dadc81fa2d019c562f805994> ;
+    dsv:summaryStatistics <http://www.example.org/deaths_2012_2018_9.csv/column/daab80c5dadc81fa2d019c562f805994/summary-statistics/> .
+
+<http://www.example.org/deaths_2012_2018_9.csv/column/daab80c5dadc81fa2d019c562f805994/summary-statistics/> dsv:columnCompleteness 9.985653e-01 .
+
+<http://www.example.org/deaths_2012_2018_9.csv/summary-statistics/> dsv:datasetCompleteness 9.7e-01 ;
+    dsv:numberOfColumns 11 ;
+    dsv:numberOfRows 1394 .
+

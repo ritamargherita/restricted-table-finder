@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/> a dsv:Dataset ;
+    dcterms:title "Analytics-Iris-Complet-Termes-De-Recherche-20170201-20170228" ;
+    dsv:datasetSchema <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/312a3c931f9f4f90dbf5e29c1794f4be>,
+        <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/740f81e9367635173cafbf49069f6451>,
+        <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/953a4af53f9eea9bbc53ab46c8d62ad6>,
+        <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/9e1dd0a625544085e963305deaab5fd3>,
+        <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/c25c9db023a5466ed57fd5546cb33fd2>,
+        <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/dfcfba9db221a45dd66e55178d58084d>,
+        <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/eac576c7bbbd9937950043cdbde22326> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/312a3c931f9f4f90dbf5e29c1794f4be> a dsv:Column ;
+    rdfs:label "Nombre_total_de_recherches_uniques" ;
+    dsv:columnProperty <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/properties-dictionary/312a3c931f9f4f90dbf5e29c1794f4be> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/312a3c931f9f4f90dbf5e29c1794f4be/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/312a3c931f9f4f90dbf5e29c1794f4be/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/740f81e9367635173cafbf49069f6451> a dsv:Column ;
+    rdfs:label "Etendue_moy._de_la_recherche" ;
+    dsv:columnProperty <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/properties-dictionary/740f81e9367635173cafbf49069f6451> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/740f81e9367635173cafbf49069f6451/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/740f81e9367635173cafbf49069f6451/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/953a4af53f9eea9bbc53ab46c8d62ad6> a dsv:Column ;
+    rdfs:label "Temps_apres_recherche" ;
+    dsv:columnProperty <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/properties-dictionary/953a4af53f9eea9bbc53ab46c8d62ad6> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/953a4af53f9eea9bbc53ab46c8d62ad6/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/953a4af53f9eea9bbc53ab46c8d62ad6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/9e1dd0a625544085e963305deaab5fd3> a dsv:Column ;
+    rdfs:label "Precision_des_recherches_(%)" ;
+    dsv:columnProperty <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/properties-dictionary/9e1dd0a625544085e963305deaab5fd3> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/9e1dd0a625544085e963305deaab5fd3/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/9e1dd0a625544085e963305deaab5fd3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/c25c9db023a5466ed57fd5546cb33fd2> a dsv:Column ;
+    rdfs:label "Sorties_apres_recherche_(%)" ;
+    dsv:columnProperty <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/properties-dictionary/c25c9db023a5466ed57fd5546cb33fd2> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/c25c9db023a5466ed57fd5546cb33fd2/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/c25c9db023a5466ed57fd5546cb33fd2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/dfcfba9db221a45dd66e55178d58084d> a dsv:Column ;
+    rdfs:label "Pages_vues_(resultats)_par_recherche" ;
+    dsv:columnProperty <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/properties-dictionary/dfcfba9db221a45dd66e55178d58084d> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/dfcfba9db221a45dd66e55178d58084d/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/dfcfba9db221a45dd66e55178d58084d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/eac576c7bbbd9937950043cdbde22326> a dsv:Column ;
+    rdfs:label "ï»¿Terme_de_recherche" ;
+    dsv:columnProperty <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/properties-dictionary/eac576c7bbbd9937950043cdbde22326> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/eac576c7bbbd9937950043cdbde22326/summary-statistics/> .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/column/eac576c7bbbd9937950043cdbde22326/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-iris-complet-termes-de-recherche-20170201-20170228.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 7 ;
+    dsv:numberOfRows 250 .
+

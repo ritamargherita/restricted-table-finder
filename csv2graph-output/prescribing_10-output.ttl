@@ -1,0 +1,168 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/prescribing_10.csv/> a dsv:Dataset ;
+    dcterms:title "Prescribing 10" ;
+    dsv:datasetSchema <http://www.example.org/prescribing_10.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/prescribing_10.csv/column/03232b3d3e02e5a91f435d2083b88e8a>,
+        <http://www.example.org/prescribing_10.csv/column/0b5fd2ae0f30325ad74e84127eb6ddb1>,
+        <http://www.example.org/prescribing_10.csv/column/2535368ad00be60b739b07b19c329564>,
+        <http://www.example.org/prescribing_10.csv/column/3ddfec9db60a9c263617408bd0e98b42>,
+        <http://www.example.org/prescribing_10.csv/column/426a06b251c7d07d4fb25191bb73866e>,
+        <http://www.example.org/prescribing_10.csv/column/537c66b24ef5c83b7382cdc3f34885f2>,
+        <http://www.example.org/prescribing_10.csv/column/5a455a612047a34ede7a6c564fa67c0a>,
+        <http://www.example.org/prescribing_10.csv/column/5c381c1c8a99a39641963e96389981fd>,
+        <http://www.example.org/prescribing_10.csv/column/751f758067439f9b006542842e82d1f6>,
+        <http://www.example.org/prescribing_10.csv/column/7cbb885aa1164b390a0bc050a64e1812>,
+        <http://www.example.org/prescribing_10.csv/column/8266102402afc2b7aa694e5aeccd07c3>,
+        <http://www.example.org/prescribing_10.csv/column/92d7b85be0f7dc13364a68927ad5e203>,
+        <http://www.example.org/prescribing_10.csv/column/9df3c431a8daf55e5705dc3bcca525a9>,
+        <http://www.example.org/prescribing_10.csv/column/a897ee22e34a3cd8378553f47fc54acd>,
+        <http://www.example.org/prescribing_10.csv/column/a9fc72cde2a9c502dbbf65a645f79d0e>,
+        <http://www.example.org/prescribing_10.csv/column/bc906a7564a34f6470ccf79287a7bcaa>,
+        <http://www.example.org/prescribing_10.csv/column/c2cd8657cf5978481cc8e9e84a751cf3>,
+        <http://www.example.org/prescribing_10.csv/column/c7bc3fddddb62d5b656adc30cea77a55>,
+        <http://www.example.org/prescribing_10.csv/column/d71698ee85f05f15e5761b9d0040a8ba> .
+
+<http://www.example.org/prescribing_10.csv/column/03232b3d3e02e5a91f435d2083b88e8a> a dsv:Column ;
+    rdfs:label "BNF Chapter" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/03232b3d3e02e5a91f435d2083b88e8a> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/03232b3d3e02e5a91f435d2083b88e8a/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/03232b3d3e02e5a91f435d2083b88e8a/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/0b5fd2ae0f30325ad74e84127eb6ddb1> a dsv:Column ;
+    rdfs:label "BNF Code" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/0b5fd2ae0f30325ad74e84127eb6ddb1> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/0b5fd2ae0f30325ad74e84127eb6ddb1/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/0b5fd2ae0f30325ad74e84127eb6ddb1/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/2535368ad00be60b739b07b19c329564> a dsv:Column ;
+    rdfs:label "VMP_NM" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/2535368ad00be60b739b07b19c329564> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/2535368ad00be60b739b07b19c329564/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/2535368ad00be60b739b07b19c329564/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/3ddfec9db60a9c263617408bd0e98b42> a dsv:Column ;
+    rdfs:label "Total Quantity" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/3ddfec9db60a9c263617408bd0e98b42> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/3ddfec9db60a9c263617408bd0e98b42/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/3ddfec9db60a9c263617408bd0e98b42/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/426a06b251c7d07d4fb25191bb73866e> a dsv:Column ;
+    rdfs:label "VTM_NM" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/426a06b251c7d07d4fb25191bb73866e> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/426a06b251c7d07d4fb25191bb73866e/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/426a06b251c7d07d4fb25191bb73866e/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/537c66b24ef5c83b7382cdc3f34885f2> a dsv:Column ;
+    rdfs:label "Year" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/537c66b24ef5c83b7382cdc3f34885f2> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/537c66b24ef5c83b7382cdc3f34885f2/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/537c66b24ef5c83b7382cdc3f34885f2/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/5a455a612047a34ede7a6c564fa67c0a> a dsv:Column ;
+    rdfs:label "Strength" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/5a455a612047a34ede7a6c564fa67c0a> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/5a455a612047a34ede7a6c564fa67c0a/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/5a455a612047a34ede7a6c564fa67c0a/summary-statistics/> dsv:columnCompleteness 9.743e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/5c381c1c8a99a39641963e96389981fd> a dsv:Column ;
+    rdfs:label "Unnamed: 17" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/5c381c1c8a99a39641963e96389981fd> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/5c381c1c8a99a39641963e96389981fd/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/5c381c1c8a99a39641963e96389981fd/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/prescribing_10.csv/column/751f758067439f9b006542842e82d1f6> a dsv:Column ;
+    rdfs:label "AMP_NM" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/751f758067439f9b006542842e82d1f6> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/751f758067439f9b006542842e82d1f6/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/751f758067439f9b006542842e82d1f6/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/7cbb885aa1164b390a0bc050a64e1812> a dsv:Column ;
+    rdfs:label "Month" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/7cbb885aa1164b390a0bc050a64e1812> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/7cbb885aa1164b390a0bc050a64e1812/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/7cbb885aa1164b390a0bc050a64e1812/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/8266102402afc2b7aa694e5aeccd07c3> a dsv:Column ;
+    rdfs:label "Actual Cost (Â£)" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/8266102402afc2b7aa694e5aeccd07c3> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/8266102402afc2b7aa694e5aeccd07c3/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/8266102402afc2b7aa694e5aeccd07c3/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/92d7b85be0f7dc13364a68927ad5e203> a dsv:Column ;
+    rdfs:label "BNF Paragraph" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/92d7b85be0f7dc13364a68927ad5e203> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/92d7b85be0f7dc13364a68927ad5e203/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/92d7b85be0f7dc13364a68927ad5e203/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/9df3c431a8daf55e5705dc3bcca525a9> a dsv:Column ;
+    rdfs:label "PRACTICE" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/9df3c431a8daf55e5705dc3bcca525a9> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/9df3c431a8daf55e5705dc3bcca525a9/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/9df3c431a8daf55e5705dc3bcca525a9/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/a897ee22e34a3cd8378553f47fc54acd> a dsv:Column ;
+    rdfs:label "Unnamed: 18" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/a897ee22e34a3cd8378553f47fc54acd> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/a897ee22e34a3cd8378553f47fc54acd/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/a897ee22e34a3cd8378553f47fc54acd/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/prescribing_10.csv/column/a9fc72cde2a9c502dbbf65a645f79d0e> a dsv:Column ;
+    rdfs:label "BNF Sub-Paragraph" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/a9fc72cde2a9c502dbbf65a645f79d0e> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/a9fc72cde2a9c502dbbf65a645f79d0e/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/a9fc72cde2a9c502dbbf65a645f79d0e/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/bc906a7564a34f6470ccf79287a7bcaa> a dsv:Column ;
+    rdfs:label "Total Items" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/bc906a7564a34f6470ccf79287a7bcaa> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/bc906a7564a34f6470ccf79287a7bcaa/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/bc906a7564a34f6470ccf79287a7bcaa/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/c2cd8657cf5978481cc8e9e84a751cf3> a dsv:Column ;
+    rdfs:label "BNF Section" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/c2cd8657cf5978481cc8e9e84a751cf3> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/c2cd8657cf5978481cc8e9e84a751cf3/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/c2cd8657cf5978481cc8e9e84a751cf3/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/c7bc3fddddb62d5b656adc30cea77a55> a dsv:Column ;
+    rdfs:label "Presentation" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/c7bc3fddddb62d5b656adc30cea77a55> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/c7bc3fddddb62d5b656adc30cea77a55/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/c7bc3fddddb62d5b656adc30cea77a55/summary-statistics/> dsv:columnCompleteness 9.93e-01 .
+
+<http://www.example.org/prescribing_10.csv/column/d71698ee85f05f15e5761b9d0040a8ba> a dsv:Column ;
+    rdfs:label "Gross Cost (Â£)" ;
+    dsv:columnProperty <http://www.example.org/prescribing_10.csv/properties-dictionary/d71698ee85f05f15e5761b9d0040a8ba> ;
+    dsv:summaryStatistics <http://www.example.org/prescribing_10.csv/column/d71698ee85f05f15e5761b9d0040a8ba/summary-statistics/> .
+
+<http://www.example.org/prescribing_10.csv/column/d71698ee85f05f15e5761b9d0040a8ba/summary-statistics/> dsv:columnCompleteness 9.941333e-01 .
+
+<http://www.example.org/prescribing_10.csv/summary-statistics/> dsv:datasetCompleteness 8.9e-01 ;
+    dsv:numberOfColumns 19 ;
+    dsv:numberOfRows 30000 .
+

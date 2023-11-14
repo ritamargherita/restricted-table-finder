@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/complaint_by_practice_0.csv/> a dsv:Dataset ;
+    dcterms:title "Complaint By Practice 0" ;
+    dsv:datasetSchema <http://www.example.org/complaint_by_practice_0.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/complaint_by_practice_0.csv/column/268bb3e505a836e23ef4d326c4350109>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/440c478279ee41e1f436b9f9ff07b3a7>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/461c712474f1c0e769aca54eb8cdecfa>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/4bc2f2235a973ee165e5d1a81aeca1f3>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/566ccdb7331954ef93f5ea6ab4a05665>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/7024de86830082078199cbcfb8938edc>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/e85b1682d616b278777670781e8616e4>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/ec91aa207b0f941505df18d387072888>,
+        <http://www.example.org/complaint_by_practice_0.csv/column/fbad00412d3411a3f4cc404104006256> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/268bb3e505a836e23ef4d326c4350109> a dsv:Column ;
+    rdfs:label "BusinessCity" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/268bb3e505a836e23ef4d326c4350109> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/268bb3e505a836e23ef4d326c4350109/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/268bb3e505a836e23ef4d326c4350109/summary-statistics/> dsv:columnCompleteness 8.922e-01 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/440c478279ee41e1f436b9f9ff07b3a7> a dsv:Column ;
+    rdfs:label "BusinessName" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/440c478279ee41e1f436b9f9ff07b3a7> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/440c478279ee41e1f436b9f9ff07b3a7/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/440c478279ee41e1f436b9f9ff07b3a7/summary-statistics/> dsv:columnCompleteness 7.492e-01 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/461c712474f1c0e769aca54eb8cdecfa> a dsv:Column ;
+    rdfs:label "BusinessZip" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/461c712474f1c0e769aca54eb8cdecfa> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/461c712474f1c0e769aca54eb8cdecfa/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/461c712474f1c0e769aca54eb8cdecfa/summary-statistics/> dsv:columnCompleteness 9.998e-01 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/4bc2f2235a973ee165e5d1a81aeca1f3> a dsv:Column ;
+    rdfs:label "PracticeCode" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/4bc2f2235a973ee165e5d1a81aeca1f3> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/4bc2f2235a973ee165e5d1a81aeca1f3/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/4bc2f2235a973ee165e5d1a81aeca1f3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/566ccdb7331954ef93f5ea6ab4a05665> a dsv:Column ;
+    rdfs:label "OpenedDate" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/566ccdb7331954ef93f5ea6ab4a05665> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/566ccdb7331954ef93f5ea6ab4a05665/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/566ccdb7331954ef93f5ea6ab4a05665/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/7024de86830082078199cbcfb8938edc> a dsv:Column ;
+    rdfs:label "BusinessCategory" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/7024de86830082078199cbcfb8938edc> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/7024de86830082078199cbcfb8938edc/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/7024de86830082078199cbcfb8938edc/summary-statistics/> dsv:columnCompleteness 9.994e-01 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/e85b1682d616b278777670781e8616e4> a dsv:Column ;
+    rdfs:label "BusinessState" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/e85b1682d616b278777670781e8616e4> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/e85b1682d616b278777670781e8616e4/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/e85b1682d616b278777670781e8616e4/summary-statistics/> dsv:columnCompleteness 9.998e-01 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/ec91aa207b0f941505df18d387072888> a dsv:Column ;
+    rdfs:label "PracticeName" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/ec91aa207b0f941505df18d387072888> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/ec91aa207b0f941505df18d387072888/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/ec91aa207b0f941505df18d387072888/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/fbad00412d3411a3f4cc404104006256> a dsv:Column ;
+    rdfs:label "OpenedYear" ;
+    dsv:columnProperty <http://www.example.org/complaint_by_practice_0.csv/properties-dictionary/fbad00412d3411a3f4cc404104006256> ;
+    dsv:summaryStatistics <http://www.example.org/complaint_by_practice_0.csv/column/fbad00412d3411a3f4cc404104006256/summary-statistics/> .
+
+<http://www.example.org/complaint_by_practice_0.csv/column/fbad00412d3411a3f4cc404104006256/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/complaint_by_practice_0.csv/summary-statistics/> dsv:datasetCompleteness 9.6e-01 ;
+    dsv:numberOfColumns 9 ;
+    dsv:numberOfRows 5000 .
+

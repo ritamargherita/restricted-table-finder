@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/> a dsv:Dataset ;
+    dcterms:title "Analytics-Inmedia-Complet-Principaux-Evenements-20191001-20191031" ;
+    dsv:datasetSchema <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/summary-statistics/> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/column/820233f5cc1444a56bcc8e9c1a07b1af> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/column/820233f5cc1444a56bcc8e9c1a07b1af> a dsv:Column ;
+    rdfs:label "ï»¿CatÃ©gorie;Terme_de_recherche;Nombre_total_de_recherches;Nombre_total_de_recherches_uniques" ;
+    dsv:columnProperty <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/properties-dictionary/820233f5cc1444a56bcc8e9c1a07b1af> ;
+    dsv:summaryStatistics <http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/column/820233f5cc1444a56bcc8e9c1a07b1af/summary-statistics/> .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/column/820233f5cc1444a56bcc8e9c1a07b1af/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/analytics-inmedia-complet-principaux-evenements-20191001-20191031.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 1 ;
+    dsv:numberOfRows 465 .
+

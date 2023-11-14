@@ -1,0 +1,160 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/> a dsv:Dataset ;
+    dcterms:title "Senior Officials Expenses 8" ;
+    dsv:datasetSchema <http://www.example.org/senior_officials_expenses_8.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/senior_officials_expenses_8.csv/column/0b7dfe8211a57122423da9cf0cf2bce8>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/12007e1d59f4d09c87dbe2c438256244>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/12e7cc0eb6bb98f1bae6efcb3a2eae8a>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/1a6ea27201819976fd874943d187a310>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/261addf78c7b2c961032b3dd08ba0b1f>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/2ecdecff6558fc6484efee823233a387>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/49ee3087348e8d44e1feda1917443987>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/5c381c1c8a99a39641963e96389981fd>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/683245de0132ea3925a599c0f5f44ccb>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/76d153099f6d27e53091cdeb82f69d5f>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/8ba05d7636b63ff2d82352bc4aa330d0>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/9ca78e9cf176ae13f3f5c7ac35272582>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/b51297973ec507ed82014f79e8071dc8>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/bc7d979a204d555e81b561f73247fddd>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/e41664e7ae2648ab7f934b1abadc6fe9>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/efd77a2fbe590f5202be9bede9b93b8a>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/f4c6f851b00d5518bf888815de279aba>,
+        <http://www.example.org/senior_officials_expenses_8.csv/column/ffde43b78c57b6351b5e02ecf59d83d8> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/0b7dfe8211a57122423da9cf0cf2bce8> a dsv:Column ;
+    rdfs:label " Parking " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/0b7dfe8211a57122423da9cf0cf2bce8> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/0b7dfe8211a57122423da9cf0cf2bce8/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/0b7dfe8211a57122423da9cf0cf2bce8/summary-statistics/> dsv:columnCompleteness 2.325581e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/12007e1d59f4d09c87dbe2c438256244> a dsv:Column ;
+    rdfs:label "Destination" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/12007e1d59f4d09c87dbe2c438256244> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/12007e1d59f4d09c87dbe2c438256244/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/12007e1d59f4d09c87dbe2c438256244/summary-statistics/> dsv:columnCompleteness 9.922481e-01 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/12e7cc0eb6bb98f1bae6efcb3a2eae8a> a dsv:Column ;
+    rdfs:label " Personal incidental overseas " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/12e7cc0eb6bb98f1bae6efcb3a2eae8a> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/12e7cc0eb6bb98f1bae6efcb3a2eae8a/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/12e7cc0eb6bb98f1bae6efcb3a2eae8a/summary-statistics/> dsv:columnCompleteness 1.937984e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/1a6ea27201819976fd874943d187a310> a dsv:Column ;
+    rdfs:label "Other " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/1a6ea27201819976fd874943d187a310> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/1a6ea27201819976fd874943d187a310/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/1a6ea27201819976fd874943d187a310/summary-statistics/> dsv:columnCompleteness 2.325581e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/261addf78c7b2c961032b3dd08ba0b1f> a dsv:Column ;
+    rdfs:label "Purpose" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/261addf78c7b2c961032b3dd08ba0b1f> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/261addf78c7b2c961032b3dd08ba0b1f/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/261addf78c7b2c961032b3dd08ba0b1f/summary-statistics/> dsv:columnCompleteness 9.96124e-01 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/2ecdecff6558fc6484efee823233a387> a dsv:Column ;
+    rdfs:label "Position held" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/2ecdecff6558fc6484efee823233a387> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/2ecdecff6558fc6484efee823233a387/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/2ecdecff6558fc6484efee823233a387/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/49ee3087348e8d44e1feda1917443987> a dsv:Column ;
+    rdfs:label "Name" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/49ee3087348e8d44e1feda1917443987> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/49ee3087348e8d44e1feda1917443987/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/49ee3087348e8d44e1feda1917443987/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/5c381c1c8a99a39641963e96389981fd> a dsv:Column ;
+    rdfs:label "Unnamed: 17" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/5c381c1c8a99a39641963e96389981fd> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/5c381c1c8a99a39641963e96389981fd/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/5c381c1c8a99a39641963e96389981fd/summary-statistics/> dsv:columnCompleteness 0e+00 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/683245de0132ea3925a599c0f5f44ccb> a dsv:Column ;
+    rdfs:label " Miscellaneous " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/683245de0132ea3925a599c0f5f44ccb> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/683245de0132ea3925a599c0f5f44ccb/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/683245de0132ea3925a599c0f5f44ccb/summary-statistics/> dsv:columnCompleteness 4.263566e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/76d153099f6d27e53091cdeb82f69d5f> a dsv:Column ;
+    rdfs:label " Hotel: total cost " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/76d153099f6d27e53091cdeb82f69d5f> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/76d153099f6d27e53091cdeb82f69d5f/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/76d153099f6d27e53091cdeb82f69d5f/summary-statistics/> dsv:columnCompleteness 1.976744e-01 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/8ba05d7636b63ff2d82352bc4aa330d0> a dsv:Column ;
+    rdfs:label "Hotel: number of nights" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/8ba05d7636b63ff2d82352bc4aa330d0> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/8ba05d7636b63ff2d82352bc4aa330d0/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/8ba05d7636b63ff2d82352bc4aa330d0/summary-statistics/> dsv:columnCompleteness 1.899225e-01 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/9ca78e9cf176ae13f3f5c7ac35272582> a dsv:Column ;
+    rdfs:label "Travel: rail/underground/bus/bike" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/9ca78e9cf176ae13f3f5c7ac35272582> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/9ca78e9cf176ae13f3f5c7ac35272582/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/9ca78e9cf176ae13f3f5c7ac35272582/summary-statistics/> dsv:columnCompleteness 6.550388e-01 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/b51297973ec507ed82014f79e8071dc8> a dsv:Column ;
+    rdfs:label " Meals " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/b51297973ec507ed82014f79e8071dc8> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/b51297973ec507ed82014f79e8071dc8/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/b51297973ec507ed82014f79e8071dc8/summary-statistics/> dsv:columnCompleteness 7.364341e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/bc7d979a204d555e81b561f73247fddd> a dsv:Column ;
+    rdfs:label "Date of departure" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/bc7d979a204d555e81b561f73247fddd> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/bc7d979a204d555e81b561f73247fddd/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/bc7d979a204d555e81b561f73247fddd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/e41664e7ae2648ab7f934b1abadc6fe9> a dsv:Column ;
+    rdfs:label " Day subsistence " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/e41664e7ae2648ab7f934b1abadc6fe9> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/e41664e7ae2648ab7f934b1abadc6fe9/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/e41664e7ae2648ab7f934b1abadc6fe9/summary-statistics/> dsv:columnCompleteness 7.751938e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/efd77a2fbe590f5202be9bede9b93b8a> a dsv:Column ;
+    rdfs:label "Travel: air" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/efd77a2fbe590f5202be9bede9b93b8a> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/efd77a2fbe590f5202be9bede9b93b8a/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/efd77a2fbe590f5202be9bede9b93b8a/summary-statistics/> dsv:columnCompleteness 8.914729e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/f4c6f851b00d5518bf888815de279aba> a dsv:Column ;
+    rdfs:label "Notes" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/f4c6f851b00d5518bf888815de279aba> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/f4c6f851b00d5518bf888815de279aba/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/f4c6f851b00d5518bf888815de279aba/summary-statistics/> dsv:columnCompleteness 1.162791e-02 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/ffde43b78c57b6351b5e02ecf59d83d8> a dsv:Column ;
+    rdfs:label " Travel: taxi/car " ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_8.csv/properties-dictionary/ffde43b78c57b6351b5e02ecf59d83d8> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_8.csv/column/ffde43b78c57b6351b5e02ecf59d83d8/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_8.csv/column/ffde43b78c57b6351b5e02ecf59d83d8/summary-statistics/> dsv:columnCompleteness 1.976744e-01 .
+
+<http://www.example.org/senior_officials_expenses_8.csv/summary-statistics/> dsv:datasetCompleteness 3.7e-01 ;
+    dsv:numberOfColumns 18 ;
+    dsv:numberOfRows 258 .
+

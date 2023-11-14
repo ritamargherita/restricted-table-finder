@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/civic_building_locations_2.csv/> a dsv:Dataset ;
+    dcterms:title "Civic Building Locations 2" ;
+    dsv:datasetSchema <http://www.example.org/civic_building_locations_2.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/civic_building_locations_2.csv/summary-statistics/> .
+
+<http://www.example.org/civic_building_locations_2.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/civic_building_locations_2.csv/column/47fdb95680d15b9d28b739296047dd72>,
+        <http://www.example.org/civic_building_locations_2.csv/column/81e70cb16ec45f5ab19bb6638e8e6c2d>,
+        <http://www.example.org/civic_building_locations_2.csv/column/b068931cc450442b63f5b3d276ea4297>,
+        <http://www.example.org/civic_building_locations_2.csv/column/b4a619251c5c397f26d05c9b0e7bf97a>,
+        <http://www.example.org/civic_building_locations_2.csv/column/e1a5445e07364e8e15565c4da8608d4c> .
+
+<http://www.example.org/civic_building_locations_2.csv/column/47fdb95680d15b9d28b739296047dd72> a dsv:Column ;
+    rdfs:label "borough_name" ;
+    dsv:columnProperty <http://www.example.org/civic_building_locations_2.csv/properties-dictionary/47fdb95680d15b9d28b739296047dd72> ;
+    dsv:summaryStatistics <http://www.example.org/civic_building_locations_2.csv/column/47fdb95680d15b9d28b739296047dd72/summary-statistics/> .
+
+<http://www.example.org/civic_building_locations_2.csv/column/47fdb95680d15b9d28b739296047dd72/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/civic_building_locations_2.csv/column/81e70cb16ec45f5ab19bb6638e8e6c2d> a dsv:Column ;
+    rdfs:label "address1" ;
+    dsv:columnProperty <http://www.example.org/civic_building_locations_2.csv/properties-dictionary/81e70cb16ec45f5ab19bb6638e8e6c2d> ;
+    dsv:summaryStatistics <http://www.example.org/civic_building_locations_2.csv/column/81e70cb16ec45f5ab19bb6638e8e6c2d/summary-statistics/> .
+
+<http://www.example.org/civic_building_locations_2.csv/column/81e70cb16ec45f5ab19bb6638e8e6c2d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/civic_building_locations_2.csv/column/b068931cc450442b63f5b3d276ea4297> a dsv:Column ;
+    rdfs:label "name" ;
+    dsv:columnProperty <http://www.example.org/civic_building_locations_2.csv/properties-dictionary/b068931cc450442b63f5b3d276ea4297> ;
+    dsv:summaryStatistics <http://www.example.org/civic_building_locations_2.csv/column/b068931cc450442b63f5b3d276ea4297/summary-statistics/> .
+
+<http://www.example.org/civic_building_locations_2.csv/column/b068931cc450442b63f5b3d276ea4297/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/civic_building_locations_2.csv/column/b4a619251c5c397f26d05c9b0e7bf97a> a dsv:Column ;
+    rdfs:label "runtime" ;
+    dsv:columnProperty <http://www.example.org/civic_building_locations_2.csv/properties-dictionary/b4a619251c5c397f26d05c9b0e7bf97a> ;
+    dsv:summaryStatistics <http://www.example.org/civic_building_locations_2.csv/column/b4a619251c5c397f26d05c9b0e7bf97a/summary-statistics/> .
+
+<http://www.example.org/civic_building_locations_2.csv/column/b4a619251c5c397f26d05c9b0e7bf97a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/civic_building_locations_2.csv/column/e1a5445e07364e8e15565c4da8608d4c> a dsv:Column ;
+    rdfs:label "ward_2018_code" ;
+    dsv:columnProperty <http://www.example.org/civic_building_locations_2.csv/properties-dictionary/e1a5445e07364e8e15565c4da8608d4c> ;
+    dsv:summaryStatistics <http://www.example.org/civic_building_locations_2.csv/column/e1a5445e07364e8e15565c4da8608d4c/summary-statistics/> .
+
+<http://www.example.org/civic_building_locations_2.csv/column/e1a5445e07364e8e15565c4da8608d4c/summary-statistics/> dsv:columnCompleteness 9.866667e-01 .
+
+<http://www.example.org/civic_building_locations_2.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 5 ;
+    dsv:numberOfRows 75 .
+

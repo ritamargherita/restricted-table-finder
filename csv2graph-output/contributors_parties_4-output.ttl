@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/contributors_parties_4.csv/> a dsv:Dataset ;
+    dcterms:title "Contributors Parties 4" ;
+    dsv:datasetSchema <http://www.example.org/contributors_parties_4.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_4.csv/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_4.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/contributors_parties_4.csv/column/3b3cb8e868f65ed5e08d662403e54a53>,
+        <http://www.example.org/contributors_parties_4.csv/column/5d6103b662f41b07e10687f03aca8fdc>,
+        <http://www.example.org/contributors_parties_4.csv/column/67cfe3b7e25ed8aa9bd04139f9e74d5d>,
+        <http://www.example.org/contributors_parties_4.csv/column/77795dc2a4aebd2b5bea2bd79499a566>,
+        <http://www.example.org/contributors_parties_4.csv/column/9c885888041ebd10ce7ecbe26a3b293d>,
+        <http://www.example.org/contributors_parties_4.csv/column/d78b20ca477d0d0627e2d576ec0a9a21> .
+
+<http://www.example.org/contributors_parties_4.csv/column/3b3cb8e868f65ed5e08d662403e54a53> a dsv:Column ;
+    rdfs:label " Contributor name" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_4.csv/properties-dictionary/3b3cb8e868f65ed5e08d662403e54a53> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_4.csv/column/3b3cb8e868f65ed5e08d662403e54a53/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_4.csv/column/3b3cb8e868f65ed5e08d662403e54a53/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_4.csv/column/5d6103b662f41b07e10687f03aca8fdc> a dsv:Column ;
+    rdfs:label "Recipient" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_4.csv/properties-dictionary/5d6103b662f41b07e10687f03aca8fdc> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_4.csv/column/5d6103b662f41b07e10687f03aca8fdc/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_4.csv/column/5d6103b662f41b07e10687f03aca8fdc/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_4.csv/column/67cfe3b7e25ed8aa9bd04139f9e74d5d> a dsv:Column ;
+    rdfs:label "Contributor Postal code" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_4.csv/properties-dictionary/67cfe3b7e25ed8aa9bd04139f9e74d5d> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_4.csv/column/67cfe3b7e25ed8aa9bd04139f9e74d5d/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_4.csv/column/67cfe3b7e25ed8aa9bd04139f9e74d5d/summary-statistics/> dsv:columnCompleteness 9.992e-01 .
+
+<http://www.example.org/contributors_parties_4.csv/column/77795dc2a4aebd2b5bea2bd79499a566> a dsv:Column ;
+    rdfs:label "Electoral event" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_4.csv/properties-dictionary/77795dc2a4aebd2b5bea2bd79499a566> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_4.csv/column/77795dc2a4aebd2b5bea2bd79499a566/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_4.csv/column/77795dc2a4aebd2b5bea2bd79499a566/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_4.csv/column/9c885888041ebd10ce7ecbe26a3b293d> a dsv:Column ;
+    rdfs:label "Contributor Province" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_4.csv/properties-dictionary/9c885888041ebd10ce7ecbe26a3b293d> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_4.csv/column/9c885888041ebd10ce7ecbe26a3b293d/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_4.csv/column/9c885888041ebd10ce7ecbe26a3b293d/summary-statistics/> dsv:columnCompleteness 9.976e-01 .
+
+<http://www.example.org/contributors_parties_4.csv/column/d78b20ca477d0d0627e2d576ec0a9a21> a dsv:Column ;
+    rdfs:label "Political Entity" ;
+    dsv:columnProperty <http://www.example.org/contributors_parties_4.csv/properties-dictionary/d78b20ca477d0d0627e2d576ec0a9a21> ;
+    dsv:summaryStatistics <http://www.example.org/contributors_parties_4.csv/column/d78b20ca477d0d0627e2d576ec0a9a21/summary-statistics/> .
+
+<http://www.example.org/contributors_parties_4.csv/column/d78b20ca477d0d0627e2d576ec0a9a21/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/contributors_parties_4.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 6 ;
+    dsv:numberOfRows 5000 .
+

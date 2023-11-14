@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/> a dsv:Dataset ;
+    dcterms:title "Senior Officials Expenses 7" ;
+    dsv:datasetSchema <http://www.example.org/senior_officials_expenses_7.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_7.csv/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/senior_officials_expenses_7.csv/column/7eb82ea120dc7ea813f068660f957131>,
+        <http://www.example.org/senior_officials_expenses_7.csv/column/922c2ebf3cb1ed480ef8c454467c5498>,
+        <http://www.example.org/senior_officials_expenses_7.csv/column/afac5df84caa28f4934e097abb03c58d>,
+        <http://www.example.org/senior_officials_expenses_7.csv/column/b2490723a5f15b358bf9b56c7ec2c91b>,
+        <http://www.example.org/senior_officials_expenses_7.csv/column/efb33025d5b08fddffffbf41b80d2e13> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/7eb82ea120dc7ea813f068660f957131> a dsv:Column ;
+    rdfs:label "Accompanied by spouse, family member or friend" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_7.csv/properties-dictionary/7eb82ea120dc7ea813f068660f957131> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_7.csv/column/7eb82ea120dc7ea813f068660f957131/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/7eb82ea120dc7ea813f068660f957131/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/922c2ebf3cb1ed480ef8c454467c5498> a dsv:Column ;
+    rdfs:label "Person or Organisation that offered hospitality" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_7.csv/properties-dictionary/922c2ebf3cb1ed480ef8c454467c5498> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_7.csv/column/922c2ebf3cb1ed480ef8c454467c5498/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/922c2ebf3cb1ed480ef8c454467c5498/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/afac5df84caa28f4934e097abb03c58d> a dsv:Column ;
+    rdfs:label "Date  (DD/MM/YYYY)" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_7.csv/properties-dictionary/afac5df84caa28f4934e097abb03c58d> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_7.csv/column/afac5df84caa28f4934e097abb03c58d/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/afac5df84caa28f4934e097abb03c58d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/b2490723a5f15b358bf9b56c7ec2c91b> a dsv:Column ;
+    rdfs:label "Type of Hospitality received" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_7.csv/properties-dictionary/b2490723a5f15b358bf9b56c7ec2c91b> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_7.csv/column/b2490723a5f15b358bf9b56c7ec2c91b/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/b2490723a5f15b358bf9b56c7ec2c91b/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/efb33025d5b08fddffffbf41b80d2e13> a dsv:Column ;
+    rdfs:label "Name (Firstname, Surname)" ;
+    dsv:columnProperty <http://www.example.org/senior_officials_expenses_7.csv/properties-dictionary/efb33025d5b08fddffffbf41b80d2e13> ;
+    dsv:summaryStatistics <http://www.example.org/senior_officials_expenses_7.csv/column/efb33025d5b08fddffffbf41b80d2e13/summary-statistics/> .
+
+<http://www.example.org/senior_officials_expenses_7.csv/column/efb33025d5b08fddffffbf41b80d2e13/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/senior_officials_expenses_7.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 5 ;
+    dsv:numberOfRows 49 .
+

@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/biodiversity_0.csv/> a dsv:Dataset ;
+    dcterms:title "Biodiversity 0" ;
+    dsv:datasetSchema <http://www.example.org/biodiversity_0.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_0.csv/summary-statistics/> .
+
+<http://www.example.org/biodiversity_0.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/biodiversity_0.csv/column/0d53e150835643542ac7d41bb0c89677>,
+        <http://www.example.org/biodiversity_0.csv/column/3f2b150f808bc3e27a2f440ab2d8a3c6>,
+        <http://www.example.org/biodiversity_0.csv/column/9177cef13e26bbecf326921d0d70cf00> .
+
+<http://www.example.org/biodiversity_0.csv/column/0d53e150835643542ac7d41bb0c89677> a dsv:Column ;
+    rdfs:label "scientific name" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_0.csv/properties-dictionary/0d53e150835643542ac7d41bb0c89677> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_0.csv/column/0d53e150835643542ac7d41bb0c89677/summary-statistics/> .
+
+<http://www.example.org/biodiversity_0.csv/column/0d53e150835643542ac7d41bb0c89677/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/biodiversity_0.csv/column/3f2b150f808bc3e27a2f440ab2d8a3c6> a dsv:Column ;
+    rdfs:label "common name" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_0.csv/properties-dictionary/3f2b150f808bc3e27a2f440ab2d8a3c6> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_0.csv/column/3f2b150f808bc3e27a2f440ab2d8a3c6/summary-statistics/> .
+
+<http://www.example.org/biodiversity_0.csv/column/3f2b150f808bc3e27a2f440ab2d8a3c6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/biodiversity_0.csv/column/9177cef13e26bbecf326921d0d70cf00> a dsv:Column ;
+    rdfs:label "family name" ;
+    dsv:columnProperty <http://www.example.org/biodiversity_0.csv/properties-dictionary/9177cef13e26bbecf326921d0d70cf00> ;
+    dsv:summaryStatistics <http://www.example.org/biodiversity_0.csv/column/9177cef13e26bbecf326921d0d70cf00/summary-statistics/> .
+
+<http://www.example.org/biodiversity_0.csv/column/9177cef13e26bbecf326921d0d70cf00/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/biodiversity_0.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 3 ;
+    dsv:numberOfRows 215 .
+

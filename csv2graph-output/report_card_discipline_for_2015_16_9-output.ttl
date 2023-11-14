@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/> a dsv:Dataset ;
+    dcterms:title "Report Card Discipline For 2015 16 9" ;
+    dsv:datasetSchema <http://www.example.org/report_card_discipline_for_2015_16_9.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/12d773122d0f67b0c9c89954ce8893a2>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/1b1cce4644b1c3765e584fc4e2cff371>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/3082bb0282ceb4bfaac1cc6530eb317e>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/53904ad1b2571dce14c479efc2b5d1b9>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/7aae02837eadd0be9aa78a7c7e04a5f0>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/aef94e03cd53d471d3c15dc343b440f1>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/bb6ec4354f5461899b7c304fe035bf89>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/d789f85cdc3ec169a877d25fa6a2b4c5>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/dc8005a3745a9177506aaa1a275060ac>,
+        <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/12d773122d0f67b0c9c89954ce8893a2> a dsv:Column ;
+    rdfs:label "Student Group" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/12d773122d0f67b0c9c89954ce8893a2> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/12d773122d0f67b0c9c89954ce8893a2/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/12d773122d0f67b0c9c89954ce8893a2/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/1b1cce4644b1c3765e584fc4e2cff371> a dsv:Column ;
+    rdfs:label "DisciplineNumerator" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/1b1cce4644b1c3765e584fc4e2cff371> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/1b1cce4644b1c3765e584fc4e2cff371/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/1b1cce4644b1c3765e584fc4e2cff371/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/3082bb0282ceb4bfaac1cc6530eb317e> a dsv:Column ;
+    rdfs:label "ESDName" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/3082bb0282ceb4bfaac1cc6530eb317e> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/3082bb0282ceb4bfaac1cc6530eb317e/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/3082bb0282ceb4bfaac1cc6530eb317e/summary-statistics/> dsv:columnCompleteness 9.878e-01 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/53904ad1b2571dce14c479efc2b5d1b9> a dsv:Column ;
+    rdfs:label "DisciplineRate" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/53904ad1b2571dce14c479efc2b5d1b9> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/53904ad1b2571dce14c479efc2b5d1b9/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/53904ad1b2571dce14c479efc2b5d1b9/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/7aae02837eadd0be9aa78a7c7e04a5f0> a dsv:Column ;
+    rdfs:label "SchoolYear" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/7aae02837eadd0be9aa78a7c7e04a5f0> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/7aae02837eadd0be9aa78a7c7e04a5f0/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/7aae02837eadd0be9aa78a7c7e04a5f0/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/aef94e03cd53d471d3c15dc343b440f1> a dsv:Column ;
+    rdfs:label "SchoolName" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/aef94e03cd53d471d3c15dc343b440f1> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/aef94e03cd53d471d3c15dc343b440f1/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/aef94e03cd53d471d3c15dc343b440f1/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/bb6ec4354f5461899b7c304fe035bf89> a dsv:Column ;
+    rdfs:label "SchoolCode" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/bb6ec4354f5461899b7c304fe035bf89> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/bb6ec4354f5461899b7c304fe035bf89/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/bb6ec4354f5461899b7c304fe035bf89/summary-statistics/> dsv:columnCompleteness 7.95e-01 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/d789f85cdc3ec169a877d25fa6a2b4c5> a dsv:Column ;
+    rdfs:label "DisciplineDenominator" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/d789f85cdc3ec169a877d25fa6a2b4c5> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/d789f85cdc3ec169a877d25fa6a2b4c5/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/d789f85cdc3ec169a877d25fa6a2b4c5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/dc8005a3745a9177506aaa1a275060ac> a dsv:Column ;
+    rdfs:label "DisciplineSuppressionNotes" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/dc8005a3745a9177506aaa1a275060ac> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/dc8005a3745a9177506aaa1a275060ac/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/dc8005a3745a9177506aaa1a275060ac/summary-statistics/> dsv:columnCompleteness 8.666e-01 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3> a dsv:Column ;
+    rdfs:label "County" ;
+    dsv:columnProperty <http://www.example.org/report_card_discipline_for_2015_16_9.csv/properties-dictionary/e25b163360646e8f71af8a8ee0fad1a3> ;
+    dsv:summaryStatistics <http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3/summary-statistics/> .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/column/e25b163360646e8f71af8a8ee0fad1a3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/report_card_discipline_for_2015_16_9.csv/summary-statistics/> dsv:datasetCompleteness 9.6e-01 ;
+    dsv:numberOfColumns 10 ;
+    dsv:numberOfRows 5000 .
+

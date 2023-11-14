@@ -1,0 +1,112 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/> a dsv:Dataset ;
+    dcterms:title "Cihr Co-Applicant 1" ;
+    dsv:datasetSchema <http://www.example.org/cihr_co-applicant_1.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/cihr_co-applicant_1.csv/column/084a0b7ee1b024523667b14df2aa4e18>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/383896b4ef161f0fe2b18ddd3c8f6a6d>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/4c514d5e564df7a0626084705b4209bf>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/4cbf8e65b8d5870fbc8090eb71e682b5>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/67f43b93eebb190d025c086680b7f2b6>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/73a10587284ebb93cd62bd7295f2d5d4>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/7fb2a619152fd29a544e0aaef7cc5dac>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/ba8c5f75607170b7833d7915a20f9a02>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/cd6ce33da8dd5c232a2a9c9646ac50a8>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/cfb8f48b1c2f99c791073ea7089c85d3>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/ec720294efce77cb6df09b0201e4f80a>,
+        <http://www.example.org/cihr_co-applicant_1.csv/column/f99c500c7d21faaf040b273a5ed88179> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/084a0b7ee1b024523667b14df2aa4e18> a dsv:Column ;
+    rdfs:label "CoAppRoleEN" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/084a0b7ee1b024523667b14df2aa4e18> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/084a0b7ee1b024523667b14df2aa4e18/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/084a0b7ee1b024523667b14df2aa4e18/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/383896b4ef161f0fe2b18ddd3c8f6a6d> a dsv:Column ;
+    rdfs:label "CoAppRoleCD" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/383896b4ef161f0fe2b18ddd3c8f6a6d> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/383896b4ef161f0fe2b18ddd3c8f6a6d/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/383896b4ef161f0fe2b18ddd3c8f6a6d/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/4c514d5e564df7a0626084705b4209bf> a dsv:Column ;
+    rdfs:label "PaysFR" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/4c514d5e564df7a0626084705b4209bf> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/4c514d5e564df7a0626084705b4209bf/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/4c514d5e564df7a0626084705b4209bf/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/4cbf8e65b8d5870fbc8090eb71e682b5> a dsv:Column ;
+    rdfs:label "FiscalYear-AnnéeFinancière" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/4cbf8e65b8d5870fbc8090eb71e682b5> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/4cbf8e65b8d5870fbc8090eb71e682b5/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/4cbf8e65b8d5870fbc8090eb71e682b5/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/67f43b93eebb190d025c086680b7f2b6> a dsv:Column ;
+    rdfs:label "CoAppOrgNm" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/67f43b93eebb190d025c086680b7f2b6> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/67f43b93eebb190d025c086680b7f2b6/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/67f43b93eebb190d025c086680b7f2b6/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/73a10587284ebb93cd62bd7295f2d5d4> a dsv:Column ;
+    rdfs:label "Key-Clé" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/73a10587284ebb93cd62bd7295f2d5d4> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/73a10587284ebb93cd62bd7295f2d5d4/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/73a10587284ebb93cd62bd7295f2d5d4/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/7fb2a619152fd29a544e0aaef7cc5dac> a dsv:Column ;
+    rdfs:label "CoAppOrgID" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/7fb2a619152fd29a544e0aaef7cc5dac> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/7fb2a619152fd29a544e0aaef7cc5dac/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/7fb2a619152fd29a544e0aaef7cc5dac/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/ba8c5f75607170b7833d7915a20f9a02> a dsv:Column ;
+    rdfs:label "ProvinceEN" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/ba8c5f75607170b7833d7915a20f9a02> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/ba8c5f75607170b7833d7915a20f9a02/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/ba8c5f75607170b7833d7915a20f9a02/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/cd6ce33da8dd5c232a2a9c9646ac50a8> a dsv:Column ;
+    rdfs:label "ProvinceFR" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/cd6ce33da8dd5c232a2a9c9646ac50a8> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/cd6ce33da8dd5c232a2a9c9646ac50a8/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/cd6ce33da8dd5c232a2a9c9646ac50a8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/cfb8f48b1c2f99c791073ea7089c85d3> a dsv:Column ;
+    rdfs:label "CoAppNm" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/cfb8f48b1c2f99c791073ea7089c85d3> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/cfb8f48b1c2f99c791073ea7089c85d3/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/cfb8f48b1c2f99c791073ea7089c85d3/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/ec720294efce77cb6df09b0201e4f80a> a dsv:Column ;
+    rdfs:label "CountryEN" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/ec720294efce77cb6df09b0201e4f80a> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/ec720294efce77cb6df09b0201e4f80a/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/ec720294efce77cb6df09b0201e4f80a/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/f99c500c7d21faaf040b273a5ed88179> a dsv:Column ;
+    rdfs:label "CoAppRoleFR" ;
+    dsv:columnProperty <http://www.example.org/cihr_co-applicant_1.csv/properties-dictionary/f99c500c7d21faaf040b273a5ed88179> ;
+    dsv:summaryStatistics <http://www.example.org/cihr_co-applicant_1.csv/column/f99c500c7d21faaf040b273a5ed88179/summary-statistics/> .
+
+<http://www.example.org/cihr_co-applicant_1.csv/column/f99c500c7d21faaf040b273a5ed88179/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/cihr_co-applicant_1.csv/summary-statistics/> dsv:datasetCompleteness 1e+00 ;
+    dsv:numberOfColumns 12 ;
+    dsv:numberOfRows 18094 .
+

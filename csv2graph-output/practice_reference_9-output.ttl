@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/practice_reference_9.csv/> a dsv:Dataset ;
+    dcterms:title "Practice Reference 9" ;
+    dsv:datasetSchema <http://www.example.org/practice_reference_9.csv/DatasetSchema> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/DatasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://www.example.org/practice_reference_9.csv/column/1b0c1efaf21b962c021c7e380f480f99>,
+        <http://www.example.org/practice_reference_9.csv/column/22fcffe02ab9eda5b769387122f2ddce>,
+        <http://www.example.org/practice_reference_9.csv/column/6ad09b0224b03f02876a6f227b6bcab8>,
+        <http://www.example.org/practice_reference_9.csv/column/6ddbf34da0a96f779b1092ab2dfeaa69>,
+        <http://www.example.org/practice_reference_9.csv/column/8bcdc441379cbf584638b0589a3f9adb>,
+        <http://www.example.org/practice_reference_9.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd>,
+        <http://www.example.org/practice_reference_9.csv/column/ec91aa207b0f941505df18d387072888>,
+        <http://www.example.org/practice_reference_9.csv/column/f9ca1358201583fecb60cfe6a47892df> .
+
+<http://www.example.org/practice_reference_9.csv/column/1b0c1efaf21b962c021c7e380f480f99> a dsv:Column ;
+    rdfs:label "PracNo" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/1b0c1efaf21b962c021c7e380f480f99> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/1b0c1efaf21b962c021c7e380f480f99/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/1b0c1efaf21b962c021c7e380f480f99/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/practice_reference_9.csv/column/22fcffe02ab9eda5b769387122f2ddce> a dsv:Column ;
+    rdfs:label "Address2" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/22fcffe02ab9eda5b769387122f2ddce> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/22fcffe02ab9eda5b769387122f2ddce/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/22fcffe02ab9eda5b769387122f2ddce/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/practice_reference_9.csv/column/6ad09b0224b03f02876a6f227b6bcab8> a dsv:Column ;
+    rdfs:label "LCG" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/6ad09b0224b03f02876a6f227b6bcab8> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/6ad09b0224b03f02876a6f227b6bcab8/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/6ad09b0224b03f02876a6f227b6bcab8/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/practice_reference_9.csv/column/6ddbf34da0a96f779b1092ab2dfeaa69> a dsv:Column ;
+    rdfs:label "Registered_Patients" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/6ddbf34da0a96f779b1092ab2dfeaa69> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/6ddbf34da0a96f779b1092ab2dfeaa69/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/6ddbf34da0a96f779b1092ab2dfeaa69/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/practice_reference_9.csv/column/8bcdc441379cbf584638b0589a3f9adb> a dsv:Column ;
+    rdfs:label "Postcode" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/8bcdc441379cbf584638b0589a3f9adb> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/8bcdc441379cbf584638b0589a3f9adb/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/8bcdc441379cbf584638b0589a3f9adb/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/practice_reference_9.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd> a dsv:Column ;
+    rdfs:label "Address1" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/93d03fe37ab3c6abc2a19dd8e41543bd> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/93d03fe37ab3c6abc2a19dd8e41543bd/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/practice_reference_9.csv/column/ec91aa207b0f941505df18d387072888> a dsv:Column ;
+    rdfs:label "PracticeName" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/ec91aa207b0f941505df18d387072888> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/ec91aa207b0f941505df18d387072888/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/ec91aa207b0f941505df18d387072888/summary-statistics/> dsv:columnCompleteness 1e+00 .
+
+<http://www.example.org/practice_reference_9.csv/column/f9ca1358201583fecb60cfe6a47892df> a dsv:Column ;
+    rdfs:label "Address3" ;
+    dsv:columnProperty <http://www.example.org/practice_reference_9.csv/properties-dictionary/f9ca1358201583fecb60cfe6a47892df> ;
+    dsv:summaryStatistics <http://www.example.org/practice_reference_9.csv/column/f9ca1358201583fecb60cfe6a47892df/summary-statistics/> .
+
+<http://www.example.org/practice_reference_9.csv/column/f9ca1358201583fecb60cfe6a47892df/summary-statistics/> dsv:columnCompleteness 9.256966e-01 .
+
+<http://www.example.org/practice_reference_9.csv/summary-statistics/> dsv:datasetCompleteness 9.9e-01 ;
+    dsv:numberOfColumns 8 ;
+    dsv:numberOfRows 323 .
+
